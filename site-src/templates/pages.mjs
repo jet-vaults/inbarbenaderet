@@ -106,8 +106,8 @@ export function home(ctx) {
         </div>
       </div>
       <div class="hero2__media">
-        <div class="hero2__oval reveal-mask">${img('inbar-portrait-02', { alt: isHe ? 'ענבר בן אדרת' : 'Inbar Ben Aderet', sizes: '(max-width:900px) 78vw, 34vw', loading: 'eager', fetchpriority: 'high' })}</div>
-        <p class="figure__caption hero2__caption">${isHe ? 'ענבר בן אדרת — מייסדת הקליניקה' : 'Inbar Ben Aderet — founder'}</p>
+        <div class="hero2__oval reveal-mask">${img('stock-hydration-01', { alt: isHe ? 'טיפול פנים בקליניקה' : 'A facial treatment at the clinic', sizes: '(max-width:900px) 78vw, 34vw', loading: 'eager', fetchpriority: 'high' })}</div>
+        <p class="figure__caption hero2__caption">INBAR Clinic · ${isHe ? 'ראשון לציון' : 'Rishon LeZion'}</p>
       </div>
     </div>
   </section>
@@ -223,7 +223,7 @@ export function home(ctx) {
     navKey: 'home', body,
     title: isHe ? 'ענבר בן אדרת · Skin Science — טיפולי פנים בראשון לציון' : 'Inbar Ben Aderet · Skin Science — Facial Treatments, Rishon LeZion',
     description: t(ui.schemaDescription),
-    preload: `<link rel="preload" as="image" href="/assets/img/inbar-portrait-02-960.webp" imagesrcset="/assets/img/inbar-portrait-02-480.webp 480w, /assets/img/inbar-portrait-02-960.webp 960w" imagesizes="(max-width:900px) 78vw, 34vw">`,
+    preload: `<link rel="preload" as="image" href="/assets/img/stock-hydration-01-960.webp" imagesrcset="/assets/img/stock-hydration-01-480.webp 480w, /assets/img/stock-hydration-01-960.webp 960w, /assets/img/stock-hydration-01-1600.webp 1600w" imagesizes="(max-width:900px) 78vw, 34vw">`,
   };
 }
 
