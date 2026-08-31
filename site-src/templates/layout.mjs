@@ -55,6 +55,7 @@ export function layout(ctx, page) {
   <link rel="preload" href="/assets/fonts/assistant-latin.woff2" as="font" type="font/woff2" crossorigin>
   ${page.preload || ''}
   <link rel="stylesheet" href="/assets/css/main.css">
+  <noscript><style>.reveal,.stagger>*,.reveal-mask{opacity:1!important;transform:none!important;clip-path:none!important}</style></noscript>
   ${jsonLd}
 </head>
 <body>

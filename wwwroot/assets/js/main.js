@@ -42,7 +42,35 @@
         if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); }
       });
     }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
-    document.querySelectorAll('.reveal, .reveal-mask, .stagger').forEach(function (el) { io.observe(el); });
+    document.querySelectorAll('.reveal, .stagger').forEach(function (el) { io.observe(el); });
+
+    // .reveal-mask elements are clip-path'ed to zero area, so they never
+    // intersect themselves — observe their parent and flip the child.
+    var maskParents = new Map();
+    document.querySelectorAll('.reveal-mask').forEach(function (m) {
+      var pa = m.parentElement || m;
+      if (!maskParents.has(pa)) maskParents.set(pa, []);
+      maskParents.get(pa).push(m);
+    });
+    if (maskParents.size) {
+      var mio = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) {
+            (maskParents.get(en.target) || []).forEach(function (m) { m.classList.add('is-in'); });
+            mio.unobserve(en.target);
+          }
+        });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+      maskParents.forEach(function (_, pa) { mio.observe(pa); });
+    }
+
+    // safety net: never leave content hidden if something goes wrong
+    setTimeout(function () {
+      document.querySelectorAll('.reveal-mask:not(.is-in)').forEach(function (m) {
+        var r = m.parentElement.getBoundingClientRect();
+        if (r.top < window.innerHeight && r.bottom > 0) m.classList.add('is-in');
+      });
+    }, 2500);
   } else {
     document.querySelectorAll('.reveal, .reveal-mask, .stagger').forEach(function (el) { el.classList.add('is-in'); });
   }
