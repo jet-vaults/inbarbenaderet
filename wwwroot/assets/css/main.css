@@ -417,7 +417,7 @@ body.menu-open .mobile-menu__foot { opacity: 1; }
 .ed-row--flip .ed-row__body { grid-column: 1 / span 5; order: 1; }
 .ed-row__body .t-h2 { margin-block: .9rem 1.1rem; }
 
-/* figure with mask reveal */
+/* figure with mask reveal — photos framed in the brand oval */
 .figure { overflow: hidden; position: relative; background: var(--brand-surface); }
 .figure img { width: 100%; object-fit: cover; transition: transform 1.2s var(--ease-out); }
 .figure--45 { aspect-ratio: 4 / 5; } .figure--45 img { height: 100%; }
@@ -426,6 +426,14 @@ body.menu-open .mobile-menu__foot { opacity: 1; }
 .figure--32 { aspect-ratio: 3 / 2; } .figure--32 img { height: 100%; }
 .figure--169 { aspect-ratio: 16 / 9; } .figure--169 img { height: 100%; }
 a:hover > .figure img, a:focus-visible > .figure img { transform: scale(1.035); }
+
+/* the oval frame (echoes the BA monogram) for portrait photos;
+   wide banners take the stadium shape from the same language */
+.figure--45, .figure--34, .figure--11 { border-radius: 50%; }
+.figure--169, .figure--32 { border-radius: 999em; }
+.product-card .figure, .ba-pair figure { border-radius: 0; } /* products & clinical b/a stay rectangular */
+.ed-row__media .figure__caption, .contact-grid__aside .figure__caption { justify-content: center; }
+.ed-row__media .figure__caption::before, .contact-grid__aside .figure__caption::before { flex: none; }
 
 /* offset caption line */
 .figure__caption {

@@ -48,9 +48,9 @@ export function layout(ctx, page) {
   <meta property="og:image" content="${ogImage}">
   <meta property="og:locale" content="${isHe ? 'he_IL' : 'en_US'}">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="/favicon-32.png" sizes="32x32">
-  <link rel="icon" href="/icon-192.png" sizes="192x192">
-  <link rel="apple-touch-icon" href="/icon-192.png">
+  <link rel="icon" href="/favicon-32.png?v=2" sizes="32x32">
+  <link rel="icon" href="/icon-192.png?v=2" sizes="192x192">
+  <link rel="apple-touch-icon" href="/icon-192.png?v=2">
   <link rel="preload" href="/assets/fonts/${isHe ? 'assistant-hebrew' : 'marcellus-latin'}.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/assistant-latin.woff2" as="font" type="font/woff2" crossorigin>
   ${page.preload || ''}
