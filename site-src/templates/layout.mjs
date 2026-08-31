@@ -51,7 +51,7 @@ export function layout(ctx, page) {
   <link rel="icon" href="/favicon-32.png" sizes="32x32">
   <link rel="icon" href="/icon-192.png" sizes="192x192">
   <link rel="apple-touch-icon" href="/icon-192.png">
-  <link rel="preload" href="/assets/fonts/${isHe ? 'assistant-hebrew' : 'jost-latin'}.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/${isHe ? 'assistant-hebrew' : 'marcellus-latin'}.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/assistant-latin.woff2" as="font" type="font/woff2" crossorigin>
   ${page.preload || ''}
   <link rel="stylesheet" href="/assets/css/main.css">
@@ -63,8 +63,8 @@ export function layout(ctx, page) {
   <header class="site-header ${headerMode}">
     <div class="container">
       <a class="site-header__logo" href="/${lang}/" aria-label="${esc(t(site.brand).name)}">
-        <img class="logo-dark" src="/assets/img/logo-mark-dark.webp" alt="INBAR — ${esc(t(site.brand).tagline)}" width="900" height="306">
-        <img class="logo-light" src="/assets/img/logo-mark-light.webp" alt="INBAR — ${esc(t(site.brand).tagline)}" width="900" height="306">
+        <img class="logo-dark" src="/assets/img/logo-mark-dark.webp" alt="${esc(t(site.brand).name)} — ${esc(t(site.brand).tagline)}" width="1200" height="106">
+        <img class="logo-light" src="/assets/img/logo-mark-light.webp" alt="${esc(t(site.brand).name)} — ${esc(t(site.brand).tagline)}" width="1200" height="106">
       </a>
       <nav class="site-nav" aria-label="${isHe ? 'ניווט ראשי' : 'Main navigation'}">
         ${navItems.map(navLink).join('\n        ')}
@@ -111,7 +111,7 @@ function footer(ctx, page) {
     <div class="container">
       <div class="site-footer__grid">
         <div class="site-footer__brand">
-          <a href="/${lang}/"><img src="/assets/img/logo-full-light.webp" alt="INBAR — ${esc(brand.tagline)}" width="900" height="438" loading="lazy" style="height:64px;width:auto"></a>
+          <a href="/${lang}/"><img src="/assets/img/logo-full-light.webp" alt="${esc(brand.name)} — ${esc(brand.tagline)}" width="1400" height="892" loading="lazy" style="height:150px;width:auto"></a>
           <p>${esc(t(ui.schemaDescription))}</p>
         </div>
         <div>

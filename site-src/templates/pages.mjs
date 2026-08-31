@@ -1,7 +1,7 @@
 // All page body templates. Each returns { body, ...meta } consumed by layout().
 // ctx = { lang, dir, ui, site, esc, t, img, blocks, treatments, articles, products, testimonials, clinic, academy }
 
-const QUOTE_SVG = `<svg class="quote-mark" viewBox="0 0 44 34" fill="none" aria-hidden="true"><path d="M0 34V20.4C0 8.6 6.9 1.4 18.4 0l1.9 6.1c-6.6 1.6-10 5.2-10.4 10.5H19V34H0Zm25 0V20.4C25 8.6 31.9 1.4 43.4 0l1.9 6.1c-6.6 1.6-10 5.2-10.4 10.5H44V34H25Z" fill="#2BB673"/></svg>`;
+const QUOTE_SVG = `<svg class="quote-mark" viewBox="0 0 44 34" fill="none" aria-hidden="true"><path d="M0 34V20.4C0 8.6 6.9 1.4 18.4 0l1.9 6.1c-6.6 1.6-10 5.2-10.4 10.5H19V34H0Zm25 0V20.4C25 8.6 31.9 1.4 43.4 0l1.9 6.1c-6.6 1.6-10 5.2-10.4 10.5H44V34H25Z" fill="#8B8378"/></svg>`;
 
 const arr = (dir) => dir === 'rtl' ? '←' : '→';
 
@@ -50,7 +50,7 @@ function ctaBand(ctx, opts = {}) {
   const wa = `https://wa.me/${site.contact.whatsappE164}?text=${encodeURIComponent(t(site.contact.whatsappGreeting))}`;
   return `<section class="section section--dark">
     <div class="container center reveal">
-      <span class="t-overline t-overline--bare" style="color:var(--brand-accent)">${esc(opts.overline || t(ui.sections.visitUs))}</span>
+      <span class="t-overline t-overline--bare" style="color:var(--brand-accent-light)">${esc(opts.overline || t(ui.sections.visitUs))}</span>
       <h2 class="t-h2" style="max-width:20em;margin:1rem auto 0">${esc(opts.title || t(ui.actions.bookConsult))}</h2>
       <div class="hero__ctas" style="justify-content:center;margin-top:2.2rem">
         <a class="btn btn--inverse" href="${wa}" target="_blank" rel="noopener">${esc(t(ui.actions.sendWhatsapp))}</a>
@@ -179,14 +179,14 @@ export function home(ctx) {
 
   <section class="section section--dark" style="background:var(--brand-ink)">
     <div class="container center reveal">
-      <span class="t-overline t-overline--bare" style="color:var(--brand-accent)">${esc(t(ui.sections.newChapter))}</span>
+      <span class="t-overline t-overline--bare" style="color:var(--brand-accent-light)">${esc(t(ui.sections.newChapter))}</span>
       <h2 class="t-display" style="margin-top:1rem">${isHe ? 'Inbar Ben Aderet Skincare' : 'Inbar Ben Aderet Skincare'}</h2>
       <p class="t-lead" style="margin:1.2rem auto 0;max-width:34em;color:var(--brand-inverse-muted)">${esc(t(ui.misc.comingSoonLine))}</p>
       <div class="card-grid stagger" style="margin-top:var(--space-5);text-align:start">
         ${products.map(p => `<a class="product-card" href="/${lang}/products/${p.slug}/">
           <span class="product-card__badge">${esc(t(ui.sections.comingSoon))}</span>
-          <div class="figure figure--45"><img src="/assets/img/${p.images[0]}.svg" alt="${esc(t(p).name)}" width="800" height="1000" loading="lazy"></div>
-          <div class="card__meta" style="color:var(--brand-accent)"><span class="product-card__num num">${p.index}</span></div>
+          <div class="figure figure--45"><img src="/assets/img/${p.images[0]}.webp" alt="${esc(t(p).name)}" width="800" height="1000" loading="lazy"></div>
+          <div class="card__meta" style="color:var(--brand-accent-light)"><span class="product-card__num num">${p.index}</span></div>
           <h3 class="card__title" style="color:var(--brand-inverse)">${esc(t(p).name)}</h3>
           <p class="card__excerpt" style="color:var(--brand-inverse-muted)">${esc(t(p).subtitle)}</p>
         </a>`).join('\n')}
@@ -260,11 +260,11 @@ export function clinicPage(ctx) {
 
   <section class="section section--dark">
     <div class="container">
-      <div class="section-head reveal"><span class="t-overline t-overline--bare" style="color:var(--brand-accent)">${esc(t(ui.sections.philosophy))}</span>
+      <div class="section-head reveal"><span class="t-overline t-overline--bare" style="color:var(--brand-accent-light)">${esc(t(ui.sections.philosophy))}</span>
       <h2 class="t-h2">${esc(L.philosophyTitle)}</h2></div>
       <div class="card-grid stagger" style="grid-template-columns:repeat(3,1fr);gap:3rem 3.5rem">
         ${L.philosophy.map((p, i) => `<div>
-          <span class="t-overline t-overline--bare num" style="color:var(--brand-accent)">${String(i + 1).padStart(2, '0')}</span>
+          <span class="t-overline t-overline--bare num" style="color:var(--brand-accent-light)">${String(i + 1).padStart(2, '0')}</span>
           <h3 class="t-h3" style="margin-top:.6rem">${esc(p.heading)}</h3>
           <p class="t-muted" style="margin-top:.5rem;font-size:.98rem">${esc(p.text)}</p>
         </div>`).join('\n')}
@@ -538,7 +538,7 @@ export function productsIndex(ctx) {
   const body = `
   <section class="section--tight section--dark" style="padding-top:calc(var(--header-h) + var(--space-5));background:var(--brand-ink)">
     <div class="container center">
-      <span class="t-overline t-overline--bare" style="color:var(--brand-accent)">${esc(t(ui.sections.newChapter))}</span>
+      <span class="t-overline t-overline--bare" style="color:var(--brand-accent-light)">${esc(t(ui.sections.newChapter))}</span>
       <h1 class="t-display" style="margin-top:1rem">Inbar Ben Aderet Skincare</h1>
       <p class="t-lead" style="margin:1.4rem auto 0;max-width:36em;color:var(--brand-inverse-muted)">${isHe
         ? 'מתוך עשרים שנות עבודה עם עור אמיתי נולדת קולקציה חדשה: הרכבים מדויקים, מרקמים נכונים, ובלי פשרות. ההשקה מתקרבת.'
@@ -548,8 +548,8 @@ export function productsIndex(ctx) {
       <div class="card-grid stagger" style="text-align:start">
         ${products.map(p => `<a class="product-card" href="/${lang}/products/${p.slug}/">
           <span class="product-card__badge">${esc(t(ui.sections.comingSoon))}</span>
-          <div class="figure figure--45"><img src="/assets/img/${p.images[0]}.svg" alt="${esc(t(p).name)}" width="800" height="1000" loading="lazy"></div>
-          <div class="card__meta" style="color:var(--brand-accent)"><span class="num">${p.index}</span> · ${esc(p.category)}</div>
+          <div class="figure figure--45"><img src="/assets/img/${p.images[0]}.webp" alt="${esc(t(p).name)}" width="800" height="1000" loading="lazy"></div>
+          <div class="card__meta" style="color:var(--brand-accent-light)"><span class="num">${p.index}</span> · ${esc(p.category)}</div>
           <h2 class="card__title" style="color:var(--brand-inverse)">${esc(t(p).name)}</h2>
           <p class="card__excerpt" style="color:var(--brand-inverse-muted)">${esc(t(p).shortDescription)}</p>
         </a>`).join('\n')}
@@ -594,7 +594,7 @@ export function productDetail(ctx, p) {
       <div class="ed-row" style="align-items:start">
         <div class="ed-row__media" style="position:relative">
           <span class="product-card__badge">${esc(t(ui.sections.comingSoon))}</span>
-          <div class="figure figure--45" style="background:var(--brand-surface)"><img src="/assets/img/${p.images[0]}.svg" alt="${esc(L.name)}" width="800" height="1000"></div>
+          <div class="figure figure--45" style="background:var(--brand-surface)"><img src="/assets/img/${p.images[0]}.webp" alt="${esc(L.name)}" width="800" height="1000"></div>
         </div>
         <div class="ed-row__body">
           <span class="t-overline"><span class="num">${p.index}</span> · ${esc(p.category)} · ${esc(p.size)}</span>
@@ -621,7 +621,7 @@ export function productDetail(ctx, p) {
       <div class="card-grid stagger" style="grid-template-columns:repeat(2,1fr)">
         ${others.map(o => `<a class="product-card" href="/${lang}/products/${o.slug}/">
           <span class="product-card__badge">${esc(t(ui.sections.comingSoon))}</span>
-          <div class="figure figure--45" style="background:var(--brand-background)"><img src="/assets/img/${o.images[0]}.svg" alt="${esc(t(o).name)}" width="800" height="1000" loading="lazy"></div>
+          <div class="figure figure--45" style="background:var(--brand-background)"><img src="/assets/img/${o.images[0]}.webp" alt="${esc(t(o).name)}" width="800" height="1000" loading="lazy"></div>
           <h3 class="card__title" style="margin-top:1rem">${esc(t(o).name)}</h3>
         </a>`).join('\n')}
       </div>

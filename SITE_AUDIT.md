@@ -45,7 +45,7 @@ anti-aging, post-acne, acne, pigmentation, facial, laser hair removal, mesothera
 - Devices: `IMG_6839` (microneedling tips), Evolux device renders (`PHOTO-2025-10-10`, `צילום-מסך-2025-03-06`)
 - Real before/after: post-acne (`post-acne-1/2.png`, branded), pigmentation (`DFEE4A4A…` branded, `Pigmentation-2-1`, `IMG_2677`), acne closeups (`IMG_0365/0366`, `IMG_2921`, `IMG_2981`, `IMG_6843/6844`, `WhatsApp-Image-2024-02-18` ×4), aging (`IMG_2442`)
 - Video stills `1.png`–`4.png` + 4 MP4 tutorials (`פיגמנטציה.mp4`, `inbar02/03/04.mp4`)
-- Logos: `2025/12/inbar-logo-new.png` (**the new logo** — 1572×765, INBAR + leaf-R + "אסתטיקה מתקדמת"), `לוגו-ענבר.png` (same mark without tagline)
+- Logos on the old site: `2025/12/inbar-logo-new.png` (INBAR + leaf-R + "אסתטיקה מתקדמת"), `לוגו-ענבר.png` — **superseded**: the client supplied the actual new brand suite (BA monogram · INBAR BEN ADERET · SKIN SCIENCE, cream/taupe/ink) on 2026-08-31; sources in `site-src/brand-v2/`. The green leaf branding still appears physically in some clinic photos (wall, pillows, headbands).
 
 **WhatsApp testimonial screenshots (~35 files):** genuine client feedback — evidence for testimonials, but screenshots don't belong on a premium site. Text can be quoted (see CONTENT_REVIEW).
 

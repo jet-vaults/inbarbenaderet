@@ -1,7 +1,7 @@
 {
   "brand": {
-    "he": { "name": "ענבר בן אדרת", "tagline": "אסתטיקה מתקדמת", "clinic": "INBAR Clinic" },
-    "en": { "name": "Inbar Ben Aderet", "tagline": "Advanced Aesthetics", "clinic": "INBAR Clinic" }
+    "he": { "name": "ענבר בן אדרת", "tagline": "Skin Science", "clinic": "Inbar Ben Aderet" },
+    "en": { "name": "Inbar Ben Aderet", "tagline": "Skin Science", "clinic": "Inbar Ben Aderet" }
   },
   "domain": "https://inbarbenaderet.com",
   "contact": {

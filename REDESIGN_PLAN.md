@@ -72,29 +72,34 @@ Static, dependency-light (JetVaults standard: Cloudflare Pages serves `wwwroot/`
 
 ## 4. Design system
 
-### Colors — derived from the new logo (INBAR + leaf-R + אסתטיקה מתקדמת)
-Sampled from `inbar-logo-new.png`: charcoal `#373131` (81k px), leaf green `#2BB673` (78k px), deep ink `#231F20`.
+### Colors — derived from the supplied brand suite (BA monogram · INBAR BEN ADERET · SKIN SCIENCE)
+Sampled from the client's logo files (2026-08-31): ink `#40372E`, cream `#E8E4D9`, taupe `#8B8378`, warm black.
 
 ```css
---brand-primary:   #2E2929;  /* warm charcoal — display text, header, footer (from #373131/#231F20 family) */
---brand-secondary: #373131;  /* logo charcoal — body headings */
---brand-accent:    #2BB673;  /* leaf green — the single accent: rules, markers, hovers, CTAs */
---brand-accent-deep:#187a4e; /* darkened leaf for text-on-light & hover (AA contrast) */
---brand-background:#FAFAF8;  /* warm paper white */
---brand-surface:   #F2F2EE;  /* raised warm surface */
---brand-surface-green:#EDF6F1; /* whisper of leaf for select sections */
---brand-text:      #2E2929;
---brand-muted:     #757070;  /* warm gray from charcoal family */
---brand-border:    #E4E2DD;
---brand-inverse:   #F7F6F4;  /* text on charcoal */
+--brand-primary:   #332B24;  /* espresso — dark sections */
+--brand-secondary: #40372E;  /* logo ink — headings */
+--brand-ink:       #29231D;  /* deepest — footer, CTAs */
+--brand-accent:    #8B8378;  /* taupe — rules, markers */
+--brand-accent-deep:#6B6156; /* taupe text on light (AA) */
+--brand-accent-light:#CDC5B9;/* taupe on dark grounds */
+--brand-background:#F6F3ED;  /* warm ivory */
+--brand-surface:   #EDE9E0;  /* raised cream */
+--brand-surface-green:#E8E4D9; /* legacy var name; holds the brand cream */
+--brand-text:      #332B24;
+--brand-muted:     #6E665C;
+--brand-border:    #DDD7CB;
+--brand-inverse:   #F6F3ED;
 ```
-Dark sections use charcoal `#2E2929`/`#231F20` grounds with leaf-green accents — the logo's own contrast. **No gold, no beige-luxe clichés.** Green is used sparingly (the leaf is the only colored element in the logo — same restraint on the site).
+A warm monochrome system — ivory/cream grounds, espresso darks, taupe accents. No color outside the brand suite.
 
 ### Typography
-- **EN display**: the logo's "INBAR" lettering is an ultra-light geometric sans (Futura-like: pointed A, monoline strokes, geometric bowls). Logo is outlined artwork; closest properly-licensed web match: **Jost** (300/200) — geometric, elegant, extremely close in character (verified visually against the logo during build; fallback candidate Josefin Sans rejected — x-height too quirky).
-- **Hebrew — everything**: **Assistant** (200–700), per brief. Nav, body, buttons, cards, forms, articles.
-- **EN body**: Assistant latin (keeps one family across languages; Jost reserved for display).
-- Self-hosted woff2 subsets (both are OFL-licensed), `font-display: swap`, preloaded.
+- **EN display**: the wordmark is an elegant flared serif — closest licensed web match: **Marcellus** (headings, display, card titles).
+- **Tracked caps sans**: **Jost** for nav, buttons, overlines, badges (matches the "SKIN SCIENCE" tagline letterforms).
+- **Hebrew — everything**: **Assistant** (200–700), per brief.
+- **EN body**: Assistant latin.
+- Self-hosted woff2 subsets (all OFL-licensed), `font-display: swap`, preloaded.
+
+Logo assets extracted from the supplied files into transparent WebP: header wordmark (`logo-mark-*`), stacked lockup (`logo-full-*`), oval BA monogram (`monogram-*`, also the favicon). Originals in `site-src/brand-v2/`.
 - Scale: editorial — display clamp(2.6rem→4.5rem) light; H2 clamp(1.9rem→2.8rem); overlines 11–12px letterspaced uppercase (EN) / 13px (HE); body 1.06rem/1.75; wide margins, max reading width 68ch.
 
 ### Components & rules
