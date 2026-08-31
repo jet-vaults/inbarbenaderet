@@ -16,21 +16,16 @@ function crumbs(ctx, items) {
     ).join('') + `</nav>`;
 }
 
-function treatmentCardRow(ctx, tr, i, flip) {
+function treatmentCard(ctx, tr) {
   const { lang, ui, esc, t, img } = ctx;
   const L = t(tr);
   const href = `/${lang}/treatments/${tr.slug}/`;
-  return `<div class="ed-row ${flip ? 'ed-row--flip' : ''} reveal">
-    <a class="ed-row__media" href="${href}" tabindex="-1" aria-hidden="true">
-      <div class="figure figure--45 reveal-mask">${img(tr.image, { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
-    </a>
-    <div class="ed-row__body">
-      <span class="t-overline">${esc(tr.num)}</span>
-      <h3 class="t-h2"><a href="${href}">${esc(L.title)}</a></h3>
-      <p class="t-muted">${esc(L.teaser)}</p>
-      <p class="mt-3"><a class="link-arrow" href="${href}">${esc(t(ui.actions.aboutTreatment))} <span class="arr">${arr(ctx.dir)}</span></a></p>
-    </div>
-  </div>`;
+  return `<a class="card" href="${href}">
+    <div class="figure figure--34">${img(tr.image, { alt: '', sizes: '(max-width:900px) 100vw, 33vw', loading: 'lazy' })}</div>
+    <div class="card__meta"><span class="num">${esc(tr.num)}</span></div>
+    <h3 class="card__title">${esc(L.title)}</h3>
+    <p class="card__excerpt">${esc(L.teaser)}</p>
+  </a>`;
 }
 
 function articleCard(ctx, a) {
@@ -65,7 +60,7 @@ export function home(ctx) {
   const { lang, dir, ui, site, esc, t, img, treatments, articles, products, testimonials } = ctx;
   const isHe = lang === 'he';
   const brand = t(site.brand);
-  const signature = ['anti-aging', 'mesotherapy', 'acne', 'pigmentation', 'hifu']
+  const signature = ['anti-aging', 'mesotherapy', 'acne', 'pigmentation', 'hifu', 'rf-treatment']
     .map(s => treatments.find(x => x.slug === s)).filter(Boolean);
   const featured = ['anti-aging', 'mesotherapy', 'pigmentation']
     .map(s => articles.find(x => x.slug === s)).filter(Boolean);
@@ -91,23 +86,20 @@ export function home(ctx) {
     : 'A clinic for advanced beauty and aesthetic treatment for more than twenty years. A wide range of advanced facial treatments — with the most advanced equipment and Inbar’s signature H.D.R method, answering the concerns of anti-aging.';
 
   const body = `
-  <section class="hero2">
-    <div class="container hero2__grid">
-      <div class="hero2__body">
-        <span class="t-overline">${esc(brand.tagline)} · ${isHe ? 'ראשון לציון' : 'Rishon LeZion'}</span>
-        <h1 class="t-display hero2__title">${heroTitle}</h1>
-        <p class="hero2__info">${esc(heroInfo)}</p>
-        <div class="hero__ctas">
+  <section class="hero3">
+    <div class="container">
+      <div class="hero3__head">
+        <span class="t-overline t-overline--bare">${esc(brand.tagline)} · ${isHe ? 'ראשון לציון' : 'Rishon LeZion'}</span>
+        <h1 class="t-display hero3__title">${heroTitle}</h1>
+        <p class="hero3__info">${esc(heroInfo)}</p>
+        <div class="hero3__ctas">
           <a class="btn btn--solid" href="/${lang}/contact/">${esc(t(ui.actions.book))}</a>
           <a class="btn" href="/${lang}/treatments/">${esc(t(ui.actions.exploreTreatments))}</a>
         </div>
-        <div class="hero2__facts">
-          ${facts.map(f => `<span><strong class="num">${esc(f.value)}</strong> ${esc(f.label)}</span>`).join('<span class="hero2__dot" aria-hidden="true">·</span>')}
-        </div>
       </div>
-      <div class="hero2__media">
-        <div class="hero2__oval reveal-mask">${img('stock-hydration-01', { alt: isHe ? 'טיפול פנים בקליניקה' : 'A facial treatment at the clinic', sizes: '(max-width:900px) 78vw, 34vw', loading: 'eager', fetchpriority: 'high' })}</div>
-        <p class="figure__caption hero2__caption">INBAR Clinic · ${isHe ? 'ראשון לציון' : 'Rishon LeZion'}</p>
+      <div class="hero3__banner reveal-mask figure figure--banner">${img('stock-hydration-01', { alt: isHe ? 'טיפול פנים בקליניקה' : 'A facial treatment at the clinic', sizes: '(max-width:1280px) 100vw, 1280px', loading: 'eager', fetchpriority: 'high' })}</div>
+      <div class="hero3__facts">
+        ${facts.map(f => `<div><strong class="num">${esc(f.value)}</strong><span>${esc(f.label)}</span></div>`).join('')}
       </div>
     </div>
   </section>
@@ -133,8 +125,8 @@ export function home(ctx) {
         <span class="t-overline">${esc(t(ui.sections.signatureTreatments))}</span>
         <h2 class="t-h2">${isHe ? 'טיפול נכון מתחיל בבחירה נכונה' : 'The right treatment begins with the right choice'}</h2>
       </div>
-      <div style="display:grid;gap:var(--space-6)">
-        ${signature.map((tr, i) => treatmentCardRow(ctx, tr, i, i % 2 === 1)).join('\n')}
+      <div class="card-grid stagger" style="row-gap:4rem">
+        ${signature.map(tr => treatmentCard(ctx, tr)).join('\n')}
       </div>
       <p class="center mt-5 reveal"><a class="btn" href="/${lang}/treatments/">${esc(t(ui.actions.exploreTreatments))}</a></p>
     </div>
@@ -223,7 +215,7 @@ export function home(ctx) {
     navKey: 'home', body,
     title: isHe ? 'ענבר בן אדרת · Skin Science — טיפולי פנים בראשון לציון' : 'Inbar Ben Aderet · Skin Science — Facial Treatments, Rishon LeZion',
     description: t(ui.schemaDescription),
-    preload: `<link rel="preload" as="image" href="/assets/img/stock-hydration-01-960.webp" imagesrcset="/assets/img/stock-hydration-01-480.webp 480w, /assets/img/stock-hydration-01-960.webp 960w, /assets/img/stock-hydration-01-1600.webp 1600w" imagesizes="(max-width:900px) 78vw, 34vw">`,
+    preload: `<link rel="preload" as="image" href="/assets/img/stock-hydration-01-1600.webp" imagesrcset="/assets/img/stock-hydration-01-480.webp 480w, /assets/img/stock-hydration-01-960.webp 960w, /assets/img/stock-hydration-01-1600.webp 1600w" imagesizes="(max-width:1280px) 100vw, 1280px">`,
   };
 }
 
