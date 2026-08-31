@@ -86,28 +86,37 @@ export function home(ctx) {
     ? 'ב-INBAR Clinic כל מסלול מתחיל באבחון מקצועי ומעמיק, וממשיך בתוכנית טיפול אישית: שילוב מדויק של חומרים פעילים, מכשור מתקדם ושיטת H.D.R הייחודית שפיתחה ענבר — שיטה העובדת על מספר בעיות עור במקביל. בלי פרוטוקולים גנריים, בלי הבטחות ריקות.'
     : 'At INBAR Clinic every journey begins with a deep professional diagnosis, and continues with a personal plan: a precise combination of active ingredients, advanced technology, and Inbar’s signature H.D.R method — addressing several skin concerns in parallel. No generic protocols, no empty promises.';
 
+  const heroInfo = isHe
+    ? 'קליניקה לטיפולי יופי ואסתטיקה מתקדמת מזה יותר מעשרים שנה. מגוון רחב של טיפולים מתקדמים לבעיות עור הפנים ולשיפור המראה — עם המכשור המתקדם ביותר ושיטת H.D.R הייחודית שפיתחה ענבר, הנותנת מענה לבעיות האנטי-אייג׳ינג.'
+    : 'A clinic for advanced beauty and aesthetic treatment for more than twenty years. A wide range of advanced facial treatments — with the most advanced equipment and Inbar’s signature H.D.R method, answering the concerns of anti-aging.';
+
   const body = `
-  <section class="hero">
-    <div class="hero__media"><picture>${img('clinic-treatment-01', { alt: isHe ? 'טיפול פנים בקליניקה של ענבר בן אדרת' : 'Facial treatment at the Inbar Ben Aderet clinic', sizes: '100vw', loading: 'eager', fetchpriority: 'high', bare: true })}</picture></div>
-    <div class="hero__content">
-      <div class="container">
-        <span class="t-overline t-overline--bare">${esc(brand.clinic)} · ${esc(brand.tagline)}</span>
-        <h1 class="t-display hero__title">${heroTitle}</h1>
-        <p class="hero__sub">${esc(heroSub)}</p>
+  <section class="hero2">
+    <div class="container hero2__grid">
+      <div class="hero2__body">
+        <span class="t-overline">${esc(brand.tagline)} · ${isHe ? 'ראשון לציון' : 'Rishon LeZion'}</span>
+        <h1 class="t-display hero2__title">${heroTitle}</h1>
+        <p class="hero2__info">${esc(heroInfo)}</p>
         <div class="hero__ctas">
-          <a class="btn btn--inverse" href="/${lang}/contact/">${esc(t(ui.actions.book))}</a>
-          <a class="btn btn--inverse" style="border-color:rgba(255,255,255,.45)" href="/${lang}/treatments/">${esc(t(ui.actions.exploreTreatments))}</a>
+          <a class="btn btn--solid" href="/${lang}/contact/">${esc(t(ui.actions.book))}</a>
+          <a class="btn" href="/${lang}/treatments/">${esc(t(ui.actions.exploreTreatments))}</a>
+        </div>
+        <div class="hero2__facts">
+          ${facts.map(f => `<span><strong class="num">${esc(f.value)}</strong> ${esc(f.label)}</span>`).join('<span class="hero2__dot" aria-hidden="true">·</span>')}
         </div>
       </div>
+      <div class="hero2__media">
+        <div class="hero2__oval reveal-mask">${img('inbar-portrait-02', { alt: isHe ? 'ענבר בן אדרת' : 'Inbar Ben Aderet', sizes: '(max-width:900px) 78vw, 34vw', loading: 'eager', fetchpriority: 'high' })}</div>
+        <p class="figure__caption hero2__caption">${isHe ? 'ענבר בן אדרת — מייסדת הקליניקה' : 'Inbar Ben Aderet — founder'}</p>
+      </div>
     </div>
-    <span class="hero__scroll" aria-hidden="true">${isHe ? 'SCROLL' : 'SCROLL'}</span>
   </section>
 
   <section class="section">
     <div class="container">
       <div class="ed-row reveal">
-        <div class="ed-row__media"><div class="figure figure--45 reveal-mask">${img('inbar-portrait-02', { alt: isHe ? 'ענבר בן אדרת' : 'Inbar Ben Aderet', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
-        <p class="figure__caption">${isHe ? 'ענבר בן אדרת — מייסדת הקליניקה' : 'Inbar Ben Aderet — founder'}</p></div>
+        <div class="ed-row__media"><div class="figure figure--45 reveal-mask">${img('clinic-treatment-02', { alt: isHe ? 'טיפול פנים בקליניקה' : 'Facial treatment at the clinic', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
+        <p class="figure__caption">${isHe ? 'מתוך חדר הטיפולים' : 'Inside the treatment room'}</p></div>
         <div class="ed-row__body">
           <span class="t-overline">${esc(t(ui.sections.philosophy))}</span>
           <h2 class="t-h2">${esc(introTitle)}</h2>
@@ -131,14 +140,6 @@ export function home(ctx) {
     </div>
   </section>
 
-  <section class="section section--dark">
-    <div class="container">
-      <div class="facts reveal">
-        ${facts.map(f => `<div class="facts__item"><div class="facts__value num">${esc(f.value)}</div><div class="facts__label">${esc(f.label)}</div></div>`).join('\n        ')}
-      </div>
-    </div>
-  </section>
-
   <section class="section">
     <div class="container">
       <div class="contact-grid">
@@ -156,7 +157,7 @@ export function home(ctx) {
           </div>
         </div>
         <div class="contact-grid__aside reveal">
-          <div class="figure figure--34 reveal-mask">${img('clinic-treatment-02', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
+          <div class="figure figure--34 reveal-mask">${img('clinic-treatment-03', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
         </div>
       </div>
     </div>
@@ -219,10 +220,10 @@ export function home(ctx) {
   </section>`;
 
   return {
-    navKey: 'home', darkHero: true, body,
-    title: isHe ? 'ענבר בן אדרת · אסתטיקה מתקדמת — טיפולי פנים בראשון לציון' : 'Inbar Ben Aderet · Advanced Aesthetics — Facial Treatments, Rishon LeZion',
+    navKey: 'home', body,
+    title: isHe ? 'ענבר בן אדרת · Skin Science — טיפולי פנים בראשון לציון' : 'Inbar Ben Aderet · Skin Science — Facial Treatments, Rishon LeZion',
     description: t(ui.schemaDescription),
-    preload: `<link rel="preload" as="image" href="/assets/img/clinic-treatment-01-1600.webp" imagesrcset="/assets/img/clinic-treatment-01-960.webp 960w, /assets/img/clinic-treatment-01-1600.webp 1600w, /assets/img/clinic-treatment-01-2200.webp 2200w" imagesizes="100vw">`,
+    preload: `<link rel="preload" as="image" href="/assets/img/inbar-portrait-02-960.webp" imagesrcset="/assets/img/inbar-portrait-02-480.webp 480w, /assets/img/inbar-portrait-02-960.webp 960w" imagesizes="(max-width:900px) 78vw, 34vw">`,
   };
 }
 

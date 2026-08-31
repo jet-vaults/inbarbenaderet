@@ -28,14 +28,14 @@
   "facts": {
     "_comment": "Real, verifiable claims only — old site counters were broken (showed 0). Verify wording with client.",
     "he": [
-      { "value": "2000", "label": "עוסקת בקוסמטיקה מאז" },
-      { "value": "20+", "label": "שנות ניסיון בטיפולי פנים" },
+      { "value": "2000", "label": "— תחילת הדרך בעולם הקוסמטיקה" },
+      { "value": "20+", "label": "שנות התמחות בטיפולי פנים" },
       { "value": "15", "label": "סוגי טיפולים מתקדמים" }
     ],
     "en": [
-      { "value": "2000", "label": "Practicing since" },
-      { "value": "20+", "label": "Years of facial expertise" },
-      { "value": "15", "label": "Advanced treatment types" }
+      { "value": "2000", "label": "— where the journey began" },
+      { "value": "20+", "label": "years of facial expertise" },
+      { "value": "15", "label": "advanced treatment types" }
     ]
   }
 }
