@@ -211,16 +211,8 @@ for (const lang of ['he', 'en']) {
   count++;
 }
 
-// root fallback (redirect handled by _redirects; this covers local preview)
-writeFileSync(join(OUT, 'index.html'), `<!DOCTYPE html>
-<html lang="he" dir="rtl"><head><meta charset="utf-8">
-<title>ענבר בן אדרת · אסתטיקה מתקדמת</title>
-<meta http-equiv="refresh" content="0; url=/he/">
-<link rel="canonical" href="${site.domain}/he/">
-<link rel="alternate" hreflang="he" href="${site.domain}/he/">
-<link rel="alternate" hreflang="en" href="${site.domain}/en/">
-<link rel="alternate" hreflang="x-default" href="${site.domain}/he/">
-</head><body><a href="/he/">ענבר בן אדרת — לאתר</a></body></html>`);
+// NOTE: no root index.html — on Cloudflare Pages a static asset would shadow
+// the "/ /he/ 301" rule in _redirects (assets win over redirects).
 
 /* ---------- _redirects (Cloudflare Pages) ---------- */
 const redirects = `# root -> Hebrew default
