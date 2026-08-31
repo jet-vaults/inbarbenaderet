@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Hydra Barrier Cream — placeholder">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4F3EF"/><stop offset="1" stop-color="#EAEAE3"/>
+    </linearGradient>
+    <linearGradient id="jar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FBFAF8"/><stop offset=".2" stop-color="#FFFFFF"/>
+      <stop offset=".55" stop-color="#F0EEE9"/><stop offset="1" stop-color="#E7E5DF"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3E3838"/><stop offset=".5" stop-color="#2E2929"/><stop offset="1" stop-color="#443D3D"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg2)"/>
+  <ellipse cx="400" cy="826" rx="200" ry="24" fill="#231F20" opacity=".10"/>
+  <!-- lid -->
+  <rect x="272" y="422" width="256" height="74" rx="10" fill="url(#lid)"/>
+  <!-- jar body -->
+  <path d="M282 500 h236 q10 0 10 10 v250 q0 60 -60 60 h-136 q-60 0 -60 -60 v-250 q0 -10 10 -10 Z" fill="url(#jar)"/>
+  <text x="400" y="618" text-anchor="middle" font-family="Jost, Futura, sans-serif" font-size="30" letter-spacing="9" fill="#2E2929">INBAR</text>
+  <path d="M441 592 q14 -16 2 -27 q-18 4 -11 24 z" fill="#2BB673"/>
+  <line x1="340" y1="646" x2="460" y2="646" stroke="#2BB673" stroke-width="2"/>
+  <text x="400" y="682" text-anchor="middle" font-family="Jost, Futura, sans-serif" font-size="16" letter-spacing="3.2" fill="#2E2929">HYDRA BARRIER</text>
+  <text x="400" y="716" text-anchor="middle" font-family="Jost, Futura, sans-serif" font-size="12" letter-spacing="2.5" fill="#757070">CREAM · 50ML</text>
+</svg>

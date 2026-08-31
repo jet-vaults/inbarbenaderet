@@ -1,0 +1,43 @@
+{
+  "oldUrl": "https://inbarbenaderet.com/thank-you/",
+  "slug": "thank-you",
+  "type": "page",
+  "audience": "post-form-submission confirmation page",
+  "he": {
+    "title": "תודה שיצרת קשר",
+    "metaDescription": "תודה שיצרת קשר עם קליניקת עינבר בן אדרת – נחזור אליך בהקדם.",
+    "intro": "עמוד אישור המוצג לאחר שליחת טופס יצירת קשר.",
+    "sections": [
+      {
+        "heading": "תודה שיצרת קשר!",
+        "body": [
+          {"type": "p", "text": "נציג מטעמנו יחזור אליך בהקדם."},
+          {"type": "p", "text": "עד אז, אתם מוזמנים לבקר אותנו ברשתות החברתיות 🙂"},
+          {"type": "ul", "items": ["Facebook", "Instagram", "WhatsApp"]},
+          {"type": "p", "text": "בחזרה לאתר"}
+        ]
+      }
+    ]
+  },
+  "en": {
+    "title": "Thank You",
+    "metaDescription": "Thank you for contacting the Inbar Ben Aderet clinic – we will be back in touch shortly.",
+    "intro": "The confirmation page shown after submitting a contact form.",
+    "sections": [
+      {
+        "heading": "Thank you for getting in touch!",
+        "body": [
+          {"type": "p", "text": "A member of our team will get back to you shortly."},
+          {"type": "p", "text": "Until then, you are welcome to visit us on social media."},
+          {"type": "ul", "items": ["Facebook", "Instagram", "WhatsApp"]},
+          {"type": "p", "text": "Back to the site"}
+        ]
+      }
+    ]
+  },
+  "sourceImages": [],
+  "flags": [
+    "Mixed grammatical gender/number in source ('שיצרת... אתם מוזמנים') – normalize in redesign.",
+    "'נציג מטעמנו' reads corporate for a personal clinic brand – consider 'ניצור איתך קשר בהקדם' / first-person voice in the redesign."
+  ]
+}

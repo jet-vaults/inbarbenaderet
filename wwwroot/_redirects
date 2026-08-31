@@ -1,0 +1,36 @@
+# root -> Hebrew default
+/ /he/ 301
+
+# old WordPress routes -> new structure (SEO migration)
+/clinique/ /he/clinic/ 301
+/clinique/treatments/ /he/treatments/ 301
+/clinique/articles/ /he/articles/ 301
+/clinique/tutorials/ /he/clinic/ 301
+/anti-aging/ /he/treatments/anti-aging/ 301
+/acne/ /he/treatments/acne/ 301
+/microneedling2/ /he/treatments/mesotherapy/ 301
+/evoluxproplasma/ /he/academy/ 301
+/mesotraining/ /he/academy/ 301
+/akne/ /he/articles/acne/ 301
+/post-akne/ /he/articles/post-acne/ 301
+/pigmentation/ /he/articles/pigmentation/ 301
+/face-treatment/ /he/articles/facial-treatment/ 301
+/hair-removal/ /he/articles/laser-hair-removal/ 301
+/mezoterapia/ /he/articles/mesotherapy/ 301
+/hifu/ /he/articles/hifu/ 301
+/hederation/ /he/articles/hydration/ 301
+/acupuncture/ /he/articles/cosmetic-acupuncture/ 301
+/rf/ /he/articles/rf-treatment/ 301
+/thank-you/ /he/thank-you/ 301
+/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A4%D7%A0%D7%99%D7%9D-%D7%9E%D7%91%D7%A6%D7%A2/ /he/contact/ 301
+/%D7%98%D7%95%D7%A4%D7%A1-%D7%90%D7%91%D7%97%D7%95%D7%9F-%D7%9C%D7%A7%D7%95%D7%97/ /he/contact/ 301
+
+# obsolete shop -> future collection teaser
+/shop/ /he/products/ 301
+/product/* /he/products/ 301
+/product-category/* /he/products/ 301
+/product-tag/* /he/products/ 301
+
+# thin archives
+/tag/* /he/articles/ 301
+/category/* /he/articles/ 301

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "olga",
+    "he": { "quote": "מאז שאני מטופלת אצלה בקליניקה הפנים שלי הרבה יותר זוהרות, ואני רואה שיפור גם בצבע העור. האדמומיות מהאקנה כמעט נעלמה.", "name": "אולגה קרסיליקוב" },
+    "en": { "quote": "Since I started treatment at her clinic my skin glows so much more, and even its tone has improved. The redness from my acne has almost disappeared.", "name": "Olga Krasilikov" }
+  },
+  {
+    "id": "gal",
+    "he": { "quote": "שירות ויחס שאין דברים כאלה. סופר מקצוענית, סבלנית ומסבירה תוך כדי. לא נותנת הרגשה של לחץ — אלא רק רוגע.", "name": "גל שחר" },
+    "en": { "quote": "Service and care like nothing else. Incredibly professional, patient, explaining every step. Never any pressure — only calm.", "name": "Gal Shahar" }
+  },
+  {
+    "id": "michal",
+    "he": { "quote": "את ענבר אני מכירה 20 שנה. אדיבה, סופר מקצועית, ומתעדכנת בכל חידושי הטכנולוגיה. התנסיתי בכל טיפולי הפנים — וכל טיפול מוצלח מקודמו.", "name": "מיכל עייני" },
+    "en": { "quote": "I have known Inbar for twenty years. Gracious, deeply professional, always current with every advance in technology. I have tried all the facial treatments — each one better than the last.", "name": "Michal Ayni" }
+  },
+  {
+    "id": "rachel",
+    "he": { "quote": "המליצו לי על מזותרפיה, ומה אומר? יצאתי עם אור קורן שמזמן שכחתי ממנו, עם תוצאות מדהימות כבר מהטיפול הראשון.", "name": "רחל בשרי" },
+    "en": { "quote": "She recommended mesotherapy — and what can I say? I left with a radiance I had long forgotten, with amazing results from the very first treatment.", "name": "Rachel Basri" }
+  },
+  {
+    "id": "keren",
+    "he": { "quote": "מקצועיות מעל ומעבר. נהניתי מרמת הידע הסופר-מקצועית ומהסבלנות להסביר על כל שלב בתהליך ובטיפול.", "name": "קרן ארביב" },
+    "en": { "quote": "Professionalism above and beyond. I loved the depth of knowledge, and the patience to explain every stage of the process and the treatment.", "name": "Keren Arviv" }
+  },
+  {
+    "id": "ahuva",
+    "he": { "quote": "חיפשתי קודם כל מקצועיות, אינטליגנציה ורמת ניקיון גבוהה — ואת כל אלו מצאתי אצלך. הטיפול שקבעת לי מתאים בדיוק לעור הפנים שלי.", "name": "אהובה להב" },
+    "en": { "quote": "I was looking above all for professionalism, intelligence and impeccable standards — and I found them all here. The treatment you designed fits my skin exactly.", "name": "Ahuva Lahav" }
+  }
+]

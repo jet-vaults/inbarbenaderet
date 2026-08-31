@@ -1,0 +1,78 @@
+{
+  "oldUrl": "https://inbarbenaderet.com/hederation/",
+  "slug": "hydration",
+  "type": "article",
+  "relatedTreatment": "hydration",
+  "he": {
+    "title": "טיפולי הידרציה",
+    "metaDescription": "טיפול הידרציה לעור מיובש: החדרת חומרים מזינים בעזרת מכשיר אלקטרופורציה, המרווה את העור בלחות לעומק ולאורך זמן — גם אחרי הטיפול.",
+    "excerpt": "טיפול הידרציה מרווה עור מיובש בלחות לאורך זמן: חומרים מזינים מוחדרים לעומק העור באמצעות מכשיר אלקטרופורציה, עד לשכבות התאים העמוקות.",
+    "body": [
+      {
+        "type": "p",
+        "text": "טיפול הידרציה הוא חלק מטיפול פנים. כאשר העור מיובש, נשתמש בחומרים מזינים המרווים אותו בלחות לאורך זמן. הטיפול מתבצע באמצעות מכשיר אלקטרופורציה."
+      },
+      {
+        "type": "h2",
+        "text": "איך זה עובד?"
+      },
+      {
+        "type": "p",
+        "text": "בעזרת מיקרו-זרם חשמלי אנו יוצרים בעור תעלות זעירות מהאפידרמיס ועד לדרמיס. כל חומר הידרופילי שנחדיר לעור יחלחל כך עד לשכבות התאים העמוקות — כלומר, הטיפול ירווה את העור בלחות לאורך זמן, גם לאחר סיומו."
+      },
+      {
+        "type": "h2",
+        "text": "מה משיגים בטיפול?"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "עור רווי בלחות",
+          "שיפור משמעותי בפיגמנטציה",
+          "שיפור בקמטים ובנראות העור",
+          "שיפור משמעותי בפצעים"
+        ]
+      }
+    ]
+  },
+  "en": {
+    "title": "Hydration Treatments",
+    "metaDescription": "Hydration treatment for dehydrated skin: nourishing actives delivered deep by electroporation, for lasting moisture well beyond the session.",
+    "excerpt": "The hydration treatment quenches dehydrated skin with long-lasting moisture: nourishing actives are delivered deep into the skin's cellular layers using an electroporation device.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Hydration treatment is a dedicated part of the facial. When the skin is dehydrated, we use nourishing actives that saturate it with long-lasting moisture, delivered by an electroporation device."
+      },
+      {
+        "type": "h2",
+        "text": "How It Works"
+      },
+      {
+        "type": "p",
+        "text": "Using a gentle micro-current, we open microscopic channels in the skin, from the epidermis down to the dermis. Any hydrophilic ingredient applied to the skin can then permeate to the deepest cellular layers — meaning the treatment keeps the skin saturated with moisture long after the session ends."
+      },
+      {
+        "type": "h2",
+        "text": "What the Treatment Achieves"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Deeply moisturised, quenched skin",
+          "A marked improvement in pigmentation",
+          "Softened wrinkles and a refined overall appearance",
+          "A significant improvement in blemishes"
+        ]
+      }
+    ]
+  },
+  "sourceImages": [
+    "https://inbarbenaderet.com/wp-content/uploads/2024/06/midsection-young-woman-applying-henna-tattoo-scaled.jpg"
+  ],
+  "flags": [
+    "Source slug and H1 both misspelled: 'hederation' / 'טיפולי הדרציה' — corrected to הידרציה/hydration.",
+    "Efficacy claims: 'significant improvement' in pigmentation and blemishes attributed to a hydration treatment — broad claims worth reviewing.",
+    "Featured stock image depicts a henna tattoo being applied — unrelated to hydration; recommend replacing in the redesign."
+  ]
+}

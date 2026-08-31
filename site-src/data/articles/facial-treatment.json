@@ -1,0 +1,92 @@
+{
+  "oldUrl": "https://inbarbenaderet.com/face-treatment/",
+  "slug": "facial-treatment",
+  "type": "article",
+  "relatedTreatment": "facial-treatment",
+  "he": {
+    "title": "טיפול פנים",
+    "metaDescription": "טיפול פנים המחייה את העור ומתאים לכולם: אבחון מקיף, פילינג מותאם, עיסוי מקצועי, ניקוי קומדונים ומסכה לפי סוג העור — עם החומרים האיכותיים בשוק.",
+    "excerpt": "טיפול פנים המחייה את העור ומתאים לכל אחד ואחת: אבחון מקיף, פילינג מותאם אישית, עיסוי מקצועי, ניקוי קומדונים במידת הצורך ומסכה לפי סוג העור.",
+    "body": [
+      {
+        "type": "p",
+        "text": "טיפול פנים הוא טיפול המחייה את העור, ואינו תלוי בבעיית עור כזו או אחרת."
+      },
+      {
+        "type": "h2",
+        "text": "למי מיועד הטיפול?"
+      },
+      {
+        "type": "p",
+        "text": "לכולם — ילדים ומבוגרים, נשים וגברים."
+      },
+      {
+        "type": "h2",
+        "text": "מה כולל הטיפול?"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "אבחון מקיף של העור",
+          "פילינג בהתאם לסוג העור",
+          "עיסוי מקצועי המרפה ומחייה את התאים ומעודד ייצור קולגן ואלסטין",
+          "הבהרת העור והרוויתו בלחות",
+          "ניקוי קומדונים (\"שחורים\") במידת הצורך",
+          "מסכה בהתאם לסוג העור"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "מעבר להיותו טיפול מפנק, הטיפול תורם משמעותית לנראות העור, ומתבצע עם חומרים מהאיכותיים ביותר הקיימים בשוק הקוסמטיקה."
+      }
+    ]
+  },
+  "en": {
+    "title": "Facial Treatment",
+    "metaDescription": "A revitalising facial for everyone: skin assessment, tailored peeling, massage, extractions where needed, and a mask matched to your skin.",
+    "excerpt": "A revitalising facial suited to absolutely everyone: a thorough skin assessment, personalised peeling, professional massage, extractions where needed, and a mask matched to your skin type.",
+    "body": [
+      {
+        "type": "p",
+        "text": "The facial is a treatment that revitalises the skin — and it does not depend on having any particular skin concern."
+      },
+      {
+        "type": "h2",
+        "text": "Who Is It For?"
+      },
+      {
+        "type": "p",
+        "text": "Everyone — children and adults, women and men alike."
+      },
+      {
+        "type": "h2",
+        "text": "What Does the Treatment Include?"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "A thorough assessment of your skin",
+          "Peeling tailored to your skin type",
+          "A professional massage that relaxes and revives the cells and encourages collagen and elastin production",
+          "Brightening and deep hydration",
+          "Extraction of comedones (blackheads) where needed",
+          "A mask matched to your skin type"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Beyond being an indulgent experience, the facial contributes meaningfully to the skin's appearance — performed with some of the finest products available in professional skincare."
+      }
+    ]
+  },
+  "sourceImages": [
+    "https://inbarbenaderet.com/wp-content/uploads/2024/06/beautiful-woman-with-facial-mask-beauty-salon-scaled.jpg",
+    "https://inbarbenaderet.com/wp-content/uploads/2022/07/face-1-1-400x572-1-e1657532237722.jpg",
+    "https://inbarbenaderet.com/wp-content/uploads/2022/07/face-3-scaled-470x627-1.jpg",
+    "https://inbarbenaderet.com/wp-content/uploads/2022/07/face-2-scaled-470x627-1.jpg"
+  ],
+  "flags": [
+    "Factual oddity: source claims the massage releases 'הורמון אינקופלין' ('the hormone incofelin') — no such hormone exists (possibly a garbling of endorphin or oxytocin); the claim was omitted from the cleaned copy. Verify intended term with the client.",
+    "Superlative claim: 'the highest-quality products on the cosmetics market' — softened slightly in EN ('some of the finest')."
+  ]
+}

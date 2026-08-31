@@ -1,0 +1,600 @@
+{
+"academy-01": {
+"variants": [
+{
+"w": 480,
+"h": 640,
+"file": "academy-01-480.webp"
+},
+{
+"w": 960,
+"h": 1280,
+"file": "academy-01-960.webp"
+}
+]
+},
+"academy-02": {
+"variants": [
+{
+"w": 480,
+"h": 640,
+"file": "academy-02-480.webp"
+},
+{
+"w": 960,
+"h": 1280,
+"file": "academy-02-960.webp"
+}
+]
+},
+"academy-03": {
+"variants": [
+{
+"w": 480,
+"h": 640,
+"file": "academy-03-480.webp"
+},
+{
+"w": 960,
+"h": 1280,
+"file": "academy-03-960.webp"
+}
+]
+},
+"academy-04": {
+"variants": [
+{
+"w": 480,
+"h": 640,
+"file": "academy-04-480.webp"
+},
+{
+"w": 960,
+"h": 1280,
+"file": "academy-04-960.webp"
+}
+]
+},
+"academy-05": {
+"variants": [
+{
+"w": 480,
+"h": 640,
+"file": "academy-05-480.webp"
+},
+{
+"w": 960,
+"h": 1280,
+"file": "academy-05-960.webp"
+}
+]
+},
+"ba-acne-01": {
+"variants": [
+{
+"w": 480,
+"h": 697,
+"file": "ba-acne-01-480.webp"
+},
+{
+"w": 960,
+"h": 1393,
+"file": "ba-acne-01-960.webp"
+}
+]
+},
+"ba-acne-02": {
+"variants": [
+{
+"w": 480,
+"h": 658,
+"file": "ba-acne-02-480.webp"
+},
+{
+"w": 960,
+"h": 1317,
+"file": "ba-acne-02-960.webp"
+}
+]
+},
+"ba-acne-03": {
+"variants": [
+{
+"w": 480,
+"h": 480,
+"file": "ba-acne-03-480.webp"
+},
+{
+"w": 960,
+"h": 960,
+"file": "ba-acne-03-960.webp"
+},
+{
+"w": 1600,
+"h": 1600,
+"file": "ba-acne-03-1600.webp"
+}
+]
+},
+"ba-pigmentation-01": {
+"variants": [
+{
+"w": 480,
+"h": 505,
+"file": "ba-pigmentation-01-480.webp"
+}
+]
+},
+"ba-pigmentation-02": {
+"variants": [
+{
+"w": 480,
+"h": 378,
+"file": "ba-pigmentation-02-480.webp"
+},
+{
+"w": 960,
+"h": 756,
+"file": "ba-pigmentation-02-960.webp"
+}
+]
+},
+"ba-post-acne-01": {
+"variants": [
+{
+"w": 480,
+"h": 473,
+"file": "ba-post-acne-01-480.webp"
+},
+{
+"w": 960,
+"h": 946,
+"file": "ba-post-acne-01-960.webp"
+}
+]
+},
+"ba-post-acne-02": {
+"variants": [
+{
+"w": 480,
+"h": 491,
+"file": "ba-post-acne-02-480.webp"
+},
+{
+"w": 960,
+"h": 982,
+"file": "ba-post-acne-02-960.webp"
+}
+]
+},
+"clinic-room-01": {
+"variants": [
+{
+"w": 480,
+"h": 330,
+"file": "clinic-room-01-480.webp"
+},
+{
+"w": 960,
+"h": 660,
+"file": "clinic-room-01-960.webp"
+},
+{
+"w": 1600,
+"h": 1100,
+"file": "clinic-room-01-1600.webp"
+}
+]
+},
+"clinic-treatment-01": {
+"variants": [
+{
+"w": 480,
+"h": 320,
+"file": "clinic-treatment-01-480.webp"
+},
+{
+"w": 960,
+"h": 640,
+"file": "clinic-treatment-01-960.webp"
+},
+{
+"w": 1600,
+"h": 1067,
+"file": "clinic-treatment-01-1600.webp"
+},
+{
+"w": 2200,
+"h": 1467,
+"file": "clinic-treatment-01-2200.webp"
+}
+]
+},
+"clinic-treatment-02": {
+"variants": [
+{
+"w": 480,
+"h": 320,
+"file": "clinic-treatment-02-480.webp"
+},
+{
+"w": 960,
+"h": 640,
+"file": "clinic-treatment-02-960.webp"
+},
+{
+"w": 1600,
+"h": 1067,
+"file": "clinic-treatment-02-1600.webp"
+}
+]
+},
+"clinic-treatment-03": {
+"variants": [
+{
+"w": 480,
+"h": 360,
+"file": "clinic-treatment-03-480.webp"
+},
+{
+"w": 960,
+"h": 720,
+"file": "clinic-treatment-03-960.webp"
+},
+{
+"w": 1600,
+"h": 1200,
+"file": "clinic-treatment-03-1600.webp"
+}
+]
+},
+"device-evolux-01": {
+"variants": [
+{
+"w": 480,
+"h": 270,
+"file": "device-evolux-01-480.webp"
+},
+{
+"w": 960,
+"h": 540,
+"file": "device-evolux-01-960.webp"
+}
+]
+},
+"device-microneedling-01": {
+"variants": [
+{
+"w": 453,
+"h": 255,
+"file": "device-microneedling-01-453.webp"
+}
+]
+},
+"inbar-portrait-01": {
+"variants": [
+{
+"w": 480,
+"h": 480,
+"file": "inbar-portrait-01-480.webp"
+}
+]
+},
+"inbar-portrait-02": {
+"variants": [
+{
+"w": 480,
+"h": 526,
+"file": "inbar-portrait-02-480.webp"
+},
+{
+"w": 960,
+"h": 1053,
+"file": "inbar-portrait-02-960.webp"
+}
+]
+},
+"inbar-portrait-03": {
+"variants": [
+{
+"w": 480,
+"h": 862,
+"file": "inbar-portrait-03-480.webp"
+}
+]
+},
+"logo-full-dark": {
+"variants": [
+{
+"w": 900,
+"h": 438,
+"file": "logo-full-dark.webp"
+}
+]
+},
+"logo-full-light": {
+"variants": [
+{
+"w": 900,
+"h": 438,
+"file": "logo-full-light.webp"
+}
+]
+},
+"logo-mark-dark": {
+"variants": [
+{
+"w": 900,
+"h": 306,
+"file": "logo-mark-dark.webp"
+}
+]
+},
+"logo-mark-light": {
+"variants": [
+{
+"w": 900,
+"h": 306,
+"file": "logo-mark-light.webp"
+}
+]
+},
+"stock-chemical-peel-01": {
+"variants": [
+{
+"w": 480,
+"h": 720,
+"file": "stock-chemical-peel-01-480.webp"
+},
+{
+"w": 960,
+"h": 1440,
+"file": "stock-chemical-peel-01-960.webp"
+},
+{
+"w": 1600,
+"h": 2400,
+"file": "stock-chemical-peel-01-1600.webp"
+}
+]
+},
+"stock-hair-removal-01": {
+"variants": [
+{
+"w": 480,
+"h": 480,
+"file": "stock-hair-removal-01-480.webp"
+},
+{
+"w": 960,
+"h": 960,
+"file": "stock-hair-removal-01-960.webp"
+},
+{
+"w": 1600,
+"h": 1600,
+"file": "stock-hair-removal-01-1600.webp"
+}
+]
+},
+"stock-hifu-01": {
+"variants": [
+{
+"w": 480,
+"h": 320,
+"file": "stock-hifu-01-480.webp"
+},
+{
+"w": 960,
+"h": 640,
+"file": "stock-hifu-01-960.webp"
+},
+{
+"w": 1600,
+"h": 1067,
+"file": "stock-hifu-01-1600.webp"
+}
+]
+},
+"stock-hydration-01": {
+"variants": [
+{
+"w": 480,
+"h": 320,
+"file": "stock-hydration-01-480.webp"
+},
+{
+"w": 960,
+"h": 641,
+"file": "stock-hydration-01-960.webp"
+},
+{
+"w": 1600,
+"h": 1068,
+"file": "stock-hydration-01-1600.webp"
+}
+]
+},
+"stock-oxygeneo-01": {
+"variants": [
+{
+"w": 480,
+"h": 657,
+"file": "stock-oxygeneo-01-480.webp"
+},
+{
+"w": 960,
+"h": 1314,
+"file": "stock-oxygeneo-01-960.webp"
+},
+{
+"w": 1600,
+"h": 2190,
+"file": "stock-oxygeneo-01-1600.webp"
+}
+]
+},
+"stock-phototherapy-01": {
+"variants": [
+{
+"w": 480,
+"h": 328,
+"file": "stock-phototherapy-01-480.webp"
+},
+{
+"w": 960,
+"h": 656,
+"file": "stock-phototherapy-01-960.webp"
+},
+{
+"w": 1600,
+"h": 1093,
+"file": "stock-phototherapy-01-1600.webp"
+}
+]
+},
+"treatment-acupuncture-01": {
+"variants": [
+{
+"w": 480,
+"h": 640,
+"file": "treatment-acupuncture-01-480.webp"
+},
+{
+"w": 960,
+"h": 1280,
+"file": "treatment-acupuncture-01-960.webp"
+}
+]
+},
+"treatment-acupuncture-02": {
+"variants": [
+{
+"w": 480,
+"h": 640,
+"file": "treatment-acupuncture-02-480.webp"
+},
+{
+"w": 960,
+"h": 1280,
+"file": "treatment-acupuncture-02-960.webp"
+}
+]
+},
+"treatment-facial-01": {
+"variants": [
+{
+"w": 470,
+"h": 627,
+"file": "treatment-facial-01-470.webp"
+}
+]
+},
+"treatment-facial-02": {
+"variants": [
+{
+"w": 470,
+"h": 627,
+"file": "treatment-facial-02-470.webp"
+}
+]
+},
+"treatment-mesotherapy-01": {
+"variants": [
+{
+"w": 480,
+"h": 460,
+"file": "treatment-mesotherapy-01-480.webp"
+},
+{
+"w": 960,
+"h": 921,
+"file": "treatment-mesotherapy-01-960.webp"
+}
+]
+},
+"treatment-mesotherapy-02": {
+"variants": [
+{
+"w": 480,
+"h": 464,
+"file": "treatment-mesotherapy-02-480.webp"
+},
+{
+"w": 960,
+"h": 928,
+"file": "treatment-mesotherapy-02-960.webp"
+}
+]
+},
+"treatment-rf-01": {
+"variants": [
+{
+"w": 480,
+"h": 640,
+"file": "treatment-rf-01-480.webp"
+},
+{
+"w": 960,
+"h": 1280,
+"file": "treatment-rf-01-960.webp"
+}
+]
+},
+"video-still-01": {
+"variants": [
+{
+"w": 480,
+"h": 263,
+"file": "video-still-01-480.webp"
+},
+{
+"w": 960,
+"h": 527,
+"file": "video-still-01-960.webp"
+},
+{
+"w": 1600,
+"h": 878,
+"file": "video-still-01-1600.webp"
+}
+]
+},
+"video-still-02": {
+"variants": [
+{
+"w": 480,
+"h": 263,
+"file": "video-still-02-480.webp"
+},
+{
+"w": 960,
+"h": 525,
+"file": "video-still-02-960.webp"
+}
+]
+},
+"video-still-03": {
+"variants": [
+{
+"w": 480,
+"h": 255,
+"file": "video-still-03-480.webp"
+},
+{
+"w": 960,
+"h": 510,
+"file": "video-still-03-960.webp"
+}
+]
+},
+"video-still-04": {
+"variants": [
+{
+"w": 480,
+"h": 256,
+"file": "video-still-04-480.webp"
+}
+]
+}
+}

@@ -1,109 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Outfit', sans-serif;
-      background: #fafaf8;
-      color: #18181b;
-      padding: 2rem;
-      position: relative;
-      overflow: hidden;
-    }
-
-    body::before {
-      content: '';
-      position: fixed;
-      top: -30%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 600px;
-      height: 600px;
-      background: radial-gradient(circle, rgba(255, 200, 200, 0.2) 0%, transparent 70%);
-      pointer-events: none;
-    }
-
-    .page {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      max-width: 480px;
-    }
-
-    .code {
-      font-size: clamp(5rem, 15vw, 8rem);
-      font-weight: 700;
-      letter-spacing: -0.04em;
-      line-height: 1;
-      color: #f0eeeb;
-      margin-bottom: 1.5rem;
-    }
-
-    h1 {
-      font-size: 1.5rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      margin-bottom: 0.6rem;
-    }
-
-    p {
-      font-size: 1rem;
-      font-weight: 300;
-      color: #71717a;
-      line-height: 1.7;
-      margin-bottom: 2.5rem;
-    }
-
-    a {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      font-family: 'Outfit', sans-serif;
-      font-size: 0.9rem;
-      font-weight: 500;
-      color: #fff;
-      background: #18181b;
-      text-decoration: none;
-      padding: 0.7rem 1.8rem;
-      border-radius: 10px;
-      transition: all 0.2s ease;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-
-    a:hover {
-      background: #2d2d32;
-      transform: translateY(-1px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-    }
-
-    a svg {
-      width: 16px;
-      height: 16px;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 · העמוד לא נמצא</title>
+  <meta name="description" content="נראה שהקישור שהוביל לכאן אינו תקין.">
+  <link rel="canonical" href="https://inbarbenaderet.com/404.html">
+  <link rel="alternate" hreflang="he" href="https://inbarbenaderet.com/404.html">
+  <link rel="alternate" hreflang="en" href="https://inbarbenaderet.com/en/">
+  <link rel="alternate" hreflang="x-default" href="https://inbarbenaderet.com/404.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ענבר בן אדרת · אסתטיקה מתקדמת">
+  <meta property="og:title" content="404 · העמוד לא נמצא">
+  <meta property="og:description" content="נראה שהקישור שהוביל לכאן אינו תקין.">
+  <meta property="og:url" content="https://inbarbenaderet.com/404.html">
+  <meta property="og:image" content="https://inbarbenaderet.com/assets/img/clinic-treatment-01-1600.webp">
+  <meta property="og:locale" content="he_IL">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/icon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <link rel="preload" href="/assets/fonts/assistant-hebrew.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/assistant-latin.woff2" as="font" type="font/woff2" crossorigin>
+  
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
 </head>
 <body>
-  <div class="page">
-    <div class="code">404</div>
-    <h1>Page not found</h1>
-    <p>This page doesn't exist or may have been moved.</p>
-    <a href="/">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
-      </svg>
-      Back to home
-    </a>
+  <a class="skip-link" href="#main">דילוג לתוכן</a>
+
+  <header class="site-header site-header--transparent">
+    <div class="container">
+      <a class="site-header__logo" href="/he/" aria-label="ענבר בן אדרת">
+        <img class="logo-dark" src="/assets/img/logo-mark-dark.webp" alt="INBAR — אסתטיקה מתקדמת" width="900" height="306">
+        <img class="logo-light" src="/assets/img/logo-mark-light.webp" alt="INBAR — אסתטיקה מתקדמת" width="900" height="306">
+      </a>
+      <nav class="site-nav" aria-label="ניווט ראשי">
+        <a href="/he/clinic/">הקליניקה</a>
+        <a href="/he/treatments/">טיפולים</a>
+        <a href="/he/articles/">מאמרים</a>
+        <a href="/he/products/">מוצרים<sup class="nav-badge">בקרוב</sup></a>
+        <a href="/he/contact/">יצירת קשר</a>
+      </nav>
+      <div style="display:flex;align-items:center;gap:1rem;">
+        <a class="lang-switch lang-switch--desktop" href="/en/" lang="en" hreflang="en" title="English">EN</a>
+        <button class="burger" aria-expanded="false" aria-controls="mobile-menu" aria-label="תפריט">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="ניווט">
+      <a href="/he/">דף ראשי</a>
+      <a href="/he/clinic/">הקליניקה</a>
+      <a href="/he/treatments/">טיפולים</a>
+      <a href="/he/articles/">מאמרים</a>
+      <a href="/he/products/">מוצרים<sup class="nav-badge">בקרוב</sup></a>
+      <a href="/he/contact/">יצירת קשר</a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <a href="/en/" lang="en">English</a>
+      <span>·</span>
+      <a href="tel:+972509797653" class="num">050-9797653</a>
+    </div>
   </div>
+
+  <main id="main">
+
+  <section class="section" style="padding-top:calc(var(--header-h) + var(--space-6));min-height:70vh">
+    <div class="container center">
+      <span class="t-overline t-overline--bare num">404</span>
+      <h1 class="t-h1" style="margin-top:1rem">העמוד לא נמצא</h1>
+      <p class="t-muted" style="margin-top:1rem">נראה שהקישור שהוביל לכאן אינו תקין.</p>
+      <p class="mt-4"><a class="btn btn--solid" href="/he/">חזרה לדף הראשי</a></p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div class="site-footer__brand">
+          <a href="/he/"><img src="/assets/img/logo-full-light.webp" alt="INBAR — אסתטיקה מתקדמת" width="900" height="438" loading="lazy" style="height:64px;width:auto"></a>
+          <p>קליניקת ענבר בן אדרת — אסתטיקה מתקדמת וטיפולי פנים בראשון לציון. אבחון אישי, טכנולוגיות מתקדמות ושיטת H.D.R הייחודית.</p>
+        </div>
+        <div>
+          <h4>ניווט</h4>
+          <ul>
+            <li><a href="/he/">דף ראשי</a></li>
+            <li><a href="/he/clinic/">הקליניקה</a></li>
+            <li><a href="/he/treatments/">טיפולים</a></li>
+            <li><a href="/he/articles/">מאמרים</a></li>
+            <li><a href="/he/products/">מוצרים</a></li>
+            <li><a href="/he/academy/">האקדמיה</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>פרטי התקשרות</h4>
+          <ul>
+            <li><a href="tel:+972509797653" class="num">050-9797653</a></li>
+            <li><a href="https://wa.me/972509797653?text=%D7%94%D7%99%D7%99%20%D7%A2%D7%A0%D7%91%D7%A8%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%9C%20%D7%A4%D7%A8%D7%98%D7%99%D7%9D" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="mailto:inbarbenaderet@gmail.com">inbarbenaderet@gmail.com</a></li>
+            <li>ישראל גלילי 7, ראשון לציון</li>
+          </ul>
+        </div>
+        <div>
+          <h4>שעות פעילות</h4>
+          <ul>
+            <li>א׳–ה׳ · <span class="num">10:00–19:30</span></li>
+            <li>ו׳ · <span class="num">8:30–13:00</span></li>
+            <li>שבת · <span class="num">סגור</span></li>
+          </ul>
+          <div style="display:flex;gap:1.2rem;margin-top:1.4rem;">
+            <a href="https://www.instagram.com/inbar_benaderet" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.facebook.com/inbarcosmetic" target="_blank" rel="noopener">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <span>© <span class="num">2026</span> ענבר בן אדרת · כל הזכויות שמורות</span>
+        <span style="display:flex;gap:1.4rem;">
+          <a href="/he/accessibility/">הצהרת נגישות</a>
+          <a href="/he/privacy/">מדיניות פרטיות</a>
+          <a href="/en/">English</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
 </body>
 </html>

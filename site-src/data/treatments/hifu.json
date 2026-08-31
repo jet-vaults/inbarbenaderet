@@ -1,0 +1,92 @@
+{
+  "oldUrl": "https://inbarbenaderet.com/hifu/",
+  "slug": "hifu",
+  "type": "treatment",
+  "concerns": ["aging"],
+  "he": {
+    "title": "HIFU הייפו",
+    "metaDescription": "טיפול HIFU בקליניקת עינבר בן אדרת – אולטרסאונד ממוקד המגיע לשכבת ה-SMAS למתיחה, הידוק וייצור קולגן, ללא ניתוח וללא זמן החלמה.",
+    "teaser": "טיפול למתיחה והידוק ללא ניתוח, ללא כאבים וללא החלמה.",
+    "intro": "HIFU הוא טיפול יעיל ואפקטיבי לריפוי ושיקום העור על ידי טכנולוגיית אולטרסאונד, המטפלת בטקסטורה של העור וגורמת למתיחה. זהו טיפול המגיע לשכבות העמוקות ביותר של העור – מכשיר לא פולשני המתבסס על טכנולוגיית גלי קול עוצמתיים.",
+    "sections": [
+      {
+        "heading": "איך זה עובד?",
+        "body": [
+          {"type": "p", "text": "טכנולוגיית HIFU עוברת באופן ממוקד דרך העור ללא פגע, ומאפשרת לנקודת המוקד להגיע לשכבה העליונה של מערכת שריר-עצם (SMAS). בנקודה זו האולטרסאונד פועל על סיבי הקולגן והאלסטין – הסיבים מתכווצים, נפח ה-SMAS יורד, והתוצאה היא מתיחת פנים מיידית. הטכנולוגיה גם גורמת לייצור סיבי קולגן ואלסטין חדשים."}
+        ]
+      },
+      {
+        "heading": "מתי רואים תוצאות?",
+        "body": [
+          {"type": "p", "text": "ניתן להבחין בשיפור בעור לאחר חודשיים מהטיפול הראשון. הטיפול גורם לאפקט מצטבר של מתיחה, ולכן ממשיכים לראות שינויים משמעותיים גם לאחר כמה חודשים. מכיוון שהקולגן ממשיך לחדש ולמצק את עור הפנים, המראה משתפר והתוצאות נשמרות לאורך זמן."}
+        ]
+      },
+      {
+        "heading": "למי מתאים הטיפול?",
+        "body": [
+          {"type": "p", "text": "הטיפול מתאים למתיחה באזורים הנפולים של העור – כמו אזור ה'בולדוג' בצידי הפה, הצוואר והרמת הפנים."},
+          {"type": "p", "text": "הטיפול אינו מתאים לאנשים שסבלו מפציאליס (שיתוק בפנים), בעיות לב, סרטן וסוכרת."}
+        ]
+      }
+    ],
+    "pricing": null,
+    "faq": [
+      {
+        "q": "מתי רואים תוצאות?",
+        "a": "שיפור נראה כחודשיים לאחר הטיפול הראשון, והאפקט מצטבר – שינויים משמעותיים ממשיכים להופיע גם לאחר כמה חודשים, והתוצאות נשמרות לאורך זמן."
+      },
+      {
+        "q": "למי הטיפול אינו מתאים?",
+        "a": "לאנשים שסבלו מפציאליס (שיתוק בפנים), בעיות לב, סרטן וסוכרת."
+      }
+    ]
+  },
+  "en": {
+    "title": "HIFU",
+    "metaDescription": "HIFU at the Inbar Ben Aderet clinic – focused ultrasound reaching the SMAS layer for lifting, tightening and collagen renewal, without surgery or downtime.",
+    "teaser": "A lifting and tightening treatment – no surgery, no pain, no recovery time.",
+    "intro": "HIFU is an effective treatment for healing and restoring the skin using ultrasound technology that refines texture and creates lift. It reaches the very deepest layers of the skin – a non-invasive device built on powerful focused sound waves.",
+    "sections": [
+      {
+        "heading": "How it works",
+        "body": [
+          {"type": "p", "text": "HIFU energy passes through the skin in a precisely focused way, without harming it, allowing the focal point to reach the upper layer of the SMAS (superficial musculo-aponeurotic system). There, the ultrasound acts on collagen and elastin fibres – the fibres contract, the SMAS volume reduces, and the result is an immediate lifting effect. The technology also triggers production of new collagen and elastin fibres."}
+        ]
+      },
+      {
+        "heading": "When do results appear?",
+        "body": [
+          {"type": "p", "text": "Visible improvement appears about two months after the first treatment. The lift is cumulative, so meaningful changes continue to emerge over the following months; as collagen keeps renewing and firming the skin, the appearance improves and the results endure over time."}
+        ]
+      },
+      {
+        "heading": "Who is it for?",
+        "body": [
+          {"type": "p", "text": "The treatment suits lifting in areas of skin laxity – such as the jowl area alongside the mouth, the neck, and overall facial lifting."},
+          {"type": "p", "text": "It is not suitable for people who have had facial paralysis (facialis), heart conditions, cancer or diabetes."}
+        ]
+      }
+    ],
+    "pricing": null,
+    "faq": [
+      {
+        "q": "When will I see results?",
+        "a": "Improvement is visible about two months after the first session, and the effect is cumulative – significant changes continue to appear over the following months, and results are maintained over time."
+      },
+      {
+        "q": "Who should avoid HIFU?",
+        "a": "People who have had facial paralysis, heart conditions, cancer or diabetes."
+      }
+    ]
+  },
+  "sourceImages": [
+    "https://inbarbenaderet.com/wp-content/uploads/2024/06/skin-doctor-using-hifu-resurfacing-facial-skincare-treatment-technology-with-adult-male-reduce-wrinkles-scars-anti-aging-clinic-scaled.jpg"
+  ],
+  "flags": [
+    "Index teaser claims HIFU is 'מכשיר מהפכני המחליף את סכין המנתחים' (a revolutionary device replacing the surgeon's scalpel) and 'טיפול מהפכני' – replaces-surgery claim, EXCLUDED from the structured copy (teaser rewritten to the factual remainder); needs client sign-off if they insist on keeping it.",
+    "Source's 'שכבת מערכת שריר-עצב' rendered per the standard meaning of SMAS (musculo-aponeurotic, not 'nerve') – terminology cleaned; confirm with client.",
+    "Broad contraindications (heart problems, cancer, diabetes) are stated without nuance – medically sensitive; client should verify against the device manufacturer's guidance.",
+    "'ללא כאבים' (painless) claim from the index teaser – softened; discomfort levels with HIFU vary.",
+    "No pricing given in any source for HIFU."
+  ]
+}

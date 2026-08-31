@@ -1,0 +1,92 @@
+{
+  "oldUrl": "https://inbarbenaderet.com/hifu/",
+  "slug": "hifu",
+  "type": "article",
+  "relatedTreatment": "hifu",
+  "he": {
+    "title": "הייפו HIFU",
+    "metaDescription": "טיפול HIFU: טכנולוגיית אולטרסאונד ממוקד המגיעה לשכבות העמוקות של העור, ממצקת ומותחת ללא פולשנות — עם אפקט מצטבר שמשתפר לאורך חודשים.",
+    "excerpt": "HIFU הוא טיפול לא פולשני המבוסס על גלי קול ממוקדים, המגיעים לשכבות העמוקות ביותר של העור, פועלים על הטקסטורה שלו ויוצרים אפקט מתיחה מצטבר.",
+    "body": [
+      {
+        "type": "p",
+        "text": "HIFU הוא טיפול מהפכני, יעיל ואפקטיבי, המיועד לריפוי ושיקום העור באמצעות טכנולוגיית אולטרסאונד המטפלת בטקסטורת העור ויוצרת מתיחה. זהו טיפול המגיע לשכבות העמוקות ביותר של העור — מכשיר לא פולשני המתבסס על טכנולוגיית גלי קול עוצמתיים."
+      },
+      {
+        "type": "h2",
+        "text": "איך זה עובד?"
+      },
+      {
+        "type": "p",
+        "text": "טכנולוגיית HIFU עוברת באופן ממוקד דרך העור מבלי לפגוע בו, ומאפשרת לנקודת המוקד להגיע לשכבה העליונה של מערכת השריר-עצב (SMAS). בנקודה זו האולטרסאונד פועל על סיבי הקולגן והאלסטין: הסיבים מתכווצים, נפח ה-SMAS יורד, וכך נוצרת מתיחת פנים מיידית. בנוסף, הטכנולוגיה מעוררת ייצור של סיבי קולגן ואלסטין חדשים."
+      },
+      {
+        "type": "h2",
+        "text": "מתי רואים תוצאות?"
+      },
+      {
+        "type": "p",
+        "text": "ניתן להבחין בשיפור בעור כחודשיים לאחר הטיפול הראשון. הטיפול יוצר אפקט מתיחה מצטבר, ולכן ממשיכים לראות שינויים משמעותיים גם לאחר כמה חודשים: הקולגן ממשיך להתחדש ולמצק את עור הפנים, המראה משתפר, והתוצאות נשמרות לאורך זמן."
+      },
+      {
+        "type": "h2",
+        "text": "למי הטיפול מתאים?"
+      },
+      {
+        "type": "p",
+        "text": "הטיפול מתאים למתיחת האזורים הנפולים של העור — כגון קו הלסת (\"בולדוג\") בצידי הפה, הצוואר והרמת הפנים."
+      },
+      {
+        "type": "p",
+        "text": "הטיפול אינו מתאים למי שסבלו משיתוק בעצב הפנים (פציאליס), מבעיות לב, מסרטן או מסוכרת."
+      }
+    ]
+  },
+  "en": {
+    "title": "HIFU",
+    "metaDescription": "HIFU: focused ultrasound reaching the skin's deepest layers, firming and lifting non-invasively — a cumulative effect that builds over months.",
+    "excerpt": "HIFU is a non-invasive treatment based on focused ultrasound waves that reach the skin's deepest layers, refining its texture and creating a cumulative lifting effect.",
+    "body": [
+      {
+        "type": "p",
+        "text": "HIFU is a remarkably effective treatment designed to heal and restore the skin using ultrasound technology that refines skin texture and creates a lifting effect. It reaches the very deepest layers of the skin — a non-invasive device built on powerful, focused sound-wave technology."
+      },
+      {
+        "type": "h2",
+        "text": "How It Works"
+      },
+      {
+        "type": "p",
+        "text": "HIFU energy passes through the skin in a precisely focused beam, leaving the surface untouched, and allows the focal point to reach the uppermost layer of the SMAS (the superficial musculo-aponeurotic system). There, the ultrasound acts on the collagen and elastin fibres: the fibres contract, the volume of the SMAS decreases, and an immediate lifting effect is created. The technology also stimulates the production of new collagen and elastin fibres."
+      },
+      {
+        "type": "h2",
+        "text": "When Do Results Appear?"
+      },
+      {
+        "type": "p",
+        "text": "Improvement becomes visible around two months after the first session. Because the treatment creates a cumulative lifting effect, significant changes continue to appear over the following months: collagen keeps renewing and firming the facial skin, the complexion improves, and the results are maintained over time."
+      },
+      {
+        "type": "h2",
+        "text": "Who Is It For?"
+      },
+      {
+        "type": "p",
+        "text": "The treatment is suited to lifting areas where the skin has begun to sag — the jowls along the jawline, the neck, and the face as a whole."
+      },
+      {
+        "type": "p",
+        "text": "The treatment is not suitable for those who have experienced facial nerve paralysis (facial palsy), heart conditions, cancer, or diabetes."
+      }
+    ]
+  },
+  "sourceImages": [
+    "https://inbarbenaderet.com/wp-content/uploads/2024/06/skin-doctor-using-hifu-resurfacing-facial-skincare-treatment-technology-with-adult-male-reduce-wrinkles-scars-anti-aging-clinic-scaled.jpg"
+  ],
+  "flags": [
+    "Claim of 'immediate facelift' effect ('מתיחת פנים מידית') — strong results claim for a non-surgical treatment.",
+    "Medical contraindication list (facial palsy, heart problems, cancer, diabetes) stated broadly and without nuance — should be verified with a professional source; source typo 'פשיאליס' corrected to 'פציאליס'.",
+    "'Revolutionary, effective' marketing superlatives kept in HE, slightly tempered in EN."
+  ]
+}

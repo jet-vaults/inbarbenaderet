@@ -1,0 +1,111 @@
+{
+  "oldUrl": "https://inbarbenaderet.com/hair-removal/",
+  "slug": "laser-hair-removal",
+  "type": "treatment",
+  "concerns": ["hair-removal"],
+  "he": {
+    "title": "הסרת שיער",
+    "metaDescription": "הסרת שיער בקליניקת עינבר בן אדרת בשיטת DPC המשלבת לייזר IPL – ידית קור לטיפול נעים וללא כאב, עם תוצאות כבר מהטיפול הראשון.",
+    "teaser": "בואו להיפטר מהשיער לצמיתות ולהפסיק להתעסק עם הסרבול בגילוח.",
+    "intro": "הסרת השיער מתבצעת על ידי המכשיר המתקדם בשוק. הידית היא ידית קור, שגורמת לתהליך להיות נעים וללא כאב, עם תוצאות מרשימות כבר מהטיפול הראשון.",
+    "sections": [
+      {
+        "heading": "מה זו הסרת שיער בשיטת DPC?",
+        "body": [
+          {"type": "p", "text": "מי שמאסה בכאב המריטה, בזיפי הגילוח ובטרחה של הקרם, יכולה לבחור בין מספר אופציות מתחום האסתטיקה הרפואית: הלייזר, האינפרא והאפילציה – טכניקות העובדות על הרס פרמננטי (קבוע) של שורש השערה. אף שיטה אינה יכולה להבטיח הסרה של מאה אחוז, ושינויים הורמונליים עשויים לגרום לתחייה מחודשת של שורשי שיער – אך השיטות הללו משיגות את התוצאות הטובות ביותר."},
+          {"type": "p", "text": "בקליניקה של עינבר ישנו מכשיר העובד בשיטת DPC, המשלב בתוכו לייזר IPL."}
+        ]
+      },
+      {
+        "heading": "איך זה עובד?",
+        "body": [
+          {"type": "p", "text": "תהליך הסרת השיער מתבצע על ידי קרן אור הנספגת בפיגמנט שבזקיק השערה ומעכבת את צמיחתו מחדש. אורך הגל נקבע בהתאם לפיגמנט ולצבע השיער לעומת צבע העור."}
+        ]
+      },
+      {
+        "heading": "למי מתאים הטיפול?",
+        "body": [
+          {"type": "p", "text": "הטיפול בלייזר מתאים לאזורים נרחבים. המטופלים האידיאליים הם בעלי שיער עבה וכהה, שאינם סובלים מבעיות הורמונליות או ממחלות הפוגעות ביכולת הריפוי של העור (ויטיליגו, סוכרת וכו') – ושאינם מתכוונים להיכנס להיריון או להניק. המכשיר אינו עובד על שיער לבן."}
+        ]
+      },
+      {
+        "heading": "מבנה הטיפול",
+        "body": [
+          {"type": "p", "text": "הטיפול בנוי מסדרת מפגשים, עד להשגת התוצאות הרצויות."}
+        ]
+      }
+    ],
+    "pricing": null,
+    "faq": [
+      {
+        "q": "האם ההסרה היא ל-100%?",
+        "a": "אף שיטה אינה יכולה להבטיח הסרה של מאה אחוז, ושינויים הורמונליים עשויים לגרום לתחייה מחודשת של שורשי שיער – אך שיטות ההרס הקבוע של שורש השערה משיגות את התוצאות הטובות ביותר."
+      },
+      {
+        "q": "האם הטיפול כואב?",
+        "a": "הידית היא ידית קור, שגורמת לתהליך להיות נעים וללא כאב."
+      },
+      {
+        "q": "האם המכשיר עובד על כל סוגי השיער?",
+        "a": "המכשיר אינו עובד על שיער לבן. המטופלים האידיאליים הם בעלי שיער עבה וכהה."
+      }
+    ]
+  },
+  "en": {
+    "title": "Hair Removal",
+    "metaDescription": "Hair removal at the Inbar Ben Aderet clinic using DPC technology combining IPL – a cooled applicator makes the treatment pleasant and pain-free, with results from the first session.",
+    "teaser": "Free yourself from unwanted hair for good, and leave the hassle of shaving behind.",
+    "intro": "Hair removal is performed with the most advanced device on the market. Its cooled applicator makes the process pleasant and pain-free, with impressive results from the very first treatment.",
+    "sections": [
+      {
+        "heading": "What is DPC hair removal?",
+        "body": [
+          {"type": "p", "text": "For anyone weary of the pain of waxing, the stubble of shaving and the mess of creams, medical aesthetics offers several options: laser, infrared and epilation – techniques that work by permanently disabling the hair root. No method can promise one-hundred-percent removal, and hormonal changes can reawaken dormant roots – but these techniques achieve the best results available."},
+          {"type": "p", "text": "The Inbar clinic uses a device based on DPC technology, incorporating IPL."}
+        ]
+      },
+      {
+        "heading": "How it works",
+        "body": [
+          {"type": "p", "text": "A beam of light is absorbed by the pigment in the hair follicle, inhibiting regrowth. The wavelength is set according to the pigment and the hair colour relative to the skin tone."}
+        ]
+      },
+      {
+        "heading": "Who is it for?",
+        "body": [
+          {"type": "p", "text": "Laser treatment suits larger areas. The ideal candidates have thick, dark hair, no hormonal conditions or illnesses that impair the skin's healing (vitiligo, diabetes, etc.), and are not planning pregnancy or breastfeeding. The device does not work on white hair."}
+        ]
+      },
+      {
+        "heading": "The treatment plan",
+        "body": [
+          {"type": "p", "text": "Treatment is structured as a series of sessions, continued until the desired results are achieved."}
+        ]
+      }
+    ],
+    "pricing": null,
+    "faq": [
+      {
+        "q": "Is removal 100% permanent?",
+        "a": "No method can promise one-hundred-percent removal, and hormonal changes can reawaken dormant hair roots – but permanent-root-disabling techniques achieve the best results available."
+      },
+      {
+        "q": "Does it hurt?",
+        "a": "The applicator is cooled, making the process pleasant and pain-free."
+      },
+      {
+        "q": "Does the device work on all hair types?",
+        "a": "It does not work on white hair. Ideal candidates have thick, dark hair."
+      }
+    ]
+  },
+  "sourceImages": [
+    "https://inbarbenaderet.com/wp-content/uploads/2022/07/הסרת-שיער.jpg"
+  ],
+  "flags": [
+    "Index teaser promises removal 'לצמיתות' (permanent) while the page body itself concedes no method guarantees 100% and hormonal changes can cause regrowth – teaser kept verbatim but the permanence claim needs client review (regulatory sensitivity around 'permanent' claims).",
+    "Source typo: 'ויטלגו, סוכרת, ויטליגו' lists vitiligo twice – cleaned to a single mention.",
+    "Seasonal copy ('החורף חלף הלך לו... ג'ל הגילוח של החבר') was dated/gendered filler – dropped from the structured copy.",
+    "No pricing given in any source for hair removal."
+  ]
+}

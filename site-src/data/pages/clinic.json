@@ -1,0 +1,107 @@
+{
+  "source": "Old homepage ABOUT section (https://inbarbenaderet.com/) — restructured into chapters; nothing invented.",
+  "he": {
+    "title": "הקליניקה",
+    "metaDescription": "הקליניקה של ענבר בן אדרת בראשון לציון — למעלה מ-20 שנות התמחות בטיפולי פנים מתקדמים, אבחון אישי ושיטת H.D.R הייחודית.",
+    "heroOverline": "INBAR Clinic · ראשון לציון",
+    "heroTitle": "קליניקה שנבנתה סביב דבר אחד: העור שלך",
+    "heroLead": "למעלה מעשרים שנה של התמחות בטיפולי פנים מתקדמים — בלי קיצורי דרך, בלי טרנדים חולפים. אבחון מדויק, תוכנית אישית, ותוצאות שרואים במראה.",
+    "chapters": [
+      {
+        "overline": "ההתחלה",
+        "heading": "מאז ומעולם — יופי",
+        "body": ["שמי ענבר בן אדרת. נולדתי בשנת 1976 למשפחה עם שש אחיות, אמא לשלושה ילדים מדהימים ונשואה באושר למאיר. כילדה הייתי שובבה והיפראקטיבית עם בעיות קשב לא מאובחנות — אף אחד סביבי לא באמת האמין שאצליח. אבל מאז ומעולם הייתה לי זיקה לתחום היופי.", "בגיל 17 למדתי איפור מקצועי. בשנת 2000 סיימתי לימודי קוסמטיקה, ובשנת 2010 — לימודי קוסמטיקה רפואית. אחרי שילדתי את בתי הבכורה הבנתי שהדבר היחיד שאני רוצה לעסוק בו הוא קוסמטיקה."],
+        "quote": null
+      },
+      {
+        "overline": "הנישה",
+        "heading": "רק פנים. באמת רק פנים.",
+        "body": ["למדתי את כל מקצועות הקוסמטיקה, והבנתי שכדי להיות מעולה במה שאני עושה — אני חייבת לבחור נישה. בחרתי בטיפולי פנים מתקדמים. ניהלתי ספא גדול בראשון לציון במשך שמונה שנים, ואחריה פתחתי קליניקה שהפכה מהר מאוד למוערכת ופופולרית באזור.", "היה חשוב לי להתמיד ולחקור את נושא העור לעומק. בלי איפור קבוע, בלי גבות, בלי מניקור — רק טיפולי פנים. חקרתי את כל בעיות העור: אקנה, פיגמנטציה, צלקות, סבוריאה, פסוריאזיס, אטופיק דרמטיטיס, אורטיקריה ועוד."],
+        "quote": "כדי להיות מעולה במה שאת עושה — את חייבת לבחור נישה. אני בחרתי בעור הפנים."
+      },
+      {
+        "overline": "מתוך הצורך",
+        "heading": "ללמוד להקל, גם כשקשה",
+        "body": ["במהלך השנים הוריי ואחותי חלו בסרטן וקיבלו כימותרפיה. מתוך הצורך שלהם הלכתי ללמוד טיפולי קוסמטיקה לחולים אונקולוגיים — רציתי לדעת להקל על העור גם במצבים שבהם קשה לגוף להתמודד.", "כשאבי נפטר, סבלתי בעצמי מאטופיק דרמטיטיס. כל רופא שהגעתי אליו נתן משחה עם סטרואידים, ואף אחד לא פתר את הבעיה מהשורש. יצאתי ללמוד דיקור קוסמטי — שהעלים לי את האטופיק לחלוטין."],
+        "quote": null
+      },
+      {
+        "overline": "גוף ונפש",
+        "heading": "משוואה אחת",
+        "body": ["מתוך הצורך לעזור ללקוחות שחושפות בפניי את הקרביים שלהן, למדתי אימון NLP, שנותן ללקוחות שלי כלים עוצמתיים להמשך הדרך. אני מאמינה גדולה שגוף ונפש הם משוואה אחת — כשאנחנו מרגישים טוב בפנים, זה ניכר גם על העור.", "וכמובן, אין ביכולתי לנוח על זרי הדפנה. יצאתי ללימודי כימיה, מתוך חלום לפתח מותג קוסמטיקה שיעשה שינוי אמיתי לעור — עבודה תוך-תאית אמיתית, שתאפשר לכל לקוחה להסתכל במראה וליהנות מעור בריא וקורן."],
+        "quote": "גוף ונפש הם משוואה אחת. כשאנחנו מרגישים טוב בפנים — זה ניכר גם על העור."
+      },
+      {
+        "overline": "היום",
+        "heading": "קליניקה, צוות, אקדמיה",
+        "body": ["כיום אני מנהלת קליניקה בראשון לציון עם צוות עובדות מדהימות, מעבירה קורסים לקוסמטיקאיות ומכשירה אותן להיות השליחות הבאות של תחום הקוסמטיקה."],
+        "quote": null
+      }
+    ],
+    "philosophyTitle": "כך אנחנו עובדות",
+    "philosophy": [
+      { "heading": "אבחון לפני הכול", "text": "כל מסלול טיפול מתחיל באבחון עור מקצועי ומעמיק. לא מתחילים לטפל לפני שמבינים בדיוק מה העור צריך." },
+      { "heading": "תוכנית אישית", "text": "פרוטוקול העבודה נבנה אישית — שילוב של חומרים פעילים, מכשור מתקדם ושגרת טיפוח ביתית, בהתאם לעור ולתוצאה הרצויה." },
+      { "heading": "שיטת H.D.R", "text": "שיטה ייחודית שפיתחה ענבר, העובדת על מספר פתולוגיות עור במקביל ונותנת מענה לבעיות אנטי-אייג׳ינג — פתרון כמה בעיות עור בו-זמנית." },
+      { "heading": "טכנולוגיה מתקדמת", "text": "הקליניקה עובדת עם המכשור המתקדם בתחום — RF, HIFU, מיקרונידלינג, פוטותרפיה ועוד — ומתעדכנת כל הזמן." },
+      { "heading": "ליווי אמיתי", "text": "טיפול הוא תהליך. אנחנו מלוות אותך בין הפגישות, עם שגרה ביתית מותאמת וזמינות לכל שאלה." },
+      { "heading": "בלי פשרות", "text": "רק פנים, רק מה שעובד, רק מה שנכון לעור שלך. איכות ומקצוענות ללא פשרות." }
+    ],
+    "videosLead": "צפו בהסברים מפי ענבר על סוגי הטיפולים הרלוונטיים לעור בריא יותר."
+  },
+  "en": {
+    "title": "The Clinic",
+    "metaDescription": "The Inbar Ben Aderet clinic in Rishon LeZion — over 20 years of dedicated facial expertise, personal diagnosis and the signature H.D.R method.",
+    "heroOverline": "INBAR Clinic · Rishon LeZion",
+    "heroTitle": "A clinic built around one thing: your skin",
+    "heroLead": "More than twenty years devoted to advanced facial treatments — no shortcuts, no passing trends. Precise diagnosis, a personal plan, and results you see in the mirror.",
+    "chapters": [
+      {
+        "overline": "The Beginning",
+        "heading": "Beauty, always",
+        "body": ["My name is Inbar Ben Aderet. Born in 1976 into a family of six sisters, mother of three amazing children, happily married to Meir. As a child I was restless and hyperactive with undiagnosed attention difficulties — no one around me truly believed I would succeed. But beauty was always my calling.", "At seventeen I studied professional makeup. In 2000 I completed my cosmetics training, and in 2010 — medical aesthetics. After my first daughter was born, I understood that this was the only thing I wanted to do."],
+        "quote": null
+      },
+      {
+        "overline": "The Niche",
+        "heading": "Only the face. Truly only the face.",
+        "body": ["I studied every profession within cosmetics, and understood that to be excellent at what I do — I had to choose a niche. I chose advanced facial treatment. I managed a large spa in Rishon LeZion for eight years, then opened a clinic that quickly became one of the most valued in the area.", "It mattered to me to research skin in depth. No permanent makeup, no brows, no manicure — facial treatment only. I studied every skin concern: acne, pigmentation, scarring, seborrhea, psoriasis, atopic dermatitis, urticaria and more."],
+        "quote": "To be excellent at what you do — you must choose a niche. I chose facial skin."
+      },
+      {
+        "overline": "Out of Need",
+        "heading": "Learning to ease, even when it's hard",
+        "body": ["Over the years my parents and sister fell ill with cancer and underwent chemotherapy. Out of their need, I trained in oncology aesthetics — I wanted to know how to ease the skin even when the body struggles.", "When my father passed away, I suffered from atopic dermatitis myself. Every doctor offered a steroid cream; none solved the problem at its root. I went to study cosmetic acupuncture — which cleared my atopic skin completely."],
+        "quote": null
+      },
+      {
+        "overline": "Body & Mind",
+        "heading": "One equation",
+        "body": ["From the need to support clients who open their hearts to me, I trained as an NLP coach, giving my clients powerful tools for the road ahead. I deeply believe body and mind are one equation — when we feel good within, it shows on our skin.", "And of course, I cannot rest. I went on to study chemistry, with a dream of developing a skincare brand that creates real change — true intra-cellular work that lets every client look in the mirror and enjoy healthy, radiant skin."],
+        "quote": "Body and mind are one equation. When we feel good within — it shows on the skin."
+      },
+      {
+        "overline": "Today",
+        "heading": "A clinic, a team, an academy",
+        "body": ["Today I run a clinic in Rishon LeZion with an amazing team, and teach courses that train cosmeticians to be the next messengers of this profession."],
+        "quote": null
+      }
+    ],
+    "philosophyTitle": "How we work",
+    "philosophy": [
+      { "heading": "Diagnosis first", "text": "Every treatment journey begins with a deep, professional skin diagnosis. We never treat before we understand exactly what your skin needs." },
+      { "heading": "A personal plan", "text": "Your protocol is built individually — active ingredients, advanced technology and a home routine, matched to your skin and the result you seek." },
+      { "heading": "The H.D.R method", "text": "Inbar's signature method addresses several skin pathologies in parallel — answering anti-aging concerns by solving multiple skin issues at once." },
+      { "heading": "Advanced technology", "text": "The clinic works with the field's most advanced equipment — RF, HIFU, microneedling, phototherapy and more — and never stops updating." },
+      { "heading": "True accompaniment", "text": "Treatment is a process. We accompany you between appointments, with a tailored home routine and answers to every question." },
+      { "heading": "No compromises", "text": "Only faces, only what works, only what is right for your skin. Quality and professionalism without compromise." }
+    ],
+    "videosLead": "Watch Inbar explain the treatments that matter for healthier skin."
+  },
+  "videos": [
+    { "file": "inbar-pigmentation.mp4", "poster": "video-still-01", "he": "פיגמנטציה", "en": "Pigmentation" },
+    { "file": "inbar-skin-treatments.mp4", "poster": "video-still-02", "he": "טיפולים בעור", "en": "Skin Treatments" },
+    { "file": "inbar-anti-aging.mp4", "poster": "video-still-03", "he": "אנטי אייג׳ינג", "en": "Anti-Aging" },
+    { "file": "inbar-dr-skin.mp4", "poster": "video-still-04", "he": "טיפול ד״ר סקין", "en": "Dr. Skin Treatment" }
+  ]
+}

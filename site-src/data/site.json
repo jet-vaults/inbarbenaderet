@@ -1,0 +1,41 @@
+{
+  "brand": {
+    "he": { "name": "ענבר בן אדרת", "tagline": "אסתטיקה מתקדמת", "clinic": "INBAR Clinic" },
+    "en": { "name": "Inbar Ben Aderet", "tagline": "Advanced Aesthetics", "clinic": "INBAR Clinic" }
+  },
+  "domain": "https://inbarbenaderet.com",
+  "contact": {
+    "_comment": "VERIFY BEFORE LAUNCH — the old site mixes two numbers, see CONTENT_REVIEW.md",
+    "phoneDisplay": "050-9797653",
+    "phoneE164": "+972509797653",
+    "whatsappE164": "972509797653",
+    "whatsappGreeting": { "he": "היי ענבר, אשמח לקבל פרטים", "en": "Hi Inbar, I'd love to hear more" },
+    "email": "inbarbenaderet@gmail.com",
+    "address": {
+      "he": { "street": "ישראל גלילי 7", "city": "ראשון לציון" },
+      "en": { "street": "7 Israel Galili St.", "city": "Rishon LeZion" }
+    },
+    "mapsUrl": "https://maps.google.com/?q=%D7%99%D7%A9%D7%A8%D7%90%D7%9C+%D7%92%D7%9C%D7%99%D7%9C%D7%99+7+%D7%A8%D7%90%D7%A9%D7%95%D7%9F+%D7%9C%D7%A6%D7%99%D7%95%D7%9F",
+    "hours": {
+      "he": [ { "days": "א׳–ה׳", "time": "10:00–19:30" }, { "days": "ו׳", "time": "8:30–13:00" }, { "days": "שבת", "time": "סגור" } ],
+      "en": [ { "days": "Sun–Thu", "time": "10:00–19:30" }, { "days": "Fri", "time": "8:30–13:00" }, { "days": "Sat", "time": "Closed" } ]
+    }
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/inbar_benaderet",
+    "facebook": "https://www.facebook.com/inbarcosmetic"
+  },
+  "facts": {
+    "_comment": "Real, verifiable claims only — old site counters were broken (showed 0). Verify wording with client.",
+    "he": [
+      { "value": "2000", "label": "עוסקת בקוסמטיקה מאז" },
+      { "value": "20+", "label": "שנות ניסיון בטיפולי פנים" },
+      { "value": "15", "label": "סוגי טיפולים מתקדמים" }
+    ],
+    "en": [
+      { "value": "2000", "label": "Practicing since" },
+      { "value": "20+", "label": "Years of facial expertise" },
+      { "value": "15", "label": "Advanced treatment types" }
+    ]
+  }
+}
