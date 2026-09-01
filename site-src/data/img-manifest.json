@@ -306,8 +306,8 @@
 "logo-full-dark": {
 "variants": [
 {
-"w": 900,
-"h": 438,
+"w": 1400,
+"h": 892,
 "file": "logo-full-dark.webp"
 }
 ]
@@ -315,8 +315,8 @@
 "logo-full-light": {
 "variants": [
 {
-"w": 900,
-"h": 438,
+"w": 1400,
+"h": 892,
 "file": "logo-full-light.webp"
 }
 ]
@@ -324,8 +324,8 @@
 "logo-mark-dark": {
 "variants": [
 {
-"w": 900,
-"h": 306,
+"w": 1200,
+"h": 106,
 "file": "logo-mark-dark.webp"
 }
 ]
@@ -333,9 +333,168 @@
 "logo-mark-light": {
 "variants": [
 {
-"w": 900,
-"h": 306,
+"w": 1200,
+"h": 106,
 "file": "logo-mark-light.webp"
+}
+]
+},
+"monogram-dark": {
+"variants": [
+{
+"w": 378,
+"h": 491,
+"file": "monogram-dark.webp"
+}
+]
+},
+"monogram-light": {
+"variants": [
+{
+"w": 378,
+"h": 491,
+"file": "monogram-light.webp"
+}
+]
+},
+"placeholder-01": {
+"variants": [
+{
+"w": 600,
+"h": 400,
+"file": "placeholder-01-600.webp"
+},
+{
+"w": 1200,
+"h": 800,
+"file": "placeholder-01-1200.webp"
+},
+{
+"w": 2400,
+"h": 1600,
+"file": "placeholder-01-2400.webp"
+}
+]
+},
+"placeholder-02": {
+"variants": [
+{
+"w": 600,
+"h": 400,
+"file": "placeholder-02-600.webp"
+},
+{
+"w": 1200,
+"h": 800,
+"file": "placeholder-02-1200.webp"
+},
+{
+"w": 2400,
+"h": 1600,
+"file": "placeholder-02-2400.webp"
+}
+]
+},
+"placeholder-03": {
+"variants": [
+{
+"w": 600,
+"h": 400,
+"file": "placeholder-03-600.webp"
+},
+{
+"w": 1200,
+"h": 800,
+"file": "placeholder-03-1200.webp"
+},
+{
+"w": 2400,
+"h": 1600,
+"file": "placeholder-03-2400.webp"
+}
+]
+},
+"placeholder-04": {
+"variants": [
+{
+"w": 600,
+"h": 400,
+"file": "placeholder-04-600.webp"
+},
+{
+"w": 1200,
+"h": 800,
+"file": "placeholder-04-1200.webp"
+},
+{
+"w": 2400,
+"h": 1600,
+"file": "placeholder-04-2400.webp"
+}
+]
+},
+"placeholder-05": {
+"variants": [
+{
+"w": 600,
+"h": 400,
+"file": "placeholder-05-600.webp"
+},
+{
+"w": 1200,
+"h": 800,
+"file": "placeholder-05-1200.webp"
+},
+{
+"w": 2400,
+"h": 1600,
+"file": "placeholder-05-2400.webp"
+}
+]
+},
+"placeholder-06": {
+"variants": [
+{
+"w": 600,
+"h": 400,
+"file": "placeholder-06-600.webp"
+},
+{
+"w": 1200,
+"h": 800,
+"file": "placeholder-06-1200.webp"
+},
+{
+"w": 2400,
+"h": 1600,
+"file": "placeholder-06-2400.webp"
+}
+]
+},
+"product-cream": {
+"variants": [
+{
+"w": 800,
+"h": 1000,
+"file": "product-cream.webp"
+}
+]
+},
+"product-mask": {
+"variants": [
+{
+"w": 800,
+"h": 1000,
+"file": "product-mask.webp"
+}
+]
+},
+"product-serum": {
+"variants": [
+{
+"w": 800,
+"h": 1000,
+"file": "product-serum.webp"
 }
 ]
 },

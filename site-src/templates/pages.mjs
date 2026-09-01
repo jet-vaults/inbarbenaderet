@@ -97,7 +97,7 @@ export function home(ctx) {
           <a class="btn" href="/${lang}/treatments/">${esc(t(ui.actions.exploreTreatments))}</a>
         </div>
       </div>
-      <div class="hero3__banner reveal-mask figure figure--banner">${img('stock-hydration-01', { alt: isHe ? 'טיפול פנים בקליניקה' : 'A facial treatment at the clinic', sizes: '(max-width:1280px) 100vw, 1280px', loading: 'eager', fetchpriority: 'high' })}</div>
+      <div class="hero3__banner reveal-mask figure figure--banner">${img('placeholder-05', { alt: '', sizes: '(max-width:1280px) 100vw, 1280px', loading: 'eager', fetchpriority: 'high' })}</div>
       <div class="hero3__facts">
         ${facts.map(f => `<div><strong class="num">${esc(f.value)}</strong><span>${esc(f.label)}</span></div>`).join('')}
       </div>
@@ -107,8 +107,7 @@ export function home(ctx) {
   <section class="section">
     <div class="container">
       <div class="ed-row reveal">
-        <div class="ed-row__media"><div class="figure figure--45 reveal-mask">${img('clinic-treatment-02', { alt: isHe ? 'טיפול פנים בקליניקה' : 'Facial treatment at the clinic', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
-        <p class="figure__caption">${isHe ? 'מתוך חדר הטיפולים' : 'Inside the treatment room'}</p></div>
+        <div class="ed-row__media"><div class="figure figure--45 reveal-mask">${img('placeholder-02', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div></div>
         <div class="ed-row__body">
           <span class="t-overline">${esc(t(ui.sections.philosophy))}</span>
           <h2 class="t-h2">${esc(introTitle)}</h2>
@@ -149,7 +148,7 @@ export function home(ctx) {
           </div>
         </div>
         <div class="contact-grid__aside reveal">
-          <div class="figure figure--34 reveal-mask">${img('clinic-treatment-03', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
+          <div class="figure figure--34 reveal-mask">${img('placeholder-03', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
         </div>
       </div>
     </div>
@@ -204,7 +203,7 @@ export function home(ctx) {
           </div>
         </div>
         <div class="contact-grid__aside reveal">
-          <div class="figure figure--34 reveal-mask">${img('academy-04', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
+          <div class="figure figure--34 reveal-mask">${img('placeholder-01', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
           <p class="figure__caption">${isHe ? 'INBAR Clinic · ישראל גלילי 7, ראשון לציון' : 'INBAR Clinic · 7 Israel Galili St., Rishon LeZion'}</p>
         </div>
       </div>
@@ -215,7 +214,7 @@ export function home(ctx) {
     navKey: 'home', body,
     title: isHe ? 'ענבר בן אדרת · Skin Science — טיפולי פנים בראשון לציון' : 'Inbar Ben Aderet · Skin Science — Facial Treatments, Rishon LeZion',
     description: t(ui.schemaDescription),
-    preload: `<link rel="preload" as="image" href="/assets/img/stock-hydration-01-1600.webp" imagesrcset="/assets/img/stock-hydration-01-480.webp 480w, /assets/img/stock-hydration-01-960.webp 960w, /assets/img/stock-hydration-01-1600.webp 1600w" imagesizes="(max-width:1280px) 100vw, 1280px">`,
+    preload: `<link rel="preload" as="image" href="/assets/img/placeholder-05-1200.webp" imagesrcset="/assets/img/placeholder-05-600.webp 600w, /assets/img/placeholder-05-1200.webp 1200w, /assets/img/placeholder-05-2400.webp 2400w" imagesizes="(max-width:1280px) 100vw, 1280px">`,
   };
 }
 
@@ -224,8 +223,6 @@ export function clinicPage(ctx) {
   const { lang, dir, ui, esc, t, img, clinic, testimonials } = ctx;
   const isHe = lang === 'he';
   const L = t(clinic);
-  const chapterImgs = ['inbar-portrait-01', 'clinic-treatment-02', 'treatment-acupuncture-01', 'inbar-portrait-03', 'academy-02'];
-
   const body = `
   <section class="page-hero">
     <div class="container">
@@ -235,19 +232,16 @@ export function clinicPage(ctx) {
       <p class="t-lead page-hero__lead" style="max-width:38em">${esc(L.heroLead)}</p>
     </div>
   </section>
-  <div class="container reveal"><div class="figure figure--169 reveal-mask">${img('clinic-treatment-01', { alt: '', sizes: '(max-width:1280px) 100vw, 1280px', loading: 'eager' })}</div></div>
+  <div class="container reveal"><div class="figure figure--169 reveal-mask">${img('placeholder-05', { alt: '', sizes: '(max-width:1280px) 100vw, 1280px', loading: 'eager' })}</div></div>
 
-  <section class="section">
-    <div class="container" style="display:grid;gap:var(--space-6)">
-      ${L.chapters.map((ch, i) => `<div class="ed-row ${i % 2 ? 'ed-row--flip' : ''} reveal">
-        <div class="ed-row__media"><div class="figure figure--45 reveal-mask">${img(chapterImgs[i % chapterImgs.length], { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div></div>
-        <div class="ed-row__body">
-          <span class="t-overline">${esc(ch.overline)}</span>
-          <h2 class="t-h2">${esc(ch.heading)}</h2>
-          ${ch.body.map(p => `<p class="t-muted" style="margin-top:1rem">${esc(p)}</p>`).join('')}
-          ${ch.quote ? `<blockquote class="pull-quote">${esc(ch.quote)}</blockquote>` : ''}
-        </div>
-      </div>`).join('\n')}
+  <section class="section--tight" style="padding-block:var(--space-6)">
+    <div class="container--narrow container">
+      ${L.chapters.map((ch, i) => `<section class="chapter reveal">
+        <span class="t-overline">${esc(ch.overline)}</span>
+        <h2 class="t-h2" style="margin-top:.8rem">${esc(ch.heading)}</h2>
+        ${ch.body.map(pp => `<p class="t-muted" style="margin-top:1.1rem">${esc(pp)}</p>`).join('')}
+        ${ch.quote ? `<blockquote class="pull-quote">${esc(ch.quote)}</blockquote>` : ''}
+      </section>`).join('')}
     </div>
   </section>
 
@@ -641,17 +635,13 @@ export function academyPage(ctx) {
       <p class="t-lead page-hero__lead" style="max-width:38em">${esc(L.intro || '')}</p>
     </div>
   </section>
-  <div class="container reveal"><div class="figure figure--169 reveal-mask">${img('academy-04', { alt: '', sizes: '(max-width:1280px) 100vw, 1280px', loading: 'eager' })}</div></div>
+  <div class="container reveal"><div class="figure figure--169 reveal-mask">${img('placeholder-06', { alt: '', sizes: '(max-width:1280px) 100vw, 1280px', loading: 'eager' })}</div></div>
   <section class="section--tight">
     <div class="container--narrow container prose">
       ${(L.sections || []).map(s => `<section class="reveal"><h2>${esc(s.heading)}</h2>${blocks(s.body)}</section>`).join('\n')}
     </div>
   </section>
-  <section class="section">
-    <div class="container card-grid stagger">
-      ${['academy-01', 'academy-03', 'academy-05'].map(n => `<div class="figure figure--34 reveal-mask">${img(n, { alt: isHe ? 'קורס מקצועי בקליניקה' : 'Professional course at the clinic', sizes: '(max-width:900px) 100vw, 33vw', loading: 'lazy' })}</div>`).join('\n')}
-    </div>
-  </section>
+  
   ${ctaBand(ctx, { title: isHe ? 'מתעניינת בקורס הבא? דברי איתנו.' : 'Interested in the next course? Talk to us.' })}`;
   return {
     navKey: 'academy', body,
@@ -693,7 +683,7 @@ export function contactPage(ctx) {
           </dl>
         </div>
         <div class="contact-grid__aside reveal">
-          <div class="figure figure--34 reveal-mask">${img('clinic-treatment-02', { alt: isHe ? 'הקליניקה' : 'The clinic', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
+          <div class="figure figure--34 reveal-mask">${img('placeholder-02', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
           <p class="figure__caption">INBAR Clinic · ${esc(addr.street)}, ${esc(addr.city)}</p>
         </div>
       </div>

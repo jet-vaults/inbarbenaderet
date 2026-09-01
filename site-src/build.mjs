@@ -26,27 +26,23 @@ const ORDER = ['anti-aging', 'post-acne', 'acne', 'pigmentation', 'facial-treatm
   'laser-hair-removal', 'mesotherapy', 'hifu', 'hydration', 'cosmetic-acupuncture',
   'rf-treatment', 'phototherapy', 'oxygeneo', 'chemical-peel'];
 const IMAGE_MAP = {
-  'anti-aging': 'stock-hair-removal-01', 'post-acne': 'treatment-mesotherapy-02',
-  'acne': 'stock-phototherapy-01', 'pigmentation': 'ba-pigmentation-02',
-  'facial-treatment': 'treatment-facial-01', 'laser-hair-removal': 'clinic-room-01',
-  'mesotherapy': 'treatment-mesotherapy-01', 'hifu': 'stock-hifu-01',
-  'hydration': 'stock-hydration-01', 'cosmetic-acupuncture': 'treatment-acupuncture-01',
-  'rf-treatment': 'treatment-rf-01', 'phototherapy': 'stock-phototherapy-01',
-  'oxygeneo': 'stock-oxygeneo-01', 'chemical-peel': 'stock-chemical-peel-01',
+  'anti-aging': 'placeholder-01', 'post-acne': 'placeholder-02',
+  'acne': 'placeholder-06', 'pigmentation': 'placeholder-02',
+  'facial-treatment': 'placeholder-01', 'laser-hair-removal': 'placeholder-03',
+  'mesotherapy': 'placeholder-06', 'hifu': 'placeholder-03',
+  'hydration': 'placeholder-01', 'cosmetic-acupuncture': 'placeholder-02',
+  'rf-treatment': 'placeholder-03', 'phototherapy': 'placeholder-06',
+  'oxygeneo': 'placeholder-01', 'chemical-peel': 'placeholder-02',
 };
-const BA_MAP = {
-  'acne': ['ba-acne-01', 'ba-acne-02'],
-  'post-acne': ['ba-post-acne-01', 'ba-post-acne-02'],
-  'pigmentation': ['ba-pigmentation-01', 'ba-pigmentation-02'],
-};
+const BA_MAP = {}; // before/after photos withheld pending client consent (CONTENT_REVIEW)
 
 const treatments = loadDir('data/treatments')
   .sort((a, b) => ORDER.indexOf(a.slug) - ORDER.indexOf(b.slug))
-  .map((t, i) => ({ ...t, num: String(i + 1).padStart(2, '0') + '.', image: IMAGE_MAP[t.slug] || 'clinic-treatment-02', ba: BA_MAP[t.slug] || [] }));
+  .map((t, i) => ({ ...t, num: String(i + 1).padStart(2, '0') + '.', image: IMAGE_MAP[t.slug] || 'placeholder-01', ba: BA_MAP[t.slug] || [] }));
 
 const articles = loadDir('data/articles').map(a => {
   const rel = treatments.find(t => t.slug === (a.relatedTreatment || a.slug));
-  return { ...a, image: rel ? rel.image : 'clinic-treatment-02', concern: rel && rel.concerns ? rel.concerns[0] : null };
+  return { ...a, image: rel ? rel.image : 'placeholder-01', concern: rel && rel.concerns ? rel.concerns[0] : null };
 }).sort((a, b) => ORDER.indexOf(a.slug) - ORDER.indexOf(b.slug));
 
 const products = loadDir('data/products').sort((a, b) => a.index.localeCompare(b.index));
