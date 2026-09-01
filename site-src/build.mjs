@@ -26,23 +26,30 @@ const ORDER = ['anti-aging', 'post-acne', 'acne', 'pigmentation', 'facial-treatm
   'laser-hair-removal', 'mesotherapy', 'hifu', 'hydration', 'cosmetic-acupuncture',
   'rf-treatment', 'phototherapy', 'oxygeneo', 'chemical-peel'];
 const IMAGE_MAP = {
-  'anti-aging': 'placeholder-01', 'post-acne': 'placeholder-02',
-  'acne': 'placeholder-06', 'pigmentation': 'placeholder-02',
-  'facial-treatment': 'placeholder-01', 'laser-hair-removal': 'placeholder-03',
-  'mesotherapy': 'placeholder-06', 'hifu': 'placeholder-03',
-  'hydration': 'placeholder-01', 'cosmetic-acupuncture': 'placeholder-02',
-  'rf-treatment': 'placeholder-03', 'phototherapy': 'placeholder-06',
-  'oxygeneo': 'placeholder-01', 'chemical-peel': 'placeholder-02',
+  'anti-aging': 'placeholder-02',
+  'post-acne': 'placeholder-02',
+  'acne': 'placeholder-02',
+  'pigmentation': 'placeholder-02',
+  'facial-treatment': 'placeholder-02',
+  'laser-hair-removal': 'placeholder-02',
+  'mesotherapy': 'placeholder-02',
+  'hifu': 'placeholder-02',
+  'hydration': 'placeholder-02',
+  'cosmetic-acupuncture': 'placeholder-02',
+  'rf-treatment': 'placeholder-02',
+  'phototherapy': 'placeholder-02',
+  'oxygeneo': 'placeholder-02',
+  'chemical-peel': 'placeholder-02',
 };
 const BA_MAP = {}; // before/after photos withheld pending client consent (CONTENT_REVIEW)
 
 const treatments = loadDir('data/treatments')
   .sort((a, b) => ORDER.indexOf(a.slug) - ORDER.indexOf(b.slug))
-  .map((t, i) => ({ ...t, num: String(i + 1).padStart(2, '0') + '.', image: IMAGE_MAP[t.slug] || 'placeholder-01', ba: BA_MAP[t.slug] || [] }));
+  .map((t, i) => ({ ...t, num: String(i + 1).padStart(2, '0') + '.', image: IMAGE_MAP[t.slug] || 'placeholder-02', ba: BA_MAP[t.slug] || [] }));
 
 const articles = loadDir('data/articles').map(a => {
   const rel = treatments.find(t => t.slug === (a.relatedTreatment || a.slug));
-  return { ...a, image: rel ? rel.image : 'placeholder-01', concern: rel && rel.concerns ? rel.concerns[0] : null };
+  return { ...a, image: rel ? rel.image : 'placeholder-02', concern: rel && rel.concerns ? rel.concerns[0] : null };
 }).sort((a, b) => ORDER.indexOf(a.slug) - ORDER.indexOf(b.slug));
 
 const products = loadDir('data/products').sort((a, b) => a.index.localeCompare(b.index));

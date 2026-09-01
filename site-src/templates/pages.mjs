@@ -150,7 +150,7 @@ export function home(ctx) {
           </div>
         </div>
         <div class="contact-grid__aside reveal">
-          <div class="figure figure--34 reveal-mask">${img('placeholder-03', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
+          <div class="figure figure--34 reveal-mask">${img('placeholder-02', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
         </div>
       </div>
     </div>
@@ -205,7 +205,7 @@ export function home(ctx) {
           </div>
         </div>
         <div class="contact-grid__aside reveal">
-          <div class="figure figure--34 reveal-mask">${img('placeholder-01', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
+          <div class="figure figure--34 reveal-mask">${img('placeholder-02', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
           <p class="figure__caption">${isHe ? 'INBAR Clinic · ישראל גלילי 7, ראשון לציון' : 'INBAR Clinic · 7 Israel Galili St., Rishon LeZion'}</p>
         </div>
       </div>
@@ -636,7 +636,7 @@ export function academyPage(ctx) {
       <p class="t-lead page-hero__lead" style="max-width:38em">${esc(L.intro || '')}</p>
     </div>
   </section>
-  <div class="container reveal"><div class="figure figure--169 reveal-mask">${img('placeholder-06', { alt: '', sizes: '(max-width:1280px) 100vw, 1280px', loading: 'eager' })}</div></div>
+  <div class="container reveal"><div class="figure figure--169 reveal-mask">${img('placeholder-05', { alt: '', sizes: '(max-width:1280px) 100vw, 1280px', loading: 'eager' })}</div></div>
   <section class="section--tight">
     <div class="container--narrow container prose">
       ${(L.sections || []).map(s => `<section class="reveal"><h2>${esc(s.heading)}</h2>${blocks(s.body)}</section>`).join('\n')}
