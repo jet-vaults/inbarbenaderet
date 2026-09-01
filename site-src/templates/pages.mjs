@@ -86,19 +86,21 @@ export function home(ctx) {
     : 'A clinic for advanced beauty and aesthetic treatment for more than twenty years. A wide range of advanced facial treatments — with the most advanced equipment and Inbar’s signature H.D.R method, answering the concerns of anti-aging.';
 
   const body = `
-  <section class="hero3">
-    <div class="container">
-      <div class="hero3__head">
+  <section class="hero4">
+    <div class="container hero4__main">
+      <div class="hero4__body">
         <span class="t-overline t-overline--bare">${esc(brand.tagline)} · ${isHe ? 'ראשון לציון' : 'Rishon LeZion'}</span>
-        <h1 class="t-display hero3__title">${heroTitle}</h1>
-        <p class="hero3__info">${esc(heroInfo)}</p>
-        <div class="hero3__ctas">
-          <a class="btn btn--solid" href="/${lang}/contact/">${esc(t(ui.actions.book))}</a>
-          <a class="btn" href="/${lang}/treatments/">${esc(t(ui.actions.exploreTreatments))}</a>
+        <h1 class="t-display hero4__title">${heroTitle}</h1>
+        <p class="hero4__info">${esc(heroInfo)}</p>
+        <div class="hero4__ctas">
+          <a class="btn btn--light" href="/${lang}/contact/">${esc(t(ui.actions.book))}</a>
+          <a class="btn btn--inverse" href="/${lang}/treatments/">${esc(t(ui.actions.exploreTreatments))}</a>
         </div>
       </div>
-      <div class="hero3__banner reveal-mask figure figure--banner">${img('placeholder-05', { alt: '', sizes: '(max-width:1280px) 100vw, 1280px', loading: 'eager', fetchpriority: 'high' })}</div>
-      <div class="hero3__facts">
+      <div class="hero4__mark" aria-hidden="true"><img src="/assets/img/monogram-light.webp" alt="" width="378" height="491" loading="eager"></div>
+    </div>
+    <div class="container">
+      <div class="hero4__facts">
         ${facts.map(f => `<div><strong class="num">${esc(f.value)}</strong><span>${esc(f.label)}</span></div>`).join('')}
       </div>
     </div>
@@ -211,10 +213,9 @@ export function home(ctx) {
   </section>`;
 
   return {
-    navKey: 'home', body,
+    navKey: 'home', darkHero: true, body,
     title: isHe ? 'ענבר בן אדרת · Skin Science — טיפולי פנים בראשון לציון' : 'Inbar Ben Aderet · Skin Science — Facial Treatments, Rishon LeZion',
     description: t(ui.schemaDescription),
-    preload: `<link rel="preload" as="image" href="/assets/img/placeholder-05-1200.webp" imagesrcset="/assets/img/placeholder-05-600.webp 600w, /assets/img/placeholder-05-1200.webp 1200w, /assets/img/placeholder-05-2400.webp 2400w" imagesizes="(max-width:1280px) 100vw, 1280px">`,
   };
 }
 
