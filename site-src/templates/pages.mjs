@@ -226,17 +226,23 @@ export function clinicPage(ctx) {
   const isHe = lang === 'he';
   const L = t(clinic);
   const body = `
-  <section class="page-hero">
+  <section class="page-hero" style="padding-bottom:0">
     <div class="container">
       ${crumbs(ctx, [[t(ui.nav.clinic)]])}
-      <span class="t-overline mt-3" style="margin-top:2rem;display:inline-flex">${esc(L.heroOverline)}</span>
-      <h1 class="t-h1">${esc(L.heroTitle)}</h1>
-      <p class="t-lead page-hero__lead" style="max-width:38em">${esc(L.heroLead)}</p>
     </div>
   </section>
-  <div class="container reveal" style="max-width:940px">
-    <div class="figure figure--natural figure--framed reveal-mask">${img('inbar-clinic-portrait', { alt: isHe ? 'ענבר בן אדרת בקליניקה' : 'Inbar Ben Aderet at the clinic', sizes: '(max-width:940px) 100vw, 940px', loading: 'eager' })}</div>
-    <p class="figure__caption" style="justify-content:center">${isHe ? 'ענבר בן אדרת - מייסדת הקליניקה' : 'Inbar Ben Aderet - founder of the clinic'}</p>
+  <div class="container">
+    <div class="clinic-hero">
+      <div class="clinic-hero__text reveal">
+        <span class="t-overline">${esc(L.heroOverline)}</span>
+        <h1 class="t-h1">${esc(L.heroTitle)}</h1>
+        <p class="t-lead clinic-hero__lead">${esc(L.heroLead)}</p>
+        <p class="clinic-hero__sig"><strong>${isHe ? 'ענבר בן אדרת' : 'Inbar Ben Aderet'}</strong><span>${isHe ? 'מייסדת הקליניקה' : 'Founder of the clinic'}</span></p>
+      </div>
+      <div class="clinic-hero__media">
+        <div class="figure figure--45 figure--framed reveal-mask">${img('inbar-clinic-portrait', { alt: isHe ? 'ענבר בן אדרת בקליניקה' : 'Inbar Ben Aderet at the clinic', sizes: '(max-width:900px) 90vw, 40vw', loading: 'eager', fetchpriority: 'high' })}</div>
+      </div>
+    </div>
   </div>
 
   <section class="section--tight" style="padding-block:var(--space-6)">

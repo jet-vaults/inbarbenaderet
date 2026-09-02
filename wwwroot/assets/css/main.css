@@ -494,6 +494,29 @@ a:hover > .figure img, a:focus-visible > .figure img { transform: scale(1.035); 
 .figure--framed img { outline: 1px solid var(--brand-border); outline-offset: -1px; }
 .figure--natural { aspect-ratio: auto; }
 
+/* classic profile hero (clinic page): portrait beside title, byline signature */
+.clinic-hero {
+  display: grid; grid-template-columns: repeat(12, 1fr);
+  gap: clamp(1.5rem, 4vw, 4.5rem); align-items: center;
+  padding-block: clamp(1.5rem, 4vh, 3rem) var(--space-6);
+}
+.clinic-hero__text { grid-column: 1 / span 6; }
+.clinic-hero__media { grid-column: 8 / span 5; }
+.clinic-hero__text .t-h1 { margin-top: 1rem; }
+.clinic-hero__lead { margin-top: 1.3rem; max-width: 34em; }
+.clinic-hero__sig {
+  margin-top: 2.2rem; padding-top: 1.4rem;
+  border-top: 1px solid var(--brand-border);
+  display: flex; align-items: baseline; gap: .7rem;
+}
+.clinic-hero__sig strong { font-weight: 600; color: var(--brand-secondary); font-size: 1.05rem; }
+.clinic-hero__sig span { color: var(--brand-muted); font-size: .92rem; }
+@media (max-width: 900px) {
+  .clinic-hero { grid-template-columns: 1fr; }
+  .clinic-hero__text { grid-column: 1 / -1; order: 2; }
+  .clinic-hero__media { grid-column: 1 / -1; order: 1; max-width: 440px; margin-inline: auto; }
+}
+
 /* linear story chapters (clinic page) */
 .chapter + .chapter { margin-top: 3.2rem; padding-top: 3.2rem; border-top: 1px solid var(--brand-border); }
 
