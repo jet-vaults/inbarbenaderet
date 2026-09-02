@@ -36,17 +36,17 @@
   --brand-primary: #332B24;
   --brand-secondary: #40372E;
   --brand-ink: #29231D;
-  --brand-accent: #8B8378;
-  --brand-accent-deep: #6B6156;
-  --brand-accent-light: #CDC5B9;
+  --brand-accent: #96887B;
+  --brand-accent-deep: #76685C;
+  --brand-accent-light: #D6CABF;
   --brand-background: #FFF6F5;
-  --brand-surface: #EDE9E0;
-  --brand-surface-green: #E8E4D9;
+  --brand-surface: #F5EEE8;
+  --brand-surface-green: #F0E7E0;
   --brand-text: #332B24;
-  --brand-muted: #6E665C;
-  --brand-border: #DDD7CB;
+  --brand-muted: #776A60;
+  --brand-border: #E7DCD3;
   --brand-inverse: #FFF6F5;
-  --brand-inverse-muted: #B3AB9F;
+  --brand-inverse-muted: #C1B3A8;
 
   --font-display: 'Marcellus', 'Times New Roman', serif;
   --font-caps: 'Jost', 'Futura', 'Century Gothic', sans-serif;
