@@ -97,7 +97,7 @@ export function home(ctx) {
           <a class="btn btn--inverse" href="/${lang}/treatments/">${esc(t(ui.actions.exploreTreatments))}</a>
         </div>
       </div>
-      <div class="hero4__mark" aria-hidden="true"><img src="/assets/img/monogram-light.webp" alt="" width="378" height="491" loading="eager"></div>
+      <div class="hero4__mark" aria-hidden="true"><img src="/assets/img/logo-full-light.webp" alt="" width="900" height="1281" loading="eager"></div>
     </div>
     <div class="container">
       <div class="hero4__facts">

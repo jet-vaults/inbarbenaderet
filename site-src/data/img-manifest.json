@@ -306,8 +306,8 @@
 "logo-full-dark": {
 "variants": [
 {
-"w": 1400,
-"h": 892,
+"w": 900,
+"h": 1281,
 "file": "logo-full-dark.webp"
 }
 ]
@@ -315,8 +315,8 @@
 "logo-full-light": {
 "variants": [
 {
-"w": 1400,
-"h": 892,
+"w": 900,
+"h": 1281,
 "file": "logo-full-light.webp"
 }
 ]
@@ -325,7 +325,7 @@
 "variants": [
 {
 "w": 1200,
-"h": 106,
+"h": 335,
 "file": "logo-mark-dark.webp"
 }
 ]
@@ -334,7 +334,7 @@
 "variants": [
 {
 "w": 1200,
-"h": 106,
+"h": 335,
 "file": "logo-mark-light.webp"
 }
 ]

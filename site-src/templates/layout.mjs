@@ -64,8 +64,8 @@ export function layout(ctx, page) {
   <header class="site-header ${headerMode}">
     <div class="container">
       <a class="site-header__logo" href="/${lang}/" aria-label="${esc(t(site.brand).name)}">
-        <img class="logo-dark" src="/assets/img/logo-mark-dark.webp" alt="${esc(t(site.brand).name)} — ${esc(t(site.brand).tagline)}" width="1200" height="106">
-        <img class="logo-light" src="/assets/img/logo-mark-light.webp" alt="${esc(t(site.brand).name)} — ${esc(t(site.brand).tagline)}" width="1200" height="106">
+        <img class="logo-dark" src="/assets/img/logo-mark-dark.webp" alt="${esc(t(site.brand).name)} — ${esc(t(site.brand).tagline)}" width="1200" height="335">
+        <img class="logo-light" src="/assets/img/logo-mark-light.webp" alt="${esc(t(site.brand).name)} — ${esc(t(site.brand).tagline)}" width="1200" height="335">
       </a>
       <nav class="site-nav" aria-label="${isHe ? 'ניווט ראשי' : 'Main navigation'}">
         ${navItems.map(navLink).join('\n        ')}
@@ -112,7 +112,7 @@ function footer(ctx, page) {
     <div class="container">
       <div class="site-footer__grid">
         <div class="site-footer__brand">
-          <a href="/${lang}/"><img src="/assets/img/logo-full-light.webp" alt="${esc(brand.name)} — ${esc(brand.tagline)}" width="1400" height="892" loading="lazy" style="height:150px;width:auto"></a>
+          <a href="/${lang}/"><img src="/assets/img/logo-full-light.webp" alt="${esc(brand.name)}" width="900" height="1281" loading="lazy" style="height:190px;width:auto"></a>
           <p>${esc(t(ui.schemaDescription))}</p>
         </div>
         <div>
