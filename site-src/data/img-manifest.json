@@ -271,6 +271,25 @@
 }
 ]
 },
+"inbar-clinic-portrait": {
+"variants": [
+{
+"w": 480,
+"h": 320,
+"file": "inbar-clinic-portrait-480.webp"
+},
+{
+"w": 960,
+"h": 640,
+"file": "inbar-clinic-portrait-960.webp"
+},
+{
+"w": 1600,
+"h": 1067,
+"file": "inbar-clinic-portrait-1600.webp"
+}
+]
+},
 "inbar-portrait-01": {
 "variants": [
 {
@@ -325,7 +344,7 @@
 "variants": [
 {
 "w": 1200,
-"h": 335,
+"h": 106,
 "file": "logo-mark-dark.webp"
 }
 ]
@@ -334,7 +353,7 @@
 "variants": [
 {
 "w": 1200,
-"h": 335,
+"h": 106,
 "file": "logo-mark-light.webp"
 }
 ]

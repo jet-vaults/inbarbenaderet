@@ -109,7 +109,8 @@ export function home(ctx) {
   <section class="section">
     <div class="container">
       <div class="ed-row reveal">
-        <div class="ed-row__media"><div class="figure figure--45 reveal-mask">${img('placeholder-02', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div></div>
+        <div class="ed-row__media"><div class="figure figure--45 figure--framed reveal-mask">${img('inbar-clinic-portrait', { alt: isHe ? 'ענבר בן אדרת בקליניקה' : 'Inbar Ben Aderet at the clinic', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
+        <p class="figure__caption">${isHe ? 'ענבר בן אדרת - מייסדת הקליניקה' : 'Inbar Ben Aderet - founder'}</p></div>
         <div class="ed-row__body">
           <span class="t-overline">${esc(t(ui.sections.philosophy))}</span>
           <h2 class="t-h2">${esc(introTitle)}</h2>
@@ -233,7 +234,10 @@ export function clinicPage(ctx) {
       <p class="t-lead page-hero__lead" style="max-width:38em">${esc(L.heroLead)}</p>
     </div>
   </section>
-  <div class="container reveal"><div class="figure figure--169 reveal-mask">${img('placeholder-05', { alt: '', sizes: '(max-width:1280px) 100vw, 1280px', loading: 'eager' })}</div></div>
+  <div class="container reveal" style="max-width:940px">
+    <div class="figure figure--natural figure--framed reveal-mask">${img('inbar-clinic-portrait', { alt: isHe ? 'ענבר בן אדרת בקליניקה' : 'Inbar Ben Aderet at the clinic', sizes: '(max-width:940px) 100vw, 940px', loading: 'eager' })}</div>
+    <p class="figure__caption" style="justify-content:center">${isHe ? 'ענבר בן אדרת - מייסדת הקליניקה' : 'Inbar Ben Aderet - founder of the clinic'}</p>
+  </div>
 
   <section class="section--tight" style="padding-block:var(--space-6)">
     <div class="container--narrow container">
