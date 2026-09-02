@@ -64,8 +64,8 @@ export function layout(ctx, page) {
   <header class="site-header ${headerMode}">
     <div class="container">
       <a class="site-header__logo" href="/${lang}/" aria-label="${esc(t(site.brand).name)}">
-        <img class="logo-dark" src="/assets/img/logo-mark-dark.webp" alt="${esc(t(site.brand).name)} — ${esc(t(site.brand).tagline)}" width="1200" height="106">
-        <img class="logo-light" src="/assets/img/logo-mark-light.webp" alt="${esc(t(site.brand).name)} — ${esc(t(site.brand).tagline)}" width="1200" height="106">
+        <img class="logo-dark" src="/assets/img/logo-mark-dark.webp" alt="${esc(t(site.brand).name)} - ${esc(t(site.brand).tagline)}" width="1200" height="106">
+        <img class="logo-light" src="/assets/img/logo-mark-light.webp" alt="${esc(t(site.brand).name)} - ${esc(t(site.brand).tagline)}" width="1200" height="106">
       </a>
       <nav class="site-nav" aria-label="${isHe ? 'ניווט ראשי' : 'Main navigation'}">
         ${navItems.map(navLink).join('\n        ')}
