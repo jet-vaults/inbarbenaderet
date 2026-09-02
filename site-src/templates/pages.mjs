@@ -109,8 +109,7 @@ export function home(ctx) {
   <section class="section">
     <div class="container">
       <div class="ed-row reveal">
-        <div class="ed-row__media"><div class="figure figure--45 figure--framed reveal-mask">${img('inbar-clinic-portrait', { alt: isHe ? 'ענבר בן אדרת בקליניקה' : 'Inbar Ben Aderet at the clinic', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div>
-        <p class="figure__caption">${isHe ? 'ענבר בן אדרת - מייסדת הקליניקה' : 'Inbar Ben Aderet - founder'}</p></div>
+        <div class="ed-row__media"><div class="figure figure--45 reveal-mask">${img('placeholder-02', { alt: '', sizes: '(max-width:900px) 100vw, 50vw', loading: 'lazy' })}</div></div>
         <div class="ed-row__body">
           <span class="t-overline">${esc(t(ui.sections.philosophy))}</span>
           <h2 class="t-h2">${esc(introTitle)}</h2>
