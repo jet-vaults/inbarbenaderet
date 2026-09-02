@@ -5,16 +5,16 @@
   "concerns": ["aging"],
   "he": {
     "title": "טיפול RF",
-    "metaDescription": "טיפול גלי רדיו (RF) בקליניקת עינבר בן אדרת – חימום מבוקר בעומק העור לייצור קולגן ואלסטין, מיצוק והידוק העור ללא הזרקות וללא זמן החלמה.",
+    "metaDescription": "טיפול גלי רדיו (RF) בקליניקת עינבר בן אדרת - חימום מבוקר בעומק העור לייצור קולגן ואלסטין, מיצוק והידוק העור ללא הזרקות וללא זמן החלמה.",
     "teaser": "מפחדים מהזרקות? טיפול לייצור קולגן ואלסטין, המחזיר לעור חיות, נפח, מיצוק והידוק העור.",
-    "intro": "טיפול פורץ דרך בתחום הקוסמטיקה: מכשיר ה-RF גורם לשינוי בעומק התא ומעניק מיצוק, הידוק וחידוש לעור – ללא הזרקות וללא ניתוח.",
+    "intro": "טיפול פורץ דרך בתחום הקוסמטיקה: מכשיר ה-RF גורם לשינוי בעומק התא ומעניק מיצוק, הידוק וחידוש לעור - ללא הזרקות וללא ניתוח.",
     "sections": [
       {
         "heading": "כל מה שרצית לדעת על טיפול גלי רדיו לפנים",
         "body": [
-          {"type": "p", "text": "מכשיר ה-RF מבוסס על טכנולוגיית גלי רדיו – גלים של אנרגיה חשמלית בתדירויות ואורכי גל שונים, היוצרים חימום כתוצאה מהתנגדות של רקמת העור. הרקמה אינה מושפעת מפיגמנט, ולכן להשפעה עומק רב יותר. החימום בשכבות העור העמוקות מגיע עד לסיבי הקולגן והאלסטין, יוצר מצב של פציעה מיקרוסקופית – ומיד מתחיל ייצור סיבים חדשים. התוצאה: מתיחה של אזור הטיפול."},
-          {"type": "p", "text": "מכיוון שהפציעות הן ברמה מיקרוסקופית, העור מתמלא באלסטין ובקולגן במהירות, וניתן לראות הבדל משמעותי בטיפולים מועטים בלבד – בלי כאבי ההחלמה של ניתוח מתיחת פנים."},
-          {"type": "p", "text": "מרבית המכשירים החדישים מבוססי טכנולוגיה אנרגטית – הרס מבוקר של העור על מנת שיתחדש, בהתבסס על מנגנוני ההגנה הטבעיים של עורנו. המכשירים מגיעים לכמה רמות עומק בעור באמצעות ויסות של המטפלת, ומעוררים את האלסטין והקולגן – האחראים על גמישות העור והמראה החלק – לרפא את הפציעה המיקרוסקופית. תוך כדי תהליך הריפוי העור מחדש את מלאי החלבונים, והתוצאה היא מראה עור מתוח וצעיר בהרבה."}
+          {"type": "p", "text": "מכשיר ה-RF מבוסס על טכנולוגיית גלי רדיו - גלים של אנרגיה חשמלית בתדירויות ואורכי גל שונים, היוצרים חימום כתוצאה מהתנגדות של רקמת העור. הרקמה אינה מושפעת מפיגמנט, ולכן להשפעה עומק רב יותר. החימום בשכבות העור העמוקות מגיע עד לסיבי הקולגן והאלסטין, יוצר מצב של פציעה מיקרוסקופית - ומיד מתחיל ייצור סיבים חדשים. התוצאה: מתיחה של אזור הטיפול."},
+          {"type": "p", "text": "מכיוון שהפציעות הן ברמה מיקרוסקופית, העור מתמלא באלסטין ובקולגן במהירות, וניתן לראות הבדל משמעותי בטיפולים מועטים בלבד - בלי כאבי ההחלמה של ניתוח מתיחת פנים."},
+          {"type": "p", "text": "מרבית המכשירים החדישים מבוססי טכנולוגיה אנרגטית - הרס מבוקר של העור על מנת שיתחדש, בהתבסס על מנגנוני ההגנה הטבעיים של עורנו. המכשירים מגיעים לכמה רמות עומק בעור באמצעות ויסות של המטפלת, ומעוררים את האלסטין והקולגן - האחראים על גמישות העור והמראה החלק - לרפא את הפציעה המיקרוסקופית. תוך כדי תהליך הריפוי העור מחדש את מלאי החלבונים, והתוצאה היא מראה עור מתוח וצעיר בהרבה."}
         ]
       },
       {
@@ -44,28 +44,28 @@
       },
       {
         "q": "האם יש תופעות לוואי?",
-        "a": "הטיפול נעים מאוד וללא תופעות לוואי – ייתכן אודם קל שנעלם מהר מאוד."
+        "a": "הטיפול נעים מאוד וללא תופעות לוואי - ייתכן אודם קל שנעלם מהר מאוד."
       }
     ]
   },
   "en": {
     "title": "RF Treatment",
-    "metaDescription": "Radiofrequency (RF) treatment at the Inbar Ben Aderet clinic – controlled deep-skin warming that drives collagen and elastin production, firming and tightening without injections or downtime.",
+    "metaDescription": "Radiofrequency (RF) treatment at the Inbar Ben Aderet clinic - controlled deep-skin warming that drives collagen and elastin production, firming and tightening without injections or downtime.",
     "teaser": "Wary of injections? A treatment that builds collagen and elastin, restoring vitality, volume, firmness and tone to the skin.",
-    "intro": "A breakthrough in aesthetics: the RF device creates change deep within the cell, delivering firming, tightening and renewal – without injections or surgery.",
+    "intro": "A breakthrough in aesthetics: the RF device creates change deep within the cell, delivering firming, tightening and renewal - without injections or surgery.",
     "sections": [
       {
         "heading": "Everything you wanted to know about facial radiofrequency",
         "body": [
-          {"type": "p", "text": "The RF device is built on radiofrequency technology – waves of electrical energy at varying frequencies and wavelengths that generate warmth through the resistance of the skin tissue. Because the tissue response is unaffected by pigment, the effect reaches considerably deeper. The warmth in the skin's deepest layers reaches the collagen and elastin fibres, creating a microscopic injury – and new fibre production begins at once. The result is a lifting of the treated area."},
-          {"type": "p", "text": "Since the injuries are microscopic, the skin replenishes its elastin and collagen quickly, and a meaningful difference is visible within only a few sessions – without the painful recovery of a surgical facelift."},
-          {"type": "p", "text": "Most modern devices are energy-based – controlled disruption of the skin so it renews itself, drawing on the skin's own natural defence mechanisms. The devices reach several depth levels, regulated by the practitioner, and prompt the elastin and collagen – responsible for the skin's suppleness and smoothness – to heal the microscopic injury. As the skin heals, it rebuilds its protein reserves, and the result is visibly tauter, younger-looking skin."}
+          {"type": "p", "text": "The RF device is built on radiofrequency technology - waves of electrical energy at varying frequencies and wavelengths that generate warmth through the resistance of the skin tissue. Because the tissue response is unaffected by pigment, the effect reaches considerably deeper. The warmth in the skin's deepest layers reaches the collagen and elastin fibres, creating a microscopic injury - and new fibre production begins at once. The result is a lifting of the treated area."},
+          {"type": "p", "text": "Since the injuries are microscopic, the skin replenishes its elastin and collagen quickly, and a meaningful difference is visible within only a few sessions - without the painful recovery of a surgical facelift."},
+          {"type": "p", "text": "Most modern devices are energy-based - controlled disruption of the skin so it renews itself, drawing on the skin's own natural defence mechanisms. The devices reach several depth levels, regulated by the practitioner, and prompt the elastin and collagen - responsible for the skin's suppleness and smoothness - to heal the microscopic injury. As the skin heals, it rebuilds its protein reserves, and the result is visibly tauter, younger-looking skin."}
         ]
       },
       {
         "heading": "Who is it for?",
         "body": [
-          {"type": "p", "text": "It is recommended to begin treatments in the late thirties to preserve the skin's suppleness and vitality – and one can equally arrive in their seventies for a deep process of renewal, improvement and preservation."}
+          {"type": "p", "text": "It is recommended to begin treatments in the late thirties to preserve the skin's suppleness and vitality - and one can equally arrive in their seventies for a deep process of renewal, improvement and preservation."}
         ]
       },
       {
@@ -85,11 +85,11 @@
     "faq": [
       {
         "q": "When should I start RF treatments?",
-        "a": "From the late thirties, to preserve the skin's suppleness and vitality – and it remains worthwhile into one's seventies for deep renewal and preservation."
+        "a": "From the late thirties, to preserve the skin's suppleness and vitality - and it remains worthwhile into one's seventies for deep renewal and preservation."
       },
       {
         "q": "Are there side effects?",
-        "a": "The treatment is very pleasant and free of side effects – possibly mild redness that fades very quickly."
+        "a": "The treatment is very pleasant and free of side effects - possibly mild redness that fades very quickly."
       }
     ]
   },
@@ -99,9 +99,9 @@
     "https://inbarbenaderet.com/wp-content/uploads/2022/07/RF-4-1170x585-1-1.png"
   ],
   "flags": [
-    "'החליף את סכין המנתחים לטובת מכשיר מהפכני' (replaced the surgeon's scalpel) – replaces-surgery claim, softened to 'breakthrough... without injections or surgery'; needs client sign-off.",
-    "'ללא תופעות לוואי' (no side effects) is an absolute safety claim, immediately contradicted by 'ייתכן אודם' – preserved as in source but flagged.",
-    "Overlap: the /anti-aging/ landing page markets essentially the same RF treatment under the anti-aging banner – decide with client whether RF gets its own page, is folded into anti-aging, or both with cross-links.",
+    "'החליף את סכין המנתחים לטובת מכשיר מהפכני' (replaced the surgeon's scalpel) - replaces-surgery claim, softened to 'breakthrough... without injections or surgery'; needs client sign-off.",
+    "'ללא תופעות לוואי' (no side effects) is an absolute safety claim, immediately contradicted by 'ייתכן אודם' - preserved as in source but flagged.",
+    "Overlap: the /anti-aging/ landing page markets essentially the same RF treatment under the anti-aging banner - decide with client whether RF gets its own page, is folded into anti-aging, or both with cross-links.",
     "No pricing on the RF page itself; the index anti-aging section prices RF-technology sessions at 550-1300 ILS depending on technology."
   ]
 }

@@ -1,6 +1,6 @@
 {
   "demo": true,
-  "_notice": "DEMO / PLACEHOLDER CONTENT — not a real product. Structure prepared for the future Inbar Ben Aderet collection. Not associated with any previous product line.",
+  "_notice": "DEMO / PLACEHOLDER CONTENT - not a real product. Structure prepared for the future Inbar Ben Aderet collection. Not associated with any previous product line.",
   "slug": "radiance-renewal-serum",
   "index": "01",
   "category": "serum",
@@ -19,7 +19,7 @@
     "benefits": ["הבהרה והאחדת גוון העור", "תמיכה בחידוש תאי", "מראה זוהר וקורן"],
     "usage": "בהשקה יפורסמו הוראות שימוש מלאות.",
     "ingredients": "הרכב סופי יפורסם בהשקה.",
-    "seoTitle": "סרום Radiance Renewal — בקרוב | ענבר בן אדרת",
+    "seoTitle": "סרום Radiance Renewal - בקרוב | ענבר בן אדרת",
     "seoDescription": "הצצה ראשונה לקולקציית הטיפוח העתידית של ענבר בן אדרת. בקרוב."
   },
   "en": {
@@ -30,7 +30,7 @@
     "benefits": ["Brightens and evens skin tone", "Supports cellular renewal", "A radiant, luminous finish"],
     "usage": "Full usage directions will be published at launch.",
     "ingredients": "Final formulation to be announced at launch.",
-    "seoTitle": "Radiance Renewal Serum — Coming Soon | Inbar Ben Aderet",
+    "seoTitle": "Radiance Renewal Serum - Coming Soon | Inbar Ben Aderet",
     "seoDescription": "A first look at the future Inbar Ben Aderet skincare collection. Coming soon."
   }
 }

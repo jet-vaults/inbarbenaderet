@@ -18,11 +18,11 @@
       },
       {
         "type": "p",
-        "text": "נא להתעורר: החורף חלף הלך לו, ולנו אין ברירה אלא לחזור ולהשתעבד לפולחן הגזיזה — רגע לפני שאת גונבת לחבר שלך את ג'ל הגילוח והסכין."
+        "text": "נא להתעורר: החורף חלף הלך לו, ולנו אין ברירה אלא לחזור ולהשתעבד לפולחן הגזיזה - רגע לפני שאת גונבת לחבר שלך את ג'ל הגילוח והסכין."
       },
       {
         "type": "p",
-        "text": "מי שמאסה בכאב המריטה, בזיפי הגילוח ובבלגן של הקרם, יכולה לבחור בין כמה אופציות מתחום האסתטיקה הרפואית. הכירו את הלייזר, האינפרא והאפילציה — שלוש טכניקות הפועלות להרס פרמננטי, כלומר קבוע, של שורש השערה. אף אחת מהשיטות אינה יכולה להבטיח הסרה של מאה אחוז, ושינויים הורמונליים עשויים לגרום לתחייה מחודשת של שורשי שיער שכבר מתו — אך אלו השיטות שמשיגות את התוצאות הטובות ביותר."
+        "text": "מי שמאסה בכאב המריטה, בזיפי הגילוח ובבלגן של הקרם, יכולה לבחור בין כמה אופציות מתחום האסתטיקה הרפואית. הכירו את הלייזר, האינפרא והאפילציה - שלוש טכניקות הפועלות להרס פרמננטי, כלומר קבוע, של שורש השערה. אף אחת מהשיטות אינה יכולה להבטיח הסרה של מאה אחוז, ושינויים הורמונליים עשויים לגרום לתחייה מחודשת של שורשי שיער שכבר מתו - אך אלו השיטות שמשיגות את התוצאות הטובות ביותר."
       },
       {
         "type": "h2",
@@ -61,11 +61,11 @@
       },
       {
         "type": "p",
-        "text": "Winter is over, and with it returns the familiar ritual of shaving — right before you borrow your partner's razor and shaving gel one more time."
+        "text": "Winter is over, and with it returns the familiar ritual of shaving - right before you borrow your partner's razor and shaving gel one more time."
       },
       {
         "type": "p",
-        "text": "If you have had enough of painful plucking, stubble, and messy creams, medical aesthetics offers several alternatives: laser, infrared light, and electrolysis — three techniques that work by permanently disabling the hair root. None of them can promise one hundred percent removal, and hormonal changes can occasionally reactivate follicles that were already dormant — yet these methods deliver the best results available today."
+        "text": "If you have had enough of painful plucking, stubble, and messy creams, medical aesthetics offers several alternatives: laser, infrared light, and electrolysis - three techniques that work by permanently disabling the hair root. None of them can promise one hundred percent removal, and hormonal changes can occasionally reactivate follicles that were already dormant - yet these methods deliver the best results available today."
       },
       {
         "type": "h2",
@@ -93,9 +93,9 @@
     "https://inbarbenaderet.com/wp-content/uploads/2022/07/הסרת-שיער.jpg"
   ],
   "flags": [
-    "Marketing claims: 'permanent hair removal', 'pain-free', 'amazing results from the first treatment' — the article itself later concedes no method guarantees 100% removal; softened to 'long-term' in EN, consider softening in HE too.",
-    "Source typo: vitiligo listed twice in the contraindications ('ויטלגו, סוכרת, ויטליגו') — deduplicated.",
-    "Technology description conflates DPC with 'IPL laser' ('מכשיר העובד בשיטת DPC המשלב בתוכו לייזר IPL') — DPC and IPL are pulsed-light technologies, not laser; worth verifying the actual device with the client.",
+    "Marketing claims: 'permanent hair removal', 'pain-free', 'amazing results from the first treatment' - the article itself later concedes no method guarantees 100% removal; softened to 'long-term' in EN, consider softening in HE too.",
+    "Source typo: vitiligo listed twice in the contraindications ('ויטלגו, סוכרת, ויטליגו') - deduplicated.",
+    "Technology description conflates DPC with 'IPL laser' ('מכשיר העובד בשיטת DPC המשלב בתוכו לייזר IPL') - DPC and IPL are pulsed-light technologies, not laser; worth verifying the actual device with the client.",
     "Site bug confirmed: the articles index shows the acne excerpt under hair-removal; actual article content used here."
   ]
 }

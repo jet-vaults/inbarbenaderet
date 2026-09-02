@@ -5,7 +5,7 @@
   "relatedTreatment": "facial-treatment",
   "he": {
     "title": "טיפול פנים",
-    "metaDescription": "טיפול פנים המחייה את העור ומתאים לכולם: אבחון מקיף, פילינג מותאם, עיסוי מקצועי, ניקוי קומדונים ומסכה לפי סוג העור — עם החומרים האיכותיים בשוק.",
+    "metaDescription": "טיפול פנים המחייה את העור ומתאים לכולם: אבחון מקיף, פילינג מותאם, עיסוי מקצועי, ניקוי קומדונים ומסכה לפי סוג העור - עם החומרים האיכותיים בשוק.",
     "excerpt": "טיפול פנים המחייה את העור ומתאים לכל אחד ואחת: אבחון מקיף, פילינג מותאם אישית, עיסוי מקצועי, ניקוי קומדונים במידת הצורך ומסכה לפי סוג העור.",
     "body": [
       {
@@ -18,7 +18,7 @@
       },
       {
         "type": "p",
-        "text": "לכולם — ילדים ומבוגרים, נשים וגברים."
+        "text": "לכולם - ילדים ומבוגרים, נשים וגברים."
       },
       {
         "type": "h2",
@@ -48,7 +48,7 @@
     "body": [
       {
         "type": "p",
-        "text": "The facial is a treatment that revitalises the skin — and it does not depend on having any particular skin concern."
+        "text": "The facial is a treatment that revitalises the skin - and it does not depend on having any particular skin concern."
       },
       {
         "type": "h2",
@@ -56,7 +56,7 @@
       },
       {
         "type": "p",
-        "text": "Everyone — children and adults, women and men alike."
+        "text": "Everyone - children and adults, women and men alike."
       },
       {
         "type": "h2",
@@ -75,7 +75,7 @@
       },
       {
         "type": "p",
-        "text": "Beyond being an indulgent experience, the facial contributes meaningfully to the skin's appearance — performed with some of the finest products available in professional skincare."
+        "text": "Beyond being an indulgent experience, the facial contributes meaningfully to the skin's appearance - performed with some of the finest products available in professional skincare."
       }
     ]
   },
@@ -86,7 +86,7 @@
     "https://inbarbenaderet.com/wp-content/uploads/2022/07/face-2-scaled-470x627-1.jpg"
   ],
   "flags": [
-    "Factual oddity: source claims the massage releases 'הורמון אינקופלין' ('the hormone incofelin') — no such hormone exists (possibly a garbling of endorphin or oxytocin); the claim was omitted from the cleaned copy. Verify intended term with the client.",
-    "Superlative claim: 'the highest-quality products on the cosmetics market' — softened slightly in EN ('some of the finest')."
+    "Factual oddity: source claims the massage releases 'הורמון אינקופלין' ('the hormone incofelin') - no such hormone exists (possibly a garbling of endorphin or oxytocin); the claim was omitted from the cleaned copy. Verify intended term with the client.",
+    "Superlative claim: 'the highest-quality products on the cosmetics market' - softened slightly in EN ('some of the finest')."
   ]
 }

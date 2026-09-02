@@ -2,14 +2,14 @@
   "oldUrl": "https://inbarbenaderet.com/טופס-אבחון-לקוח/",
   "slug": "diagnosis-form",
   "type": "page",
-  "audience": "client-facing multi-step skin-diagnosis intake form ('אבחון העור – INBAR Professional Cosmetic Center')",
+  "audience": "client-facing multi-step skin-diagnosis intake form ('אבחון העור - INBAR Professional Cosmetic Center')",
   "he": {
     "title": "טופס אבחון לקוח",
-    "metaDescription": "טופס אבחון עור מקוון של קליניקת עינבר בן אדרת – פרטים אישיים, בריאות ותרופות, רגישויות, מצב העור והצהרה, לקראת התאמת הטיפול המדויק עבורך.",
+    "metaDescription": "טופס אבחון עור מקוון של קליניקת עינבר בן אדרת - פרטים אישיים, בריאות ותרופות, רגישויות, מצב העור והצהרה, לקראת התאמת הטיפול המדויק עבורך.",
     "intro": "טופס אבחון עור רב-שלבי (עם מד התקדמות), הנשלח לפני הטיפול ומשמש להתאמת הטיפול המדויק למצב הבריאותי ולמצב העור.",
     "sections": [
       {
-        "heading": "שלב 1 – פרטים אישיים",
+        "heading": "שלב 1 - פרטים אישיים",
         "body": [
           {"type": "ul", "items": [
             "שם פרטי",
@@ -22,18 +22,18 @@
         ]
       },
       {
-        "heading": "שלב 2 – בריאות ותרופות",
+        "heading": "שלב 2 - בריאות ותרופות",
         "body": [
           {"type": "ul", "items": [
             "מחלות רקע (בחירה מרובה): אין / סכרת / לחץ דם / בלוטת התריס / מחלה אוטואימונית / הרפס / אפילפסיה / אחר",
             "פירוט מחלות / מידע נוסף",
-            "האם השתמשת ברואקוטן? (לא/כן) – אם כן, מתי?",
+            "האם השתמשת ברואקוטן? (לא/כן) - אם כן, מתי?",
             "תרופות קבועות"
           ]}
         ]
       },
       {
-        "heading": "שלב 3 – רגישויות ואלרגיות",
+        "heading": "שלב 3 - רגישויות ואלרגיות",
         "body": [
           {"type": "ul", "items": [
             "האם יש לך אלרגיות? (בחירה מרובה): אין אלרגיות / קוסמטיקה / מתכות / חומרי אלחוש / תרופות / אחר",
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "heading": "שלב 4 – העור שלך",
+        "heading": "שלב 4 - העור שלך",
         "body": [
           {"type": "ul", "items": [
             "סוג העור: שמן / יבש / מעורב / נורמלי",
@@ -55,7 +55,7 @@
         ]
       },
       {
-        "heading": "שלב 5 – נשים בלבד (מידע הורמונלי)",
+        "heading": "שלב 5 - נשים בלבד (מידע הורמונלי)",
         "body": [
           {"type": "ul", "items": [
             "האם את בהריון? (לא/כן)",
@@ -66,7 +66,7 @@
         ]
       },
       {
-        "heading": "שלב 6 – הצהרה וחתימה",
+        "heading": "שלב 6 - הצהרה וחתימה",
         "body": [
           {"type": "p", "text": "בחתימתי להלן אני מאשר/ת כי כל המידע הנ\"ל הינו אמת. ידוע לי כי בחירת הטיפול הטוב ביותר עבורי מתבססת על אמיתות הנתונים שמסרתי. הוסבר לי כי יכול להיווצר מצב בו אפתח אלרגיה לאחד או יותר ממרכיבי החומרים. הוסבר לי כי המטפלת מתאימה את הטיפול על פי המידע שמסרתי."},
           {"type": "ul", "items": [
@@ -87,11 +87,11 @@
   },
   "en": {
     "title": "Client Diagnosis Form",
-    "metaDescription": "The Inbar Ben Aderet clinic's online skin-diagnosis form – personal details, health and medication, sensitivities, skin profile and declaration, ahead of tailoring your precise treatment.",
+    "metaDescription": "The Inbar Ben Aderet clinic's online skin-diagnosis form - personal details, health and medication, sensitivities, skin profile and declaration, ahead of tailoring your precise treatment.",
     "intro": "A multi-step skin-diagnosis intake form (with a progress bar), completed before treatment and used to tailor the precise treatment to each client's health profile and skin condition.",
     "sections": [
       {
-        "heading": "Step 1 – Personal details",
+        "heading": "Step 1 - Personal details",
         "body": [
           {"type": "ul", "items": [
             "First name",
@@ -104,18 +104,18 @@
         ]
       },
       {
-        "heading": "Step 2 – Health and medication",
+        "heading": "Step 2 - Health and medication",
         "body": [
           {"type": "ul", "items": [
             "Underlying conditions (multi-select): none / diabetes / blood pressure / thyroid / autoimmune disease / herpes / epilepsy / other",
             "Condition details / additional information",
-            "Have you used Roaccutane? (no/yes) – if yes, when?",
+            "Have you used Roaccutane? (no/yes) - if yes, when?",
             "Regular medications"
           ]}
         ]
       },
       {
-        "heading": "Step 3 – Sensitivities and allergies",
+        "heading": "Step 3 - Sensitivities and allergies",
         "body": [
           {"type": "ul", "items": [
             "Do you have allergies? (multi-select): none / cosmetics / metals / anaesthetics / medications / other",
@@ -126,7 +126,7 @@
         ]
       },
       {
-        "heading": "Step 4 – Your skin",
+        "heading": "Step 4 - Your skin",
         "body": [
           {"type": "ul", "items": [
             "Skin type: oily / dry / combination / normal",
@@ -137,7 +137,7 @@
         ]
       },
       {
-        "heading": "Step 5 – Women only (hormonal information)",
+        "heading": "Step 5 - Women only (hormonal information)",
         "body": [
           {"type": "ul", "items": [
             "Are you pregnant? (no/yes)",
@@ -148,7 +148,7 @@
         ]
       },
       {
-        "heading": "Step 6 – Declaration and signature",
+        "heading": "Step 6 - Declaration and signature",
         "body": [
           {"type": "p", "text": "By signing below I confirm that all the information above is true. I understand that choosing the best treatment for me depends on the accuracy of the details I provided. It has been explained to me that an allergy may develop to one or more ingredients, and that the practitioner tailors the treatment according to the information I provided."},
           {"type": "ul", "items": [
@@ -169,9 +169,9 @@
   },
   "sourceImages": [],
   "flags": [
-    "The form collects health data (medical conditions, medications, pregnancy) – on the new site this must be transmitted/stored securely and ideally kept off public static infrastructure; discuss privacy handling and a privacy notice with the client.",
-    "Marketing-consent checkbox is bundled into the declaration step – keep it optional and unticked by default per spam/privacy norms.",
-    "'חתימה (שם מלא)' is a typed-name signature, not a drawn signature – confirm this satisfies the client's consent needs.",
-    "Branding on the form is 'INBAR Professional Cosmetic Center' – differs from the clinic naming elsewhere ('Inbar Clinic' / קליניקה עינבר בן אדרת); unify branding in redesign."
+    "The form collects health data (medical conditions, medications, pregnancy) - on the new site this must be transmitted/stored securely and ideally kept off public static infrastructure; discuss privacy handling and a privacy notice with the client.",
+    "Marketing-consent checkbox is bundled into the declaration step - keep it optional and unticked by default per spam/privacy norms.",
+    "'חתימה (שם מלא)' is a typed-name signature, not a drawn signature - confirm this satisfies the client's consent needs.",
+    "Branding on the form is 'INBAR Professional Cosmetic Center' - differs from the clinic naming elsewhere ('Inbar Clinic' / קליניקה עינבר בן אדרת); unify branding in redesign."
   ]
 }

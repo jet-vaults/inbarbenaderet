@@ -5,9 +5,9 @@
   "concerns": ["acne"],
   "he": {
     "title": "פוטותרפיה",
-    "metaDescription": "טיפול פוטותרפיה בקליניקת עינבר בן אדרת – טיפול לא פולשני באור באורכי גל שונים לטיפול באקנה ולשיקום העור, כטיפול בודד או כסדרה.",
-    "teaser": "טיפול באור באורכי גל שונים לטיפול באקנה ולשיקום העור – שיטה לא פולשנית הנפוצה גם במרפאות עור מובילות.",
-    "intro": "פוטותרפיה היא שיטת טיפול באקנה ולשיקום העור בעזרת אור באורכי גל שונים – שיטה הנפוצה גם בבתי חולים ובטיפולי מחלות עור במרפאות גדולות בעולם.",
+    "metaDescription": "טיפול פוטותרפיה בקליניקת עינבר בן אדרת - טיפול לא פולשני באור באורכי גל שונים לטיפול באקנה ולשיקום העור, כטיפול בודד או כסדרה.",
+    "teaser": "טיפול באור באורכי גל שונים לטיפול באקנה ולשיקום העור - שיטה לא פולשנית הנפוצה גם במרפאות עור מובילות.",
+    "intro": "פוטותרפיה היא שיטת טיפול באקנה ולשיקום העור בעזרת אור באורכי גל שונים - שיטה הנפוצה גם בבתי חולים ובטיפולי מחלות עור במרפאות גדולות בעולם.",
     "sections": [
       {
         "heading": "מה זו פוטותרפיה?",
@@ -28,9 +28,9 @@
   },
   "en": {
     "title": "Phototherapy",
-    "metaDescription": "Phototherapy at the Inbar Ben Aderet clinic – a non-invasive light treatment at varying wavelengths for acne and skin restoration, as a single session or a series.",
-    "teaser": "Light treatment at varying wavelengths for acne and skin restoration – a non-invasive method also found in leading dermatology clinics.",
-    "intro": "Phototherapy treats acne and restores the skin using light at different wavelengths – a method also practised in hospitals and in dermatology care at major clinics around the world.",
+    "metaDescription": "Phototherapy at the Inbar Ben Aderet clinic - a non-invasive light treatment at varying wavelengths for acne and skin restoration, as a single session or a series.",
+    "teaser": "Light treatment at varying wavelengths for acne and skin restoration - a non-invasive method also found in leading dermatology clinics.",
+    "intro": "Phototherapy treats acne and restores the skin using light at different wavelengths - a method also practised in hospitals and in dermatology care at major clinics around the world.",
     "sections": [
       {
         "heading": "What is phototherapy?",
@@ -46,16 +46,16 @@
         ]
       }
     ],
-    "pricing": "Treatment including cleansing – 520 ILS. Single photo session – 350 ILS. Series of six treatments – 1,500 ILS.",
+    "pricing": "Treatment including cleansing - 520 ILS. Single photo session - 350 ILS. Series of six treatments - 1,500 ILS.",
     "faq": []
   },
   "sourceImages": [
     "https://inbarbenaderet.com/wp-content/uploads/2024/06/led-light-antiaging-mask-facial-skin-care-spa-slow-motion-woman-lies-couch-special-mask-modern-technologies-beauty-health-scaled.jpg"
   ],
   "flags": [
-    "FDA CLAIM: source opens with 'שיטה רפואית מאושרת ע\"י ה-FDA לטיפול באקנה' (an FDA-approved medical method for treating acne) – EXCLUDED from the structured copy pending verification; FDA clearance applies to specific devices, not the method generically, and 'medical method' phrasing is risky for a cosmetic clinic. Requires client/legal review before restoring.",
+    "FDA CLAIM: source opens with 'שיטה רפואית מאושרת ע\"י ה-FDA לטיפול באקנה' (an FDA-approved medical method for treating acne) - EXCLUDED from the structured copy pending verification; FDA clearance applies to specific devices, not the method generically, and 'medical method' phrasing is risky for a cosmetic clinic. Requires client/legal review before restoring.",
     "Source typo 'לשיקון העור' corrected to 'לשיקום העור'.",
-    "Content exists only on the treatments index page – no dedicated page; oldUrl points at the index.",
+    "Content exists only on the treatments index page - no dedicated page; oldUrl points at the index.",
     "Price note: single photo 350 ILS vs series of six at 1,500 ILS (effective 250/session) is internally consistent as a series discount; 'treatment including cleansing' at 520 ILS matches the classic facial price."
   ]
 }

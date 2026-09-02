@@ -5,12 +5,12 @@
   "relatedTreatment": "hifu",
   "he": {
     "title": "הייפו HIFU",
-    "metaDescription": "טיפול HIFU: טכנולוגיית אולטרסאונד ממוקד המגיעה לשכבות העמוקות של העור, ממצקת ומותחת ללא פולשנות — עם אפקט מצטבר שמשתפר לאורך חודשים.",
+    "metaDescription": "טיפול HIFU: טכנולוגיית אולטרסאונד ממוקד המגיעה לשכבות העמוקות של העור, ממצקת ומותחת ללא פולשנות - עם אפקט מצטבר שמשתפר לאורך חודשים.",
     "excerpt": "HIFU הוא טיפול לא פולשני המבוסס על גלי קול ממוקדים, המגיעים לשכבות העמוקות ביותר של העור, פועלים על הטקסטורה שלו ויוצרים אפקט מתיחה מצטבר.",
     "body": [
       {
         "type": "p",
-        "text": "HIFU הוא טיפול מהפכני, יעיל ואפקטיבי, המיועד לריפוי ושיקום העור באמצעות טכנולוגיית אולטרסאונד המטפלת בטקסטורת העור ויוצרת מתיחה. זהו טיפול המגיע לשכבות העמוקות ביותר של העור — מכשיר לא פולשני המתבסס על טכנולוגיית גלי קול עוצמתיים."
+        "text": "HIFU הוא טיפול מהפכני, יעיל ואפקטיבי, המיועד לריפוי ושיקום העור באמצעות טכנולוגיית אולטרסאונד המטפלת בטקסטורת העור ויוצרת מתיחה. זהו טיפול המגיע לשכבות העמוקות ביותר של העור - מכשיר לא פולשני המתבסס על טכנולוגיית גלי קול עוצמתיים."
       },
       {
         "type": "h2",
@@ -34,7 +34,7 @@
       },
       {
         "type": "p",
-        "text": "הטיפול מתאים למתיחת האזורים הנפולים של העור — כגון קו הלסת (\"בולדוג\") בצידי הפה, הצוואר והרמת הפנים."
+        "text": "הטיפול מתאים למתיחת האזורים הנפולים של העור - כגון קו הלסת (\"בולדוג\") בצידי הפה, הצוואר והרמת הפנים."
       },
       {
         "type": "p",
@@ -44,12 +44,12 @@
   },
   "en": {
     "title": "HIFU",
-    "metaDescription": "HIFU: focused ultrasound reaching the skin's deepest layers, firming and lifting non-invasively — a cumulative effect that builds over months.",
+    "metaDescription": "HIFU: focused ultrasound reaching the skin's deepest layers, firming and lifting non-invasively - a cumulative effect that builds over months.",
     "excerpt": "HIFU is a non-invasive treatment based on focused ultrasound waves that reach the skin's deepest layers, refining its texture and creating a cumulative lifting effect.",
     "body": [
       {
         "type": "p",
-        "text": "HIFU is a remarkably effective treatment designed to heal and restore the skin using ultrasound technology that refines skin texture and creates a lifting effect. It reaches the very deepest layers of the skin — a non-invasive device built on powerful, focused sound-wave technology."
+        "text": "HIFU is a remarkably effective treatment designed to heal and restore the skin using ultrasound technology that refines skin texture and creates a lifting effect. It reaches the very deepest layers of the skin - a non-invasive device built on powerful, focused sound-wave technology."
       },
       {
         "type": "h2",
@@ -73,7 +73,7 @@
       },
       {
         "type": "p",
-        "text": "The treatment is suited to lifting areas where the skin has begun to sag — the jowls along the jawline, the neck, and the face as a whole."
+        "text": "The treatment is suited to lifting areas where the skin has begun to sag - the jowls along the jawline, the neck, and the face as a whole."
       },
       {
         "type": "p",
@@ -85,8 +85,8 @@
     "https://inbarbenaderet.com/wp-content/uploads/2024/06/skin-doctor-using-hifu-resurfacing-facial-skincare-treatment-technology-with-adult-male-reduce-wrinkles-scars-anti-aging-clinic-scaled.jpg"
   ],
   "flags": [
-    "Claim of 'immediate facelift' effect ('מתיחת פנים מידית') — strong results claim for a non-surgical treatment.",
-    "Medical contraindication list (facial palsy, heart problems, cancer, diabetes) stated broadly and without nuance — should be verified with a professional source; source typo 'פשיאליס' corrected to 'פציאליס'.",
+    "Claim of 'immediate facelift' effect ('מתיחת פנים מידית') - strong results claim for a non-surgical treatment.",
+    "Medical contraindication list (facial palsy, heart problems, cancer, diabetes) stated broadly and without nuance - should be verified with a professional source; source typo 'פשיאליס' corrected to 'פציאליס'.",
     "'Revolutionary, effective' marketing superlatives kept in HE, slightly tempered in EN."
   ]
 }

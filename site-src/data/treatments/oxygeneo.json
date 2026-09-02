@@ -5,14 +5,14 @@
   "concerns": ["aging", "hydration"],
   "he": {
     "title": "טיפול אוקסיג'נאו",
-    "metaDescription": "טיפול אוקסיג'נאו (OxyGeneo) בקליניקת עינבר בן אדרת – השלת תאים והגברת חמצון תאית, לעידוד קולגן, שיפור קמטוטים ועור קורן ובריא.",
-    "teaser": "טיפול להחדרת חמצן לתאים – השלה, עידוד יצירת תאים חדשים ועור קורן ובריא יותר.",
-    "intro": "טיפול להחדרת חמצן לתאים באמצעות קפסולה ייעודית, המשלב השלת תאים עם הגברת החמצון בתא – לעור קורן, בריא ויפה יותר.",
+    "metaDescription": "טיפול אוקסיג'נאו (OxyGeneo) בקליניקת עינבר בן אדרת - השלת תאים והגברת חמצון תאית, לעידוד קולגן, שיפור קמטוטים ועור קורן ובריא.",
+    "teaser": "טיפול להחדרת חמצן לתאים - השלה, עידוד יצירת תאים חדשים ועור קורן ובריא יותר.",
+    "intro": "טיפול להחדרת חמצן לתאים באמצעות קפסולה ייעודית, המשלב השלת תאים עם הגברת החמצון בתא - לעור קורן, בריא ויפה יותר.",
     "sections": [
       {
         "heading": "איך זה עובד?",
         "body": [
-          {"type": "p", "text": "הטיפול נעשה על ידי קפסולה המכילה נתרן דו-חמצני, מגנזיום וויטמין C. בעזרת ידית ייעודית אנו מבצעים השלת תאים; הפעולה שמתבצעת מהמכשיר היא הגברת החמצן לתא – הגוף מזהה את הפעולה ויוצר חמצון פנימי המועבר לתאים."}
+          {"type": "p", "text": "הטיפול נעשה על ידי קפסולה המכילה נתרן דו-חמצני, מגנזיום וויטמין C. בעזרת ידית ייעודית אנו מבצעים השלת תאים; הפעולה שמתבצעת מהמכשיר היא הגברת החמצן לתא - הגוף מזהה את הפעולה ויוצר חמצון פנימי המועבר לתאים."}
         ]
       },
       {
@@ -32,14 +32,14 @@
   },
   "en": {
     "title": "OxyGeneo",
-    "metaDescription": "OxyGeneo treatment at the Inbar Ben Aderet clinic – exfoliation with enhanced cellular oxygenation, stimulating collagen, softening fine lines and revealing radiant, healthy skin.",
-    "teaser": "An oxygenating treatment – exfoliation, stimulation of new cell formation, and more radiant, healthy skin.",
-    "intro": "A treatment that delivers oxygen to the cells via a dedicated capsule, pairing exfoliation with heightened cellular oxygenation – for more radiant, healthy, beautiful skin.",
+    "metaDescription": "OxyGeneo treatment at the Inbar Ben Aderet clinic - exfoliation with enhanced cellular oxygenation, stimulating collagen, softening fine lines and revealing radiant, healthy skin.",
+    "teaser": "An oxygenating treatment - exfoliation, stimulation of new cell formation, and more radiant, healthy skin.",
+    "intro": "A treatment that delivers oxygen to the cells via a dedicated capsule, pairing exfoliation with heightened cellular oxygenation - for more radiant, healthy, beautiful skin.",
     "sections": [
       {
         "heading": "How it works",
         "body": [
-          {"type": "p", "text": "The treatment uses a capsule containing sodium bicarbonate, magnesium and vitamin C. With a dedicated handpiece we perform gentle exfoliation; the device's action heightens oxygen at the cellular level – the body recognises the stimulus and generates internal oxygenation that is carried to the cells."}
+          {"type": "p", "text": "The treatment uses a capsule containing sodium bicarbonate, magnesium and vitamin C. With a dedicated handpiece we perform gentle exfoliation; the device's action heightens oxygen at the cellular level - the body recognises the stimulus and generates internal oxygenation that is carried to the cells."}
         ]
       },
       {
@@ -61,8 +61,8 @@
     "https://inbarbenaderet.com/wp-content/uploads/2024/06/young-white-woman-getting-acid-organic-retinol-peel-face-skin-with-brush-beauty-clinic-scaled.jpg"
   ],
   "flags": [
-    "Chemistry wording: source says 'נתרן דו חמצני' (literally 'sodium dioxide' – not a real compound); OxyGeneo capsules actually use sodium bicarbonate. EN corrected to sodium bicarbonate; Hebrew kept close to source – have client confirm the correct ingredient name (נתרן ביקרבונט).",
-    "The mechanism claim ('the body detects the action and creates internal oxygen delivered to the cells') is the marketing version of the Bohr effect – acceptable but simplified; flag for client awareness.",
-    "Content exists only on the treatments index page – no dedicated page, no pricing."
+    "Chemistry wording: source says 'נתרן דו חמצני' (literally 'sodium dioxide' - not a real compound); OxyGeneo capsules actually use sodium bicarbonate. EN corrected to sodium bicarbonate; Hebrew kept close to source - have client confirm the correct ingredient name (נתרן ביקרבונט).",
+    "The mechanism claim ('the body detects the action and creates internal oxygen delivered to the cells') is the marketing version of the Bohr effect - acceptable but simplified; flag for client awareness.",
+    "Content exists only on the treatments index page - no dedicated page, no pricing."
   ]
 }

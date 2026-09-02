@@ -1,6 +1,6 @@
 {
   "demo": true,
-  "_notice": "DEMO / PLACEHOLDER CONTENT — not a real product. Structure prepared for the future Inbar Ben Aderet collection. Not associated with any previous product line.",
+  "_notice": "DEMO / PLACEHOLDER CONTENT - not a real product. Structure prepared for the future Inbar Ben Aderet collection. Not associated with any previous product line.",
   "slug": "renewal-treatment-mask",
   "index": "03",
   "category": "mask",
@@ -14,23 +14,23 @@
   "he": {
     "name": "מסכת Renewal Treatment",
     "subtitle": "מסכת טיפוח שבועית",
-    "shortDescription": "טקס שבועי של התחדשות — השלה עדינה, הזנה והחזרת מרקם אחיד לעור.",
+    "shortDescription": "טקס שבועי של התחדשות - השלה עדינה, הזנה והחזרת מרקם אחיד לעור.",
     "longDescription": "ההשלמה הביתית לטיפול בקליניקה: מסכה שמביאה את הדיוק של חדר הטיפולים אל שגרת הטיפוח, ומלווה את העור בין פגישה לפגישה.",
     "benefits": ["השלה עדינה וחידוש מרקם", "הזנה מרוכזת", "מראה חלק ואחיד"],
     "usage": "בהשקה יפורסמו הוראות שימוש מלאות.",
     "ingredients": "הרכב סופי יפורסם בהשקה.",
-    "seoTitle": "מסכת Renewal Treatment — בקרוב | ענבר בן אדרת",
+    "seoTitle": "מסכת Renewal Treatment - בקרוב | ענבר בן אדרת",
     "seoDescription": "מסכת טיפוח עתידית מקולקציית ענבר בן אדרת. בקרוב."
   },
   "en": {
     "name": "Renewal Treatment Mask",
     "subtitle": "The weekly ritual",
-    "shortDescription": "A weekly ritual of renewal — gentle resurfacing, nourishment and refined texture.",
+    "shortDescription": "A weekly ritual of renewal - gentle resurfacing, nourishment and refined texture.",
     "longDescription": "The at-home completion of the clinic treatment: a mask that brings the precision of the treatment room into your routine, accompanying the skin between appointments.",
     "benefits": ["Gentle resurfacing and textural renewal", "Concentrated nourishment", "A smooth, even finish"],
     "usage": "Full usage directions will be published at launch.",
     "ingredients": "Final formulation to be announced at launch.",
-    "seoTitle": "Renewal Treatment Mask — Coming Soon | Inbar Ben Aderet",
+    "seoTitle": "Renewal Treatment Mask - Coming Soon | Inbar Ben Aderet",
     "seoDescription": "A future treatment mask from the Inbar Ben Aderet collection. Coming soon."
   }
 }

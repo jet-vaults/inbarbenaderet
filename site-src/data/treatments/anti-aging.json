@@ -5,9 +5,9 @@
   "concerns": ["aging"],
   "he": {
     "title": "אנטי אייג'ינג",
-    "metaDescription": "טיפולי אנטי אייג'ינג ופרו אייג'ינג בקליניקת עינבר בן אדרת בראשון לציון – מיצוק, מתיחה וזוהר ללא הזרקות, בהתאמה אישית לאחר אבחון עור מקצועי.",
-    "teaser": "אנטי אייג'ינג/פרו אייג'ינג – טיפול המחדש את עור הפנים ותורם למיצוק, מתיחה וזוהר.",
-    "intro": "שיטת טיפול מתקדמת לתוצאות מרביות, בשילוב חומרים פעילים אפקטיביים ומגוון רחב של מכשור ופרוטוקולים ייעודיים – בהתאם לסוג העור ולתוצאה הרצויה.",
+    "metaDescription": "טיפולי אנטי אייג'ינג ופרו אייג'ינג בקליניקת עינבר בן אדרת בראשון לציון - מיצוק, מתיחה וזוהר ללא הזרקות, בהתאמה אישית לאחר אבחון עור מקצועי.",
+    "teaser": "אנטי אייג'ינג/פרו אייג'ינג - טיפול המחדש את עור הפנים ותורם למיצוק, מתיחה וזוהר.",
+    "intro": "שיטת טיפול מתקדמת לתוצאות מרביות, בשילוב חומרים פעילים אפקטיביים ומגוון רחב של מכשור ופרוטוקולים ייעודיים - בהתאם לסוג העור ולתוצאה הרצויה.",
     "sections": [
       {
         "heading": "מה זה טיפול אנטי אייג'ינג?",
@@ -31,31 +31,31 @@
       {
         "heading": "טיפול בגלי רדיו (RF)",
         "body": [
-          {"type": "p", "text": "מטרת הטיפול בגלי רדיו להעניק זוהר, מיצוק ומתיחה בעור. הטיפול נעשה בעזרת מכשיר שפועל בטכנולוגיית RF – טיפול נעים, ללא זמן החלמה וללא פציעה. מרגישים חום מתפזר בפנים; החום גורם לתאים לייצר קולגן, חלבון שאותו אנו מאבדים עם ההתבגרות. בהגעה רצופה לטיפולים מרגישים שינוי בקמטוטים, בנראות, במתיחה – והעור הופך קורן ומתוח."}
+          {"type": "p", "text": "מטרת הטיפול בגלי רדיו להעניק זוהר, מיצוק ומתיחה בעור. הטיפול נעשה בעזרת מכשיר שפועל בטכנולוגיית RF - טיפול נעים, ללא זמן החלמה וללא פציעה. מרגישים חום מתפזר בפנים; החום גורם לתאים לייצר קולגן, חלבון שאותו אנו מאבדים עם ההתבגרות. בהגעה רצופה לטיפולים מרגישים שינוי בקמטוטים, בנראות, במתיחה - והעור הופך קורן ומתוח."}
         ]
       },
       {
         "heading": "למי מתאים הטיפול?",
         "body": [
-          {"type": "p", "text": "לכל מי שרוצה לראות שינוי לטובה בעור ללא צורך בהזרקות – במיוחד למי שסובלת מקמטים, צלקות אקנה, עור רפוי ותחושת חוסר נוחות עם המראה."}
+          {"type": "p", "text": "לכל מי שרוצה לראות שינוי לטובה בעור ללא צורך בהזרקות - במיוחד למי שסובלת מקמטים, צלקות אקנה, עור רפוי ותחושת חוסר נוחות עם המראה."}
         ]
       },
       {
-        "heading": "תהליך הטיפול – למה לצפות",
+        "heading": "תהליך הטיפול - למה לצפות",
         "body": [
           {"type": "p", "text": "בהגעה לקליניקה ממלאים טופס אבחון עור, ובמידה ונמצאת התאמה נכנסים לטיפול. במהלך הטיפול מתבצע ניקוי ראשוני, מספר פילינגים בהתאם לסוג העור, ניקוי קומדונים (שחורים), טיפול במכשור גלי רדיו ולאחריו החדרות של פפטידים וחומרים חיוניים לעור."},
           {"type": "p", "text": "הטיפול נעים ומורגש כחום נעים. לאחר הטיפול תיתכן אדמומיות קלה שיורדת במהלך היום. תוצאות נראות כבר בטיפול הראשון, אך התוצאה הסופית מתקבלת לאחר מספר טיפולים."}
         ]
       }
     ],
-    "pricing": "עלות הטיפול נעה בין 550-1300 ₪ לטיפול תלוי בטכנולוגיה הנבחרת. המלצה – אחת לחודש, בדרך כלל בסדרת טיפולים.",
+    "pricing": "עלות הטיפול נעה בין 550-1300 ₪ לטיפול תלוי בטכנולוגיה הנבחרת. המלצה - אחת לחודש, בדרך כלל בסדרת טיפולים.",
     "faq": []
   },
   "en": {
     "title": "Anti-Aging",
-    "metaDescription": "Anti-aging and pro-aging facial treatments at the Inbar Ben Aderet clinic, Rishon LeZion – firming, lifting and radiance without injections, tailored after a professional skin diagnosis.",
-    "teaser": "Anti-aging / pro-aging – a treatment that renews facial skin, delivering firmness, lift and radiance.",
-    "intro": "An advanced treatment method for maximal results, combining effective active ingredients with a wide range of dedicated devices and protocols – matched to your skin type and desired outcome.",
+    "metaDescription": "Anti-aging and pro-aging facial treatments at the Inbar Ben Aderet clinic, Rishon LeZion - firming, lifting and radiance without injections, tailored after a professional skin diagnosis.",
+    "teaser": "Anti-aging / pro-aging - a treatment that renews facial skin, delivering firmness, lift and radiance.",
+    "intro": "An advanced treatment method for maximal results, combining effective active ingredients with a wide range of dedicated devices and protocols - matched to your skin type and desired outcome.",
     "sections": [
       {
         "heading": "What is anti-aging treatment?",
@@ -79,17 +79,17 @@
       {
         "heading": "Radiofrequency (RF) treatment",
         "body": [
-          {"type": "p", "text": "The RF treatment is designed to deliver radiance, firmness and lift. It is performed with a radiofrequency device – a pleasant treatment with no downtime and no injury. You feel a gentle warmth spreading across the face; that warmth prompts the cells to produce collagen, the protein we gradually lose as we age. With consistent sessions you notice smoother fine lines, a visibly lifted look and skin that becomes taut and luminous."}
+          {"type": "p", "text": "The RF treatment is designed to deliver radiance, firmness and lift. It is performed with a radiofrequency device - a pleasant treatment with no downtime and no injury. You feel a gentle warmth spreading across the face; that warmth prompts the cells to produce collagen, the protein we gradually lose as we age. With consistent sessions you notice smoother fine lines, a visibly lifted look and skin that becomes taut and luminous."}
         ]
       },
       {
         "heading": "Who is it for?",
         "body": [
-          {"type": "p", "text": "For anyone who wants to see real improvement in their skin without injections – especially those troubled by wrinkles, acne scarring, lax skin or simply discomfort with how their skin looks."}
+          {"type": "p", "text": "For anyone who wants to see real improvement in their skin without injections - especially those troubled by wrinkles, acne scarring, lax skin or simply discomfort with how their skin looks."}
         ]
       },
       {
-        "heading": "The treatment experience – what to expect",
+        "heading": "The treatment experience - what to expect",
         "body": [
           {"type": "p", "text": "On arrival you complete a skin-diagnosis form, and once suitability is confirmed the treatment begins: an initial cleanse, several peels matched to your skin type, extraction of comedones, treatment with the RF device, followed by infusion of peptides and skin-essential actives."},
           {"type": "p", "text": "The treatment is pleasant, felt as comfortable warmth. Mild redness may appear afterwards and subsides during the day. Results are visible from the very first session, with the final result building over a course of treatments."}
@@ -110,10 +110,10 @@
     "https://inbarbenaderet.com/wp-content/uploads/2024/02/IMG_0991.jpg"
   ],
   "flags": [
-    "Landing page targets 'age 40+' women specifically ('בת 40 ומעלה') while the index copy says treatment can start at young ages – decide one positioning with the client.",
-    "H.D.R is described as a proprietary method ('פיתחתי שיטה ייחודית') – verify the client wants this claim retained.",
-    "Landing page claims '25 שנות ניסיון' and 'מעל 10,000 לקוחות' – unverifiable marketing claims; also inconsistent with '26 שנים' on the mesotraining page.",
-    "'מילוי נפח הפנים' (facial volume restoration) without injections is a strong efficacy claim – confirm with client.",
-    "The IMG_*.jpg photos on the landing page appear to be before/after client photos – confirm consent/usage rights before reuse."
+    "Landing page targets 'age 40+' women specifically ('בת 40 ומעלה') while the index copy says treatment can start at young ages - decide one positioning with the client.",
+    "H.D.R is described as a proprietary method ('פיתחתי שיטה ייחודית') - verify the client wants this claim retained.",
+    "Landing page claims '25 שנות ניסיון' and 'מעל 10,000 לקוחות' - unverifiable marketing claims; also inconsistent with '26 שנים' on the mesotraining page.",
+    "'מילוי נפח הפנים' (facial volume restoration) without injections is a strong efficacy claim - confirm with client.",
+    "The IMG_*.jpg photos on the landing page appear to be before/after client photos - confirm consent/usage rights before reuse."
   ]
 }

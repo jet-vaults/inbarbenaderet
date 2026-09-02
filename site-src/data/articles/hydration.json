@@ -5,7 +5,7 @@
   "relatedTreatment": "hydration",
   "he": {
     "title": "טיפולי הידרציה",
-    "metaDescription": "טיפול הידרציה לעור מיובש: החדרת חומרים מזינים בעזרת מכשיר אלקטרופורציה, המרווה את העור בלחות לעומק ולאורך זמן — גם אחרי הטיפול.",
+    "metaDescription": "טיפול הידרציה לעור מיובש: החדרת חומרים מזינים בעזרת מכשיר אלקטרופורציה, המרווה את העור בלחות לעומק ולאורך זמן - גם אחרי הטיפול.",
     "excerpt": "טיפול הידרציה מרווה עור מיובש בלחות לאורך זמן: חומרים מזינים מוחדרים לעומק העור באמצעות מכשיר אלקטרופורציה, עד לשכבות התאים העמוקות.",
     "body": [
       {
@@ -18,7 +18,7 @@
       },
       {
         "type": "p",
-        "text": "בעזרת מיקרו-זרם חשמלי אנו יוצרים בעור תעלות זעירות מהאפידרמיס ועד לדרמיס. כל חומר הידרופילי שנחדיר לעור יחלחל כך עד לשכבות התאים העמוקות — כלומר, הטיפול ירווה את העור בלחות לאורך זמן, גם לאחר סיומו."
+        "text": "בעזרת מיקרו-זרם חשמלי אנו יוצרים בעור תעלות זעירות מהאפידרמיס ועד לדרמיס. כל חומר הידרופילי שנחדיר לעור יחלחל כך עד לשכבות התאים העמוקות - כלומר, הטיפול ירווה את העור בלחות לאורך זמן, גם לאחר סיומו."
       },
       {
         "type": "h2",
@@ -50,7 +50,7 @@
       },
       {
         "type": "p",
-        "text": "Using a gentle micro-current, we open microscopic channels in the skin, from the epidermis down to the dermis. Any hydrophilic ingredient applied to the skin can then permeate to the deepest cellular layers — meaning the treatment keeps the skin saturated with moisture long after the session ends."
+        "text": "Using a gentle micro-current, we open microscopic channels in the skin, from the epidermis down to the dermis. Any hydrophilic ingredient applied to the skin can then permeate to the deepest cellular layers - meaning the treatment keeps the skin saturated with moisture long after the session ends."
       },
       {
         "type": "h2",
@@ -71,8 +71,8 @@
     "https://inbarbenaderet.com/wp-content/uploads/2024/06/midsection-young-woman-applying-henna-tattoo-scaled.jpg"
   ],
   "flags": [
-    "Source slug and H1 both misspelled: 'hederation' / 'טיפולי הדרציה' — corrected to הידרציה/hydration.",
-    "Efficacy claims: 'significant improvement' in pigmentation and blemishes attributed to a hydration treatment — broad claims worth reviewing.",
-    "Featured stock image depicts a henna tattoo being applied — unrelated to hydration; recommend replacing in the redesign."
+    "Source slug and H1 both misspelled: 'hederation' / 'טיפולי הדרציה' - corrected to הידרציה/hydration.",
+    "Efficacy claims: 'significant improvement' in pigmentation and blemishes attributed to a hydration treatment - broad claims worth reviewing.",
+    "Featured stock image depicts a henna tattoo being applied - unrelated to hydration; recommend replacing in the redesign."
   ]
 }

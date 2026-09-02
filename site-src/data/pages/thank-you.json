@@ -5,7 +5,7 @@
   "audience": "post-form-submission confirmation page",
   "he": {
     "title": "תודה שיצרת קשר",
-    "metaDescription": "תודה שיצרת קשר עם קליניקת עינבר בן אדרת – נחזור אליך בהקדם.",
+    "metaDescription": "תודה שיצרת קשר עם קליניקת עינבר בן אדרת - נחזור אליך בהקדם.",
     "intro": "עמוד אישור המוצג לאחר שליחת טופס יצירת קשר.",
     "sections": [
       {
@@ -21,7 +21,7 @@
   },
   "en": {
     "title": "Thank You",
-    "metaDescription": "Thank you for contacting the Inbar Ben Aderet clinic – we will be back in touch shortly.",
+    "metaDescription": "Thank you for contacting the Inbar Ben Aderet clinic - we will be back in touch shortly.",
     "intro": "The confirmation page shown after submitting a contact form.",
     "sections": [
       {
@@ -37,7 +37,7 @@
   },
   "sourceImages": [],
   "flags": [
-    "Mixed grammatical gender/number in source ('שיצרת... אתם מוזמנים') – normalize in redesign.",
-    "'נציג מטעמנו' reads corporate for a personal clinic brand – consider 'ניצור איתך קשר בהקדם' / first-person voice in the redesign."
+    "Mixed grammatical gender/number in source ('שיצרת... אתם מוזמנים') - normalize in redesign.",
+    "'נציג מטעמנו' reads corporate for a personal clinic brand - consider 'ניצור איתך קשר בהקדם' / first-person voice in the redesign."
   ]
 }

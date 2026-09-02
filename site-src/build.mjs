@@ -1,4 +1,4 @@
-// Static site generator for inbarbenaderet — Node, no dependencies.
+// Static site generator for inbarbenaderet - Node, no dependencies.
 // Usage: node site-src/build.mjs   (from repo root)
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -98,7 +98,7 @@ function businessLd(lang) {
   const addr = site.contact.address[lang];
   return {
     '@context': 'https://schema.org', '@type': 'BeautySalon',
-    name: lang === 'he' ? 'ענבר בן אדרת — אסתטיקה מתקדמת' : 'Inbar Ben Aderet — Advanced Aesthetics',
+    name: lang === 'he' ? 'ענבר בן אדרת - אסתטיקה מתקדמת' : 'Inbar Ben Aderet - Advanced Aesthetics',
     description: ui.schemaDescription[lang],
     url: `${site.domain}/${lang}/`,
     image: `${site.domain}/assets/img/clinic-treatment-01-1600.webp`,
@@ -150,10 +150,10 @@ function privacyContent(lang) {
   return lang === 'he' ? `
 <p>הפרטיות שלכם חשובה לנו. אתר זה אינו אוסף מידע אישי ללא ידיעתכם. פנייה אלינו בטלפון, בוואטסאפ או בדוא״ל נעשית ביוזמתכם, והפרטים שתמסרו ישמשו אך ורק לצורך מתן מענה וקביעת פגישה.</p>
 <p>האתר אינו עושה שימוש בעוגיות מעקב פרסומיות. ייתכן שימוש בכלי מדידה בסיסיים לניתוח תנועה כללי באתר.</p>
-<p>לכל בקשה בנושא מידע אישי — לרבות עיון, תיקון או מחיקה — ניתן לפנות אלינו בדוא״ל <a href="mailto:${site.contact.email}">${site.contact.email}</a>.</p>` : `
+<p>לכל בקשה בנושא מידע אישי - לרבות עיון, תיקון או מחיקה - ניתן לפנות אלינו בדוא״ל <a href="mailto:${site.contact.email}">${site.contact.email}</a>.</p>` : `
 <p>Your privacy matters to us. This website does not collect personal information without your knowledge. Contacting us by phone, WhatsApp or email is at your initiative, and the details you share are used solely to respond and schedule appointments.</p>
 <p>The site does not use advertising tracking cookies. Basic measurement tools may be used for general traffic analysis.</p>
-<p>For any request regarding personal data — including review, correction or deletion — contact us at <a href="mailto:${site.contact.email}">${site.contact.email}</a>.</p>`;
+<p>For any request regarding personal data - including review, correction or deletion - contact us at <a href="mailto:${site.contact.email}">${site.contact.email}</a>.</p>`;
 }
 
 /* ---------- render ---------- */
@@ -204,7 +204,7 @@ for (const lang of ['he', 'en']) {
     P.simplePage(ctx, { title: ui.misc.thankYouTitle[lang], lead: ui.misc.thankYouText[lang], content: `<p><a class="btn btn--solid" href="/${lang}/">${ui.misc.notFoundCta[lang]}</a></p>` })));
 }
 
-// 404 (Cloudflare Pages serves /404.html) — Hebrew default with EN line
+// 404 (Cloudflare Pages serves /404.html) - Hebrew default with EN line
 {
   const ctx = makeCtx('he');
   const page = P.notFound(ctx);
@@ -214,7 +214,7 @@ for (const lang of ['he', 'en']) {
   count++;
 }
 
-// NOTE: no root index.html — on Cloudflare Pages a static asset would shadow
+// NOTE: no root index.html - on Cloudflare Pages a static asset would shadow
 // the "/ /he/ 301" rule in _redirects (assets win over redirects).
 
 /* ---------- _redirects (Cloudflare Pages) ---------- */

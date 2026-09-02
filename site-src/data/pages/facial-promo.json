@@ -4,9 +4,9 @@
   "type": "page",
   "audience": "client-facing promo landing page for the H.D.R signature treatment",
   "he": {
-    "title": "טיפול H.D.R – מבצע היכרות",
-    "metaDescription": "בלעדי בקליניקת עינבר בן אדרת: טיפול H.D.R – שיטה ייחודית המשלבת לחות, הרס מבוקר ושיקום העור, בהתאמה אישית לאחר אבחון מקצועי.",
-    "intro": "חולמת על עור קורן ובריא – בלי כאב וללא הזרקות? הכירי את טיפול H.D.R: טיפול המשלב טכנולוגיות מתקדמות בהתאמה אישית, ליצירת מראה עור זוהר, מתוח ובריא. בלעדי בקליניקת עינבר בן אדרת.",
+    "title": "טיפול H.D.R - מבצע היכרות",
+    "metaDescription": "בלעדי בקליניקת עינבר בן אדרת: טיפול H.D.R - שיטה ייחודית המשלבת לחות, הרס מבוקר ושיקום העור, בהתאמה אישית לאחר אבחון מקצועי.",
+    "intro": "חולמת על עור קורן ובריא - בלי כאב וללא הזרקות? הכירי את טיפול H.D.R: טיפול המשלב טכנולוגיות מתקדמות בהתאמה אישית, ליצירת מראה עור זוהר, מתוח ובריא. בלעדי בקליניקת עינבר בן אדרת.",
     "sections": [
       {
         "heading": "מהו טיפול H.D.R?",
@@ -60,7 +60,7 @@
       {
         "heading": "קצת עליי",
         "body": [
-          {"type": "p", "text": "שמי עינבר בן אדרת מראשון לציון, כבר 25 שנים מטפלת רפואית בעור. למדתי כימיה קוסמטית ודיקור. אני חוקרת עור בלי הפסקה, והשליחות שלי היא לגרום למי שנמצא אצלי להרגיש טוב יותר, להיראות טוב יותר ולשמוע יותר מחמאות. הקליניקה שלי היא קליניקה בחשיבה חיובית – הרבה מהטיפולים משלבים בתוכם כלים מעולם ה-NLP ולדרך לחיים טובים יותר."}
+          {"type": "p", "text": "שמי עינבר בן אדרת מראשון לציון, כבר 25 שנים מטפלת רפואית בעור. למדתי כימיה קוסמטית ודיקור. אני חוקרת עור בלי הפסקה, והשליחות שלי היא לגרום למי שנמצא אצלי להרגיש טוב יותר, להיראות טוב יותר ולשמוע יותר מחמאות. הקליניקה שלי היא קליניקה בחשיבה חיובית - הרבה מהטיפולים משלבים בתוכם כלים מעולם ה-NLP ולדרך לחיים טובים יותר."}
         ]
       }
     ],
@@ -81,9 +81,9 @@
     }
   },
   "en": {
-    "title": "The H.D.R Treatment – Introductory Offer",
-    "metaDescription": "Exclusive to the Inbar Ben Aderet clinic: the H.D.R treatment – a signature method combining hydration, controlled disruption and skin reconstruction, tailored after a professional diagnosis.",
-    "intro": "Dreaming of radiant, healthy skin – without pain and without injections? Meet the H.D.R treatment: advanced technologies, personally tailored, for glowing, lifted, healthy-looking skin. Exclusive to the Inbar Ben Aderet clinic.",
+    "title": "The H.D.R Treatment - Introductory Offer",
+    "metaDescription": "Exclusive to the Inbar Ben Aderet clinic: the H.D.R treatment - a signature method combining hydration, controlled disruption and skin reconstruction, tailored after a professional diagnosis.",
+    "intro": "Dreaming of radiant, healthy skin - without pain and without injections? Meet the H.D.R treatment: advanced technologies, personally tailored, for glowing, lifted, healthy-looking skin. Exclusive to the Inbar Ben Aderet clinic.",
     "sections": [
       {
         "heading": "What is the H.D.R treatment?",
@@ -137,12 +137,12 @@
       {
         "heading": "A little about me",
         "body": [
-          {"type": "p", "text": "My name is Inbar Ben Aderet, from Rishon LeZion – 25 years treating skin professionally. I studied cosmetic chemistry and acupuncture, and I research skin ceaselessly. My mission is for everyone in my care to feel better, look better, and hear more compliments. Mine is a clinic of positive thinking – many of our treatments weave in NLP-based coaching and tools for a better everyday life."}
+          {"type": "p", "text": "My name is Inbar Ben Aderet, from Rishon LeZion - 25 years treating skin professionally. I studied cosmetic chemistry and acupuncture, and I research skin ceaselessly. My mission is for everyone in my care to feel better, look better, and hear more compliments. Mine is a clinic of positive thinking - many of our treatments weave in NLP-based coaching and tools for a better everyday life."}
         ]
       }
     ],
     "offer": {
-      "text": "Trial treatment at 50% off – only 447 ILS instead of 900 ILS",
+      "text": "Trial treatment at 50% off - only 447 ILS instead of 900 ILS",
       "deadline": "Offer ends 31.08.2025"
     },
     "form": {
@@ -166,11 +166,11 @@
     "https://inbarbenaderet.com/wp-content/uploads/2024/02/023FEED1-0F1D-46DB-98E4-FF1FEC950DCB-e1707989114446.jpg"
   ],
   "flags": [
-    "EXPIRED OFFER: 'המבצע מסתיים ב-31.08.2025' – the promo deadline passed a year ago; confirm with client whether the 447/900 ILS offer is still valid before publishing any of it.",
-    "PRICE INCONSISTENCY: regular facial treatment cited here at 900 ILS, while the treatments index prices the classic facial at 520 ILS – reconcile with client (they may be different treatments: H.D.R vs classic facial).",
-    "H.D.R expansion given as 'Hydration, Destruction, Reconstruction' – 'Destruction' reads harshly in consumer EN copy; consider client-approved rephrasing (e.g. 'controlled disruption').",
-    "Named testimonial ('קרן אביבי') and other client quotes – confirm consent before reuse; before/after photos also present.",
-    "Bio here: '25 שנים מטפלת רפואית בעור', age 49, studied 'דיקור יפני' (Japanese acupuncture) – conflicts with '26 שנים' (mesotraining) and the Chinese-acupuncture treatment page; 'מטפלת רפואית' (medical practitioner) phrasing is sensitive for a cosmetician – flag for review.",
+    "EXPIRED OFFER: 'המבצע מסתיים ב-31.08.2025' - the promo deadline passed a year ago; confirm with client whether the 447/900 ILS offer is still valid before publishing any of it.",
+    "PRICE INCONSISTENCY: regular facial treatment cited here at 900 ILS, while the treatments index prices the classic facial at 520 ILS - reconcile with client (they may be different treatments: H.D.R vs classic facial).",
+    "H.D.R expansion given as 'Hydration, Destruction, Reconstruction' - 'Destruction' reads harshly in consumer EN copy; consider client-approved rephrasing (e.g. 'controlled disruption').",
+    "Named testimonial ('קרן אביבי') and other client quotes - confirm consent before reuse; before/after photos also present.",
+    "Bio here: '25 שנים מטפלת רפואית בעור', age 49, studied 'דיקור יפני' (Japanese acupuncture) - conflicts with '26 שנים' (mesotraining) and the Chinese-acupuncture treatment page; 'מטפלת רפואית' (medical practitioner) phrasing is sensitive for a cosmetician - flag for review.",
     "Page title on old site was 'טיפול H.D.R'; the URL slug was טיפול-פנים-מבצע."
   ]
 }

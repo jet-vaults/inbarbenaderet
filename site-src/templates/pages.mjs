@@ -72,18 +72,18 @@ export function home(ctx) {
     ? 'עור בריא הוא לא מזל.<br>הוא מקצוע.'
     : 'Healthy skin isn’t luck.<br>It’s a craft.';
   const heroSub = isHe
-    ? 'קליניקת בוטיק לאסתטיקה מתקדמת בראשון לציון. למעלה מעשרים שנות התמחות בטיפולי פנים — אבחון מדויק, טכנולוגיה מתקדמת, ויחס שאי אפשר לזייף.'
-    : 'A boutique clinic for advanced aesthetics in Rishon LeZion. More than twenty years devoted to facial treatment — precise diagnosis, advanced technology, and care that cannot be faked.';
+    ? 'קליניקת בוטיק לאסתטיקה מתקדמת בראשון לציון. למעלה מעשרים שנות התמחות בטיפולי פנים - אבחון מדויק, טכנולוגיה מתקדמת, ויחס שאי אפשר לזייף.'
+    : 'A boutique clinic for advanced aesthetics in Rishon LeZion. More than twenty years devoted to facial treatment - precise diagnosis, advanced technology, and care that cannot be faked.';
   const introTitle = isHe
     ? 'קודם מבינים את העור. רק אחר כך מטפלים בו.'
     : 'First, understand the skin. Only then, treat it.';
   const introBody = isHe
-    ? 'ב-INBAR Clinic כל מסלול מתחיל באבחון מקצועי ומעמיק, וממשיך בתוכנית טיפול אישית: שילוב מדויק של חומרים פעילים, מכשור מתקדם ושיטת H.D.R הייחודית שפיתחה ענבר — שיטה העובדת על מספר בעיות עור במקביל. בלי פרוטוקולים גנריים, בלי הבטחות ריקות.'
-    : 'At INBAR Clinic every journey begins with a deep professional diagnosis, and continues with a personal plan: a precise combination of active ingredients, advanced technology, and Inbar’s signature H.D.R method — addressing several skin concerns in parallel. No generic protocols, no empty promises.';
+    ? 'ב-INBAR Clinic כל מסלול מתחיל באבחון מקצועי ומעמיק, וממשיך בתוכנית טיפול אישית: שילוב מדויק של חומרים פעילים, מכשור מתקדם ושיטת H.D.R הייחודית שפיתחה ענבר - שיטה העובדת על מספר בעיות עור במקביל. בלי פרוטוקולים גנריים, בלי הבטחות ריקות.'
+    : 'At INBAR Clinic every journey begins with a deep professional diagnosis, and continues with a personal plan: a precise combination of active ingredients, advanced technology, and Inbar’s signature H.D.R method - addressing several skin concerns in parallel. No generic protocols, no empty promises.';
 
   const heroInfo = isHe
-    ? 'קליניקה לטיפולי יופי ואסתטיקה מתקדמת מזה יותר מעשרים שנה. מגוון רחב של טיפולים מתקדמים לבעיות עור הפנים ולשיפור המראה — עם המכשור המתקדם ביותר ושיטת H.D.R הייחודית שפיתחה ענבר, הנותנת מענה לבעיות האנטי-אייג׳ינג.'
-    : 'A clinic for advanced beauty and aesthetic treatment for more than twenty years. A wide range of advanced facial treatments — with the most advanced equipment and Inbar’s signature H.D.R method, answering the concerns of anti-aging.';
+    ? 'קליניקה לטיפולי יופי ואסתטיקה מתקדמת מזה יותר מעשרים שנה. מגוון רחב של טיפולים מתקדמים לבעיות עור הפנים ולשיפור המראה - עם המכשור המתקדם ביותר ושיטת H.D.R הייחודית שפיתחה ענבר, הנותנת מענה לבעיות האנטי-אייג׳ינג.'
+    : 'A clinic for advanced beauty and aesthetic treatment for more than twenty years. A wide range of advanced facial treatments - with the most advanced equipment and Inbar’s signature H.D.R method, answering the concerns of anti-aging.';
 
   const body = `
   <section class="hero4">
@@ -214,7 +214,7 @@ export function home(ctx) {
 
   return {
     navKey: 'home', darkHero: true, body,
-    title: isHe ? 'ענבר בן אדרת · Skin Science — טיפולי פנים בראשון לציון' : 'Inbar Ben Aderet · Skin Science — Facial Treatments, Rishon LeZion',
+    title: isHe ? 'ענבר בן אדרת · Skin Science - טיפולי פנים בראשון לציון' : 'Inbar Ben Aderet · Skin Science - Facial Treatments, Rishon LeZion',
     description: t(ui.schemaDescription),
   };
 }
@@ -314,8 +314,8 @@ export function treatmentsIndex(ctx) {
       <span class="t-overline" style="margin-top:2rem;display:inline-flex">${esc(t(ui.nav.treatments))}</span>
       <h1 class="t-h1">${isHe ? 'לכל עור יש סיפור. לכל סיפור יש טיפול.' : 'Every skin has a story. Every story has a treatment.'}</h1>
       <p class="t-lead page-hero__lead" style="max-width:36em">${isHe
-        ? 'המסלול הנכון נקבע רק אחרי אבחון אישי — אבל אפשר להתחיל להתרשם. אלו הטיפולים המרכזיים בקליניקה, לפי צורך ולפי שיטה.'
-        : 'The right path is set only after a personal diagnosis — but you can begin exploring. These are the clinic’s core treatments, by concern and by method.'}</p>
+        ? 'המסלול הנכון נקבע רק אחרי אבחון אישי - אבל אפשר להתחיל להתרשם. אלו הטיפולים המרכזיים בקליניקה, לפי צורך ולפי שיטה.'
+        : 'The right path is set only after a personal diagnosis - but you can begin exploring. These are the clinic’s core treatments, by concern and by method.'}</p>
       <div class="mt-4" style="display:flex;flex-wrap:wrap;gap:.7rem">
         ${concerns.map(c => `<a class="btn" style="padding:.55rem 1.15rem;font-size:.85rem" href="#${c}">${esc(t(ui.concerns[c]))}</a>`).join('\n')}
       </div>
@@ -361,10 +361,10 @@ export function treatmentsIndex(ctx) {
 
   return {
     navKey: 'treatments', body,
-    title: isHe ? 'טיפולים · ענבר בן אדרת — אסתטיקה מתקדמת' : 'Treatments · Inbar Ben Aderet — Advanced Aesthetics',
+    title: isHe ? 'טיפולים · ענבר בן אדרת - אסתטיקה מתקדמת' : 'Treatments · Inbar Ben Aderet - Advanced Aesthetics',
     description: isHe
-      ? 'כל הטיפולים בקליניקת ענבר בן אדרת: אנטי אייג׳ינג, אקנה, פיגמנטציה, מזותרפיה, HIFU, RF ועוד — אחרי אבחון עור אישי ומקצועי.'
-      : 'All treatments at the Inbar Ben Aderet clinic: anti-aging, acne, pigmentation, mesotherapy, HIFU, RF and more — following a professional personal skin diagnosis.',
+      ? 'כל הטיפולים בקליניקת ענבר בן אדרת: אנטי אייג׳ינג, אקנה, פיגמנטציה, מזותרפיה, HIFU, RF ועוד - אחרי אבחון עור אישי ומקצועי.'
+      : 'All treatments at the Inbar Ben Aderet clinic: anti-aging, acne, pigmentation, mesotherapy, HIFU, RF and more - following a professional personal skin diagnosis.',
   };
 }
 
@@ -407,7 +407,7 @@ export function treatmentDetail(ctx, tr) {
       ${tr.ba && tr.ba.length ? `<section class="reveal" style="margin-top:3rem">
         <h2>${isHe ? 'תוצאות מהקליניקה' : 'Results from the clinic'}</h2>
         <div class="ba-pair" style="margin-top:1.4rem">
-          ${tr.ba.map(b => `<figure>${img(b, { alt: isHe ? 'לפני ואחרי — מתוך הקליניקה' : 'Before and after — from the clinic', sizes: '(max-width:560px) 100vw, 400px', loading: 'lazy' })}</figure>`).join('')}
+          ${tr.ba.map(b => `<figure>${img(b, { alt: isHe ? 'לפני ואחרי - מתוך הקליניקה' : 'Before and after - from the clinic', sizes: '(max-width:560px) 100vw, 400px', loading: 'lazy' })}</figure>`).join('')}
         </div>
         <p class="t-small t-muted" style="margin-top:.8rem">${isHe ? 'תיעוד אותנטי של מטופלות הקליניקה. התוצאות משתנות מאדם לאדם.' : 'Authentic documentation of clinic clients. Results vary from person to person.'}</p>
       </section>` : ''}
@@ -548,8 +548,8 @@ export function productsIndex(ctx) {
   ${notifySection(ctx)}`;
   return {
     navKey: 'products', darkHero: true, body,
-    title: isHe ? 'המוצרים · בקרוב — ענבר בן אדרת' : 'Products · Coming Soon — Inbar Ben Aderet',
-    description: isHe ? 'קולקציית הטיפוח של ענבר בן אדרת — בקרוב. הצצה ראשונה למוצרים שבדרך.' : 'The Inbar Ben Aderet skincare collection — coming soon. A first look at what’s ahead.',
+    title: isHe ? 'המוצרים · בקרוב - ענבר בן אדרת' : 'Products · Coming Soon - Inbar Ben Aderet',
+    description: isHe ? 'קולקציית הטיפוח של ענבר בן אדרת - בקרוב. הצצה ראשונה למוצרים שבדרך.' : 'The Inbar Ben Aderet skincare collection - coming soon. A first look at what’s ahead.',
   };
 }
 
@@ -664,8 +664,8 @@ export function contactPage(ctx) {
       <span class="t-overline" style="margin-top:2rem;display:inline-flex">${esc(t(ui.nav.contact))}</span>
       <h1 class="t-h1">${isHe ? 'הצעד הראשון לעור שאת אוהבת' : 'The first step toward skin you love'}</h1>
       <p class="t-lead page-hero__lead" style="max-width:36em">${isHe
-        ? 'קביעת פגישה מתחילה בשיחה קצרה. כתבו לנו בוואטסאפ, התקשרו, או השאירו הודעה במייל — ונחזור אליכם בהקדם.'
-        : 'Booking begins with a short conversation. Message us on WhatsApp, call, or write by email — and we will get back to you shortly.'}</p>
+        ? 'קביעת פגישה מתחילה בשיחה קצרה. כתבו לנו בוואטסאפ, התקשרו, או השאירו הודעה במייל - ונחזור אליכם בהקדם.'
+        : 'Booking begins with a short conversation. Message us on WhatsApp, call, or write by email - and we will get back to you shortly.'}</p>
       <div class="hero__ctas mt-3">
         <a class="btn btn--solid" href="${wa}" target="_blank" rel="noopener">${esc(t(ui.actions.sendWhatsapp))}</a>
         <a class="btn" href="tel:${site.contact.phoneE164}"><span class="num">${esc(site.contact.phoneDisplay)}</span></a>

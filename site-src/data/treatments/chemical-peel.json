@@ -5,20 +5,20 @@
   "concerns": ["pigmentation", "texture-scarring", "acne"],
   "he": {
     "title": "פילינג כימי",
-    "metaDescription": "פילינג כימי בקליניקת עינבר בן אדרת – חומצות בעלות פעילות מוכחת, הנבחרות בהתאמה אישית לטיפול בבעיות העור השונות ולחידוש העור.",
-    "teaser": "שימוש בחומצות שונות בעלות פעילות מוכחת לטיפול בבעיות העור השונות – הפילינג נבחר בהתאם לטיפול הנדרש.",
+    "metaDescription": "פילינג כימי בקליניקת עינבר בן אדרת - חומצות בעלות פעילות מוכחת, הנבחרות בהתאמה אישית לטיפול בבעיות העור השונות ולחידוש העור.",
+    "teaser": "שימוש בחומצות שונות בעלות פעילות מוכחת לטיפול בבעיות העור השונות - הפילינג נבחר בהתאם לטיפול הנדרש.",
     "intro": "פילינג כימי משתמש בחומצות שונות בעלות פעילות מוכחת לטיפול בבעיות העור השונות. הפילינג נבחר בהתאם לטיפול הנדרש.",
     "sections": [
       {
         "heading": "איך זה עובד?",
         "body": [
-          {"type": "p", "text": "על ידי מריחת הפילינג אנו גורמים לכוויה מבוקרת בעור. ניתן לגרום לפרוסטינג – תהליך של הקרשת חלבון הגורם לגלד, להשלה ולחידוש של העור."}
+          {"type": "p", "text": "על ידי מריחת הפילינג אנו גורמים לכוויה מבוקרת בעור. ניתן לגרום לפרוסטינג - תהליך של הקרשת חלבון הגורם לגלד, להשלה ולחידוש של העור."}
         ]
       },
       {
         "heading": "במה זה משתלב?",
         "body": [
-          {"type": "p", "text": "בקליניקה משולבים פילינגים במגוון תוכניות טיפול: בטיפולי פיגמנטציה, בטיפולי פוסט אקנה, בטיפול הפנים הקלאסי ובטיפולי אנטי אייג'ינג – בהתאם לסוג העור ולמטרת הטיפול."}
+          {"type": "p", "text": "בקליניקה משולבים פילינגים במגוון תוכניות טיפול: בטיפולי פיגמנטציה, בטיפולי פוסט אקנה, בטיפול הפנים הקלאסי ובטיפולי אנטי אייג'ינג - בהתאם לסוג העור ולמטרת הטיפול."}
         ]
       }
     ],
@@ -27,20 +27,20 @@
   },
   "en": {
     "title": "Chemical Peel",
-    "metaDescription": "Chemical peels at the Inbar Ben Aderet clinic – acids with proven activity, selected individually to treat a range of skin concerns and renew the skin.",
-    "teaser": "Acids with proven activity for treating a range of skin concerns – the peel is chosen according to the treatment required.",
+    "metaDescription": "Chemical peels at the Inbar Ben Aderet clinic - acids with proven activity, selected individually to treat a range of skin concerns and renew the skin.",
+    "teaser": "Acids with proven activity for treating a range of skin concerns - the peel is chosen according to the treatment required.",
     "intro": "A chemical peel employs various acids with proven activity to treat different skin concerns; the peel is selected according to the treatment your skin requires.",
     "sections": [
       {
         "heading": "How it works",
         "body": [
-          {"type": "p", "text": "Applying the peel creates a controlled exfoliating action on the skin. It can induce frosting – a protein-coagulation process that leads to crusting, shedding and renewal of the skin."}
+          {"type": "p", "text": "Applying the peel creates a controlled exfoliating action on the skin. It can induce frosting - a protein-coagulation process that leads to crusting, shedding and renewal of the skin."}
         ]
       },
       {
         "heading": "Where it fits in",
         "body": [
-          {"type": "p", "text": "Peels are woven into many of the clinic's treatment programs: pigmentation care, post-acne programs, the classic facial and anti-aging treatments – according to skin type and treatment goal."}
+          {"type": "p", "text": "Peels are woven into many of the clinic's treatment programs: pigmentation care, post-acne programs, the classic facial and anti-aging treatments - according to skin type and treatment goal."}
         ]
       }
     ],
@@ -51,8 +51,8 @@
     "https://inbarbenaderet.com/wp-content/uploads/2024/06/young-white-woman-getting-acid-organic-retinol-peel-face-skin-with-brush-beauty-clinic-scaled.jpg"
   ],
   "flags": [
-    "Source describes causing 'כוויה מבוקרת' (a controlled burn) and 'frosting' – accurate professional terminology but potentially alarming on a consumer page; Hebrew keeps the source, EN softened to 'controlled exfoliating action'; align tone with client.",
-    "The 'where it fits in' section is a synthesis from the index page's other treatment sections (peels named within pigmentation, post-acne, facial and anti-aging programs) – not verbatim source copy.",
-    "Content exists only on the treatments index page – no dedicated page, no pricing."
+    "Source describes causing 'כוויה מבוקרת' (a controlled burn) and 'frosting' - accurate professional terminology but potentially alarming on a consumer page; Hebrew keeps the source, EN softened to 'controlled exfoliating action'; align tone with client.",
+    "The 'where it fits in' section is a synthesis from the index page's other treatment sections (peels named within pigmentation, post-acne, facial and anti-aging programs) - not verbatim source copy.",
+    "Content exists only on the treatments index page - no dedicated page, no pricing."
   ]
 }

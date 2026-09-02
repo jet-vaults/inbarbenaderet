@@ -5,7 +5,7 @@
   "concerns": ["hydration", "texture-scarring"],
   "he": {
     "title": "טיפול פנים",
-    "metaDescription": "טיפול פנים קלאסי בקליניקת עינבר בן אדרת – אבחון מדויק, פילינג, עיסוי מקצועי, ניקוי והחדרת חומרים פעילים במכשיר אלקטרופורציה, לעור קורן וחיוני.",
+    "metaDescription": "טיפול פנים קלאסי בקליניקת עינבר בן אדרת - אבחון מדויק, פילינג, עיסוי מקצועי, ניקוי והחדרת חומרים פעילים במכשיר אלקטרופורציה, לעור קורן וחיוני.",
     "teaser": "לאחר אבחון מדויק ומקצועי נתאים עבורך את הטיפול הטוב ביותר למצב העור.",
     "intro": "טיפול פנים הינו טיפול המחייה את העור, ואינו תלוי בבעיית עור כזו או אחרת. העור שלנו זקוק לטיפוח על מנת לקבל עור בריא, קורן, יפה וחיוני.",
     "sections": [
@@ -27,13 +27,13 @@
       {
         "heading": "מכשיר האלקטרופורציה",
         "body": [
-          {"type": "p", "text": "הטיפול הקלאסי משולב עם מכשיר אלקטרופורציה – מכשיר שגורם להידרציה, כלומר החדרת לחות לעומק התא. החדרת החומרים הפעילים נעשית בשיטה פיזיקלית לעומק התא, כדי להעלות את רמת ההידרציה בעור (רמת לחות גבוהה) ולהעניק לעור חיוניות וזוהר."}
+          {"type": "p", "text": "הטיפול הקלאסי משולב עם מכשיר אלקטרופורציה - מכשיר שגורם להידרציה, כלומר החדרת לחות לעומק התא. החדרת החומרים הפעילים נעשית בשיטה פיזיקלית לעומק התא, כדי להעלות את רמת ההידרציה בעור (רמת לחות גבוהה) ולהעניק לעור חיוניות וזוהר."}
         ]
       },
       {
         "heading": "למי מיועד הטיפול?",
         "body": [
-          {"type": "p", "text": "לכולם – ילדים, מבוגרים, נשים וגברים. מעבר להיותו טיפול מפנק, הוא תורם משמעותית לנראות העור. הטיפול כולל את החומרים האיכותיים ביותר הקיימים בשוק הקוסמטיקה."}
+          {"type": "p", "text": "לכולם - ילדים, מבוגרים, נשים וגברים. מעבר להיותו טיפול מפנק, הוא תורם משמעותית לנראות העור. הטיפול כולל את החומרים האיכותיים ביותר הקיימים בשוק הקוסמטיקה."}
         ]
       },
       {
@@ -43,12 +43,12 @@
         ]
       }
     ],
-    "pricing": "עלות הטיפול – 520 ₪. סדרת 6 טיפולים – 2900 ₪. סדרת 12 טיפולים – 5600 ₪. מומלץ לעשות בין 1-3 חודשים, משך הטיפול שעה.",
+    "pricing": "עלות הטיפול - 520 ₪. סדרת 6 טיפולים - 2900 ₪. סדרת 12 טיפולים - 5600 ₪. מומלץ לעשות בין 1-3 חודשים, משך הטיפול שעה.",
     "faq": []
   },
   "en": {
     "title": "Facial Treatment",
-    "metaDescription": "The classic facial at the Inbar Ben Aderet clinic – precise diagnosis, peel, professional massage, cleansing and electroporation-assisted infusion of actives, for radiant, vital skin.",
+    "metaDescription": "The classic facial at the Inbar Ben Aderet clinic - precise diagnosis, peel, professional massage, cleansing and electroporation-assisted infusion of actives, for radiant, vital skin.",
     "teaser": "Following a precise, professional diagnosis, we tailor the very best treatment for your skin's condition.",
     "intro": "The facial is a treatment that revives the skin, regardless of any particular skin concern. Skin needs care to be healthy, radiant, beautiful and vital.",
     "sections": [
@@ -70,13 +70,13 @@
       {
         "heading": "The electroporation device",
         "body": [
-          {"type": "p", "text": "The classic facial is paired with an electroporation device – a technology that delivers hydration deep into the cell. Actives are infused physically to cellular depth, raising the skin's hydration to a high level and lending it vitality and glow."}
+          {"type": "p", "text": "The classic facial is paired with an electroporation device - a technology that delivers hydration deep into the cell. Actives are infused physically to cellular depth, raising the skin's hydration to a high level and lending it vitality and glow."}
         ]
       },
       {
         "heading": "Who is it for?",
         "body": [
-          {"type": "p", "text": "Everyone – children, adults, women and men. Beyond being an indulgent experience, the facial contributes significantly to the skin's appearance, using the finest ingredients available in professional skincare."}
+          {"type": "p", "text": "Everyone - children, adults, women and men. Beyond being an indulgent experience, the facial contributes significantly to the skin's appearance, using the finest ingredients available in professional skincare."}
         ]
       },
       {
@@ -86,7 +86,7 @@
         ]
       }
     ],
-    "pricing": "Single treatment – 520 ILS. Series of 6 – 2,900 ILS. Series of 12 – 5,600 ILS. Recommended every 1-3 months; the treatment lasts one hour.",
+    "pricing": "Single treatment - 520 ILS. Series of 6 - 2,900 ILS. Series of 12 - 5,600 ILS. Recommended every 1-3 months; the treatment lasts one hour.",
     "faq": []
   },
   "sourceImages": [
@@ -97,8 +97,8 @@
     "https://inbarbenaderet.com/wp-content/uploads/2022/07/face-3-scaled-470x627-1.jpg"
   ],
   "flags": [
-    "Source claims the massage releases 'הורמון אינקופלין' ('incofelin hormone') which 'heals and revives the cells' – no such hormone exists (possibly a garbling of endorphin/oxytocin); EXCLUDED from the structured copy, must be corrected with the client before any reuse.",
-    "Price inconsistency across the site: this classic facial is 520 ILS on the treatments index, while the H.D.R promo page cites a regular facial-treatment price of 900 ILS (trial at 447 ILS) – clarify with client which pricing is current.",
-    "'החומרים הכי איכותיים הקיימים בשוק' – superlative marketing claim, retained but soft."
+    "Source claims the massage releases 'הורמון אינקופלין' ('incofelin hormone') which 'heals and revives the cells' - no such hormone exists (possibly a garbling of endorphin/oxytocin); EXCLUDED from the structured copy, must be corrected with the client before any reuse.",
+    "Price inconsistency across the site: this classic facial is 520 ILS on the treatments index, while the H.D.R promo page cites a regular facial-treatment price of 900 ILS (trial at 447 ILS) - clarify with client which pricing is current.",
+    "'החומרים הכי איכותיים הקיימים בשוק' - superlative marketing claim, retained but soft."
   ]
 }

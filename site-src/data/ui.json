@@ -66,7 +66,7 @@
     "menuOpen":       { "he": "תפריט", "en": "Menu" },
     "menuClose":      { "he": "סגירה", "en": "Close" },
     "skipToContent":  { "he": "דילוג לתוכן", "en": "Skip to content" },
-    "comingSoonLine": { "he": "קולקציית הטיפוח של ענבר בן אדרת — בקרוב", "en": "The Inbar Ben Aderet skincare collection — coming soon" },
+    "comingSoonLine": { "he": "קולקציית הטיפוח של ענבר בן אדרת - בקרוב", "en": "The Inbar Ben Aderet skincare collection - coming soon" },
     "demoNotice":     { "he": "הקולקציה בפיתוח. המוצרים המוצגים הם הדמיה בלבד ואינם זמינים לרכישה.", "en": "The collection is in development. Items shown are placeholders and are not yet available for purchase." },
     "notifyLead":     { "he": "רוצים להיות הראשונים לדעת? כתבו לנו ונעדכן אתכם בהשקה.", "en": "Want to be first to know? Leave us a message and we'll share launch news." },
     "accessibility":  { "he": "הצהרת נגישות", "en": "Accessibility" },
@@ -83,7 +83,7 @@
     "readingTime":    { "he": "דקות קריאה", "en": "min read" }
   },
   "schemaDescription": {
-    "he": "קליניקת ענבר בן אדרת — אסתטיקה מתקדמת וטיפולי פנים בראשון לציון. אבחון אישי, טכנולוגיות מתקדמות ושיטת H.D.R הייחודית.",
-    "en": "Inbar Ben Aderet Clinic — advanced aesthetics and facial treatments in Rishon LeZion, Israel. Personal diagnosis, advanced technology and the signature H.D.R method."
+    "he": "קליניקת ענבר בן אדרת - אסתטיקה מתקדמת וטיפולי פנים בראשון לציון. אבחון אישי, טכנולוגיות מתקדמות ושיטת H.D.R הייחודית.",
+    "en": "Inbar Ben Aderet Clinic - advanced aesthetics and facial treatments in Rishon LeZion, Israel. Personal diagnosis, advanced technology and the signature H.D.R method."
   }
 }
