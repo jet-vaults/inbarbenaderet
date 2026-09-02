@@ -485,13 +485,13 @@ a:hover > .figure img, a:focus-visible > .figure img { transform: scale(1.035); 
 }
 .testimonial-dots button[aria-current="true"] { background: var(--brand-accent); }
 
-/* framed photograph - thin border with a small mat, editorial */
-.figure--framed {
-  padding: 12px;
-  border: 1px solid var(--brand-accent);
-  background: var(--brand-background);
+/* framed photograph - inner keyline in the page ivory, editorial */
+.figure--framed { position: relative; }
+.figure--framed::after {
+  content: ''; position: absolute; inset: 14px;
+  border: 1px solid var(--brand-inverse); /* #F6F3ED */
+  pointer-events: none;
 }
-.figure--framed img { outline: 1px solid var(--brand-border); outline-offset: -1px; }
 .figure--natural { aspect-ratio: auto; }
 
 /* classic profile hero (clinic page): portrait beside title, byline signature */
